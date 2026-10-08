@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Universal links (requires /.well-known/apple-app-site-association on hoo.az). -->
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:hoo.az</string>
+		<string>applinks:www.hoo.az</string>
+	</array>
+	<!-- Sign in with Apple. -->
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+</dict>
+</plist>

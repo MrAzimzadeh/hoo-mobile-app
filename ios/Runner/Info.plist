@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Hoo</string>
+	<string>HOO</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -41,6 +41,40 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>az.hoo.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hoo</string>
+			</array>
+		</dict>
+	</array>
+	<key>FlutterDeepLinkingEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>https</string>
+		<string>tel</string>
+		<string>mailto</string>
+		<string>whatsapp</string>
+		<string>instagram</string>
+		<string>tg</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>HOO uses the camera so you can photograph an image or logo for your Studio design.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>HOO opens your photo library so you can add an image or logo to your Studio design.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<!-- Allows the local Hoo.Api (http://localhost:5131 / LAN) in development; production traffic is HTTPS. -->
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
