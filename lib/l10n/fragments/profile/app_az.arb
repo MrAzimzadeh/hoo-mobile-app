@@ -1,0 +1,124 @@
+{
+  "@@locale": "az",
+  "profileSignedOutTitle": "Hesabınıza daxil olun",
+  "profileSignedOutBody": "Sifarişləri, sevimliləri və dizaynları bir yerdə saxlayın.",
+  "profileGreeting": "Salam, {name}",
+  "@profileGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "profileTrackOrder": "Sifarişi izlə",
+  "profileOrders": "Sifarişlər",
+  "profileDesigns": "Dizaynlar",
+  "profileWishlist": "Sevimlilər",
+  "profileGroupShopping": "Alış-veriş",
+  "profileGroupAccount": "Hesab",
+  "profileGroupMore": "Daha çox",
+  "profileActiveOrders": "{count} aktiv sifariş",
+  "@profileActiveOrders": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "profilePersonalInfo": "Şəxsi məlumatlar",
+  "profileAddresses": "Ünvanlar",
+  "profileSavedCards": "Saxlanılmış kartlar",
+  "profileStyleProfile": "Stil profili",
+  "profileStyleProfileHint": "Ölçü seçimini asanlaşdırın",
+  "profileNotifications": "Bildirişlər",
+  "profileChangePassword": "Parolu dəyiş",
+  "profileActiveDevices": "Aktiv cihazlar",
+  "profileSettings": "Tənzimləmələr",
+  "profileHelp": "Kömək",
+  "profileSignOutTitle": "Hesabdan çıxmaq istəyirsiniz?",
+  "profileSignOutMessage": "Səbətiniz bu cihazda qalacaq.",
+  "profileNameTooLong": "Ad çox uzundur",
+  "profileLanguage": "Dil",
+  "profileAppearance": "Görünüş",
+  "profileThemeSystem": "Sistem",
+  "profileThemeLight": "Açıq",
+  "profileThemeDark": "Tünd",
+  "profileCurrentPassword": "Cari parol",
+  "profileConfirmPassword": "Yeni parolu təkrarlayın",
+  "profilePasswordMismatch": "Parollar uyğun gəlmir",
+  "profilePasswordChanged": "Parol dəyişdirildi",
+  "profileAddressesEmptyTitle": "Ünvan yoxdur",
+  "profileAddressesEmptyMessage": "Ünvan əlavə edin, ödənişdə vaxta qənaət edin.",
+  "profileAddressAdd": "Ünvan əlavə et",
+  "profileAddressEdit": "Ünvanı redaktə et",
+  "profileAddressDeleteTitle": "Ünvan silinsin?",
+  "profileAddressLabel": "Ad (məs. Ev)",
+  "profileBuilding": "Bina",
+  "profileDefault": "Əsas",
+  "profileMakeDefault": "Əsas ünvan et",
+  "profileFieldTooLong": "Çox uzundur",
+  "profileCardsEmptyTitle": "Saxlanılmış kart yoxdur",
+  "profileCardsEmptyMessage": "Ödəniş zamanı “Kartı saxla” seçin.",
+  "profileCardDeleteTitle": "Kart silinsin?",
+  "profileCardAdded": "Əlavə edilib: {date}",
+  "@profileCardAdded": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "description": "Placeholder date"
+      }
+    }
+  },
+  "profileThisDevice": "Bu cihaz",
+  "profileUnknownDevice": "Naməlum cihaz",
+  "profileSignOutDevice": "Çıxış",
+  "profileSignOutOthers": "Digər cihazlardan çıx",
+  "profileNotificationRequired": "Sifariş üçün vacibdir",
+  "profileStyleIntro": "İstəyə bağlıdır. Ölçü seçimini və tövsiyələri sizə uyğunlaşdırırıq.",
+  "profileStyleHeight": "Boy (sm)",
+  "profileStyleWeight": "Çəki (kq)",
+  "profileStyleChest": "Sinə (sm)",
+  "profileStyleWaist": "Bel (sm)",
+  "profileStyleRange": "{min}–{max} arası",
+  "@profileStyleRange": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "description": "Placeholder min"
+      },
+      "max": {
+        "type": "int",
+        "description": "Placeholder max"
+      }
+    }
+  },
+  "profileStyleUsualSize": "Adətən geydiyiniz ölçü",
+  "profileStyleFit": "Sevdiyiniz kəsim",
+  "profileStyleColors": "Sevimli rənglər",
+  "profileStyleColorLimit": "Ən çox {count} rəng seçə bilərsiniz",
+  "@profileStyleColorLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "profileStyleStyles": "Üslub",
+  "profileStyleSkip": "Keç",
+  "profileHelpContact": "Bizimlə əlaqə",
+  "profileHelpCall": "Zəng et",
+  "profileHelpWhatsApp": "WhatsApp-da yaz",
+  "profileHelpEmail": "E-poçt göndər",
+  "profileHelpFaq": "Tez-tez verilən suallar",
+  "profileFaqDeliveryQ": "Çatdırılma nə qədər çəkir?",
+  "profileFaqDeliveryA": "Bakıda sifariş etdiyiniz vaxtdan asılı olaraq ertəsi gün seçdiyiniz vaxt aralığında çatdırırıq. Fərdi dizaynlar istehsal müddəti qədər gec ola bilər.",
+  "profileFaqReturnsQ": "Qaytarma və dəyişdirmə",
+  "profileFaqReturnsA": "Çatdırılmadan sonra müəyyən müddət ərzində sifariş səhifəsindən qaytarma və ya ölçü dəyişdirmə sorğusu göndərə bilərsiniz. Fərdi dizaynlar qaytarılmır.",
+  "profileFaqPaymentQ": "Hansı ödəniş üsulları var?",
+  "profileFaqPaymentA": "Bank kartı (3-D Secure), Apple Pay, Google Pay və Bakıda qapıda nağd ödəniş.",
+  "profileFaqCustomQ": "Fərdi dizayn necə işləyir?",
+  "profileFaqCustomA": "Studio-da modeli seçin, mətn və şəkil əlavə edin, qiyməti dərhal görün. Sifarişdən sonra komandamız dizaynı yoxlayıb təsdiqləyir."
+}

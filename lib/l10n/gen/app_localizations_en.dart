@@ -1771,6 +1771,255 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get profileSignedOutTitle => 'Sign in to your account';
+
+  @override
+  String get profileSignedOutBody =>
+      'Keep orders, favorites and designs in one place.';
+
+  @override
+  String profileGreeting(String name) {
+    return 'Hi, $name';
+  }
+
+  @override
+  String get profileTrackOrder => 'Track an order';
+
+  @override
+  String get profileOrders => 'Orders';
+
+  @override
+  String get profileDesigns => 'Designs';
+
+  @override
+  String get profileWishlist => 'Wishlist';
+
+  @override
+  String get profileGroupShopping => 'Shopping';
+
+  @override
+  String get profileGroupAccount => 'Account';
+
+  @override
+  String get profileGroupMore => 'More';
+
+  @override
+  String profileActiveOrders(int count) {
+    return '$count active';
+  }
+
+  @override
+  String get profilePersonalInfo => 'Personal info';
+
+  @override
+  String get profileAddresses => 'Addresses';
+
+  @override
+  String get profileSavedCards => 'Saved cards';
+
+  @override
+  String get profileStyleProfile => 'Style profile';
+
+  @override
+  String get profileStyleProfileHint => 'Make sizing easier';
+
+  @override
+  String get profileNotifications => 'Notifications';
+
+  @override
+  String get profileChangePassword => 'Change password';
+
+  @override
+  String get profileActiveDevices => 'Active devices';
+
+  @override
+  String get profileSettings => 'Settings';
+
+  @override
+  String get profileHelp => 'Help';
+
+  @override
+  String get profileSignOutTitle => 'Sign out?';
+
+  @override
+  String get profileSignOutMessage => 'Your bag stays on this device.';
+
+  @override
+  String get profileNameTooLong => 'The name is too long';
+
+  @override
+  String get profileLanguage => 'Language';
+
+  @override
+  String get profileAppearance => 'Appearance';
+
+  @override
+  String get profileThemeSystem => 'System';
+
+  @override
+  String get profileThemeLight => 'Light';
+
+  @override
+  String get profileThemeDark => 'Dark';
+
+  @override
+  String get profileCurrentPassword => 'Current password';
+
+  @override
+  String get profileConfirmPassword => 'Repeat new password';
+
+  @override
+  String get profilePasswordMismatch => 'Passwords do not match';
+
+  @override
+  String get profilePasswordChanged => 'Password changed';
+
+  @override
+  String get profileAddressesEmptyTitle => 'No saved addresses';
+
+  @override
+  String get profileAddressesEmptyMessage =>
+      'Add an address to check out faster.';
+
+  @override
+  String get profileAddressAdd => 'Add address';
+
+  @override
+  String get profileAddressEdit => 'Edit address';
+
+  @override
+  String get profileAddressDeleteTitle => 'Delete this address?';
+
+  @override
+  String get profileAddressLabel => 'Label (e.g. Home)';
+
+  @override
+  String get profileBuilding => 'Building';
+
+  @override
+  String get profileDefault => 'Default';
+
+  @override
+  String get profileMakeDefault => 'Make default';
+
+  @override
+  String get profileFieldTooLong => 'Too long';
+
+  @override
+  String get profileCardsEmptyTitle => 'No saved cards';
+
+  @override
+  String get profileCardsEmptyMessage =>
+      'Choose “Save this card” when you pay.';
+
+  @override
+  String get profileCardDeleteTitle => 'Remove this card?';
+
+  @override
+  String profileCardAdded(String date) {
+    return 'Added $date';
+  }
+
+  @override
+  String get profileThisDevice => 'This device';
+
+  @override
+  String get profileUnknownDevice => 'Unknown device';
+
+  @override
+  String get profileSignOutDevice => 'Sign out';
+
+  @override
+  String get profileSignOutOthers => 'Sign out of other devices';
+
+  @override
+  String get profileNotificationRequired => 'Required for your orders';
+
+  @override
+  String get profileStyleIntro =>
+      'Optional. We use it to pre-select your size and tune recommendations.';
+
+  @override
+  String get profileStyleHeight => 'Height (cm)';
+
+  @override
+  String get profileStyleWeight => 'Weight (kg)';
+
+  @override
+  String get profileStyleChest => 'Chest (cm)';
+
+  @override
+  String get profileStyleWaist => 'Waist (cm)';
+
+  @override
+  String profileStyleRange(int min, int max) {
+    return 'Between $min and $max';
+  }
+
+  @override
+  String get profileStyleUsualSize => 'Your usual size';
+
+  @override
+  String get profileStyleFit => 'Preferred fit';
+
+  @override
+  String get profileStyleColors => 'Favorite colors';
+
+  @override
+  String profileStyleColorLimit(int count) {
+    return 'You can pick up to $count colors';
+  }
+
+  @override
+  String get profileStyleStyles => 'Style';
+
+  @override
+  String get profileStyleSkip => 'Skip';
+
+  @override
+  String get profileHelpContact => 'Contact us';
+
+  @override
+  String get profileHelpCall => 'Call us';
+
+  @override
+  String get profileHelpWhatsApp => 'Chat on WhatsApp';
+
+  @override
+  String get profileHelpEmail => 'Send an email';
+
+  @override
+  String get profileHelpFaq => 'Common questions';
+
+  @override
+  String get profileFaqDeliveryQ => 'How long does delivery take?';
+
+  @override
+  String get profileFaqDeliveryA =>
+      'In Baku we deliver in the time slot you choose, usually the next day. Custom designs take a little longer to make.';
+
+  @override
+  String get profileFaqReturnsQ => 'Returns and exchanges';
+
+  @override
+  String get profileFaqReturnsA =>
+      'Within the return window you can request a return or size exchange from the order page. Custom designs cannot be returned.';
+
+  @override
+  String get profileFaqPaymentQ => 'Which payment methods do you accept?';
+
+  @override
+  String get profileFaqPaymentA =>
+      'Bank cards (3-D Secure), Apple Pay, Google Pay and cash on delivery in Baku.';
+
+  @override
+  String get profileFaqCustomQ => 'How do custom designs work?';
+
+  @override
+  String get profileFaqCustomA =>
+      'Pick a garment in the Studio, add text and art, and see the price instantly. After you order, our team reviews and approves the design.';
+
+  @override
   String get searchHint => 'Search hoodies, tees, designs…';
 
   @override

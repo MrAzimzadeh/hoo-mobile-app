@@ -1758,6 +1758,254 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
+  String get profileSignedOutTitle => 'Hesabına giriş yap';
+
+  @override
+  String get profileSignedOutBody =>
+      'Siparişlerini, favorilerini ve tasarımlarını tek yerde tut.';
+
+  @override
+  String profileGreeting(String name) {
+    return 'Merhaba, $name';
+  }
+
+  @override
+  String get profileTrackOrder => 'Siparişi takip et';
+
+  @override
+  String get profileOrders => 'Siparişler';
+
+  @override
+  String get profileDesigns => 'Tasarımlar';
+
+  @override
+  String get profileWishlist => 'Favoriler';
+
+  @override
+  String get profileGroupShopping => 'Alışveriş';
+
+  @override
+  String get profileGroupAccount => 'Hesap';
+
+  @override
+  String get profileGroupMore => 'Daha fazla';
+
+  @override
+  String profileActiveOrders(int count) {
+    return '$count aktif';
+  }
+
+  @override
+  String get profilePersonalInfo => 'Kişisel bilgiler';
+
+  @override
+  String get profileAddresses => 'Adresler';
+
+  @override
+  String get profileSavedCards => 'Kayıtlı kartlar';
+
+  @override
+  String get profileStyleProfile => 'Stil profili';
+
+  @override
+  String get profileStyleProfileHint => 'Beden seçimini kolaylaştır';
+
+  @override
+  String get profileNotifications => 'Bildirimler';
+
+  @override
+  String get profileChangePassword => 'Şifreyi değiştir';
+
+  @override
+  String get profileActiveDevices => 'Aktif cihazlar';
+
+  @override
+  String get profileSettings => 'Ayarlar';
+
+  @override
+  String get profileHelp => 'Yardım';
+
+  @override
+  String get profileSignOutTitle => 'Çıkış yapılsın mı?';
+
+  @override
+  String get profileSignOutMessage => 'Sepetin bu cihazda kalacak.';
+
+  @override
+  String get profileNameTooLong => 'Ad çok uzun';
+
+  @override
+  String get profileLanguage => 'Dil';
+
+  @override
+  String get profileAppearance => 'Görünüm';
+
+  @override
+  String get profileThemeSystem => 'Sistem';
+
+  @override
+  String get profileThemeLight => 'Açık';
+
+  @override
+  String get profileThemeDark => 'Koyu';
+
+  @override
+  String get profileCurrentPassword => 'Mevcut şifre';
+
+  @override
+  String get profileConfirmPassword => 'Yeni şifreyi tekrarla';
+
+  @override
+  String get profilePasswordMismatch => 'Şifreler eşleşmiyor';
+
+  @override
+  String get profilePasswordChanged => 'Şifre değiştirildi';
+
+  @override
+  String get profileAddressesEmptyTitle => 'Kayıtlı adres yok';
+
+  @override
+  String get profileAddressesEmptyMessage =>
+      'Ödemeyi hızlandırmak için adres ekle.';
+
+  @override
+  String get profileAddressAdd => 'Adres ekle';
+
+  @override
+  String get profileAddressEdit => 'Adresi düzenle';
+
+  @override
+  String get profileAddressDeleteTitle => 'Adres silinsin mi?';
+
+  @override
+  String get profileAddressLabel => 'Etiket (örn. Ev)';
+
+  @override
+  String get profileBuilding => 'Bina';
+
+  @override
+  String get profileDefault => 'Varsayılan';
+
+  @override
+  String get profileMakeDefault => 'Varsayılan yap';
+
+  @override
+  String get profileFieldTooLong => 'Çok uzun';
+
+  @override
+  String get profileCardsEmptyTitle => 'Kayıtlı kart yok';
+
+  @override
+  String get profileCardsEmptyMessage => 'Ödeme sırasında “Kartı kaydet” seç.';
+
+  @override
+  String get profileCardDeleteTitle => 'Kart silinsin mi?';
+
+  @override
+  String profileCardAdded(String date) {
+    return 'Eklendi: $date';
+  }
+
+  @override
+  String get profileThisDevice => 'Bu cihaz';
+
+  @override
+  String get profileUnknownDevice => 'Bilinmeyen cihaz';
+
+  @override
+  String get profileSignOutDevice => 'Çıkış';
+
+  @override
+  String get profileSignOutOthers => 'Diğer cihazlardan çık';
+
+  @override
+  String get profileNotificationRequired => 'Siparişlerin için gerekli';
+
+  @override
+  String get profileStyleIntro =>
+      'İsteğe bağlı. Bedenini ve önerileri sana göre ayarlarız.';
+
+  @override
+  String get profileStyleHeight => 'Boy (cm)';
+
+  @override
+  String get profileStyleWeight => 'Kilo (kg)';
+
+  @override
+  String get profileStyleChest => 'Göğüs (cm)';
+
+  @override
+  String get profileStyleWaist => 'Bel (cm)';
+
+  @override
+  String profileStyleRange(int min, int max) {
+    return '$min–$max arası';
+  }
+
+  @override
+  String get profileStyleUsualSize => 'Genelde giydiğin beden';
+
+  @override
+  String get profileStyleFit => 'Tercih ettiğin kalıp';
+
+  @override
+  String get profileStyleColors => 'Favori renkler';
+
+  @override
+  String profileStyleColorLimit(int count) {
+    return 'En fazla $count renk seçebilirsin';
+  }
+
+  @override
+  String get profileStyleStyles => 'Stil';
+
+  @override
+  String get profileStyleSkip => 'Atla';
+
+  @override
+  String get profileHelpContact => 'Bize ulaş';
+
+  @override
+  String get profileHelpCall => 'Ara';
+
+  @override
+  String get profileHelpWhatsApp => 'WhatsApp\'tan yaz';
+
+  @override
+  String get profileHelpEmail => 'E-posta gönder';
+
+  @override
+  String get profileHelpFaq => 'Sık sorulan sorular';
+
+  @override
+  String get profileFaqDeliveryQ => 'Teslimat ne kadar sürer?';
+
+  @override
+  String get profileFaqDeliveryA =>
+      'Bakü\'de seçtiğin zaman aralığında, genelde ertesi gün teslim ederiz. Özel tasarımlar üretim süresi kadar uzun sürer.';
+
+  @override
+  String get profileFaqReturnsQ => 'İade ve değişim';
+
+  @override
+  String get profileFaqReturnsA =>
+      'İade süresi içinde sipariş sayfasından iade veya beden değişimi talep edebilirsin. Özel tasarımlar iade edilemez.';
+
+  @override
+  String get profileFaqPaymentQ => 'Hangi ödeme yöntemleri var?';
+
+  @override
+  String get profileFaqPaymentA =>
+      'Banka kartı (3-D Secure), Apple Pay, Google Pay ve Bakü\'de kapıda ödeme.';
+
+  @override
+  String get profileFaqCustomQ => 'Özel tasarım nasıl çalışır?';
+
+  @override
+  String get profileFaqCustomA =>
+      'Studio\'da modeli seç, yazı ve görsel ekle, fiyatı anında gör. Siparişten sonra ekibimiz tasarımı inceleyip onaylar.';
+
+  @override
   String get searchHint => 'Ara: hoodie, tişört, tasarım…';
 
   @override

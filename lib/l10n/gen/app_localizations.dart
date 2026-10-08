@@ -3258,6 +3258,468 @@ abstract class AppLocalizations {
   /// **'{date} tarixinədək dəyişə bilərsiniz'**
   String ordersGiftExchangeUntil(String date);
 
+  /// No description provided for @profileSignedOutTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesabınıza daxil olun'**
+  String get profileSignedOutTitle;
+
+  /// No description provided for @profileSignedOutBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişləri, sevimliləri və dizaynları bir yerdə saxlayın.'**
+  String get profileSignedOutBody;
+
+  /// No description provided for @profileGreeting.
+  ///
+  /// In az, this message translates to:
+  /// **'Salam, {name}'**
+  String profileGreeting(String name);
+
+  /// No description provided for @profileTrackOrder.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişi izlə'**
+  String get profileTrackOrder;
+
+  /// No description provided for @profileOrders.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişlər'**
+  String get profileOrders;
+
+  /// No description provided for @profileDesigns.
+  ///
+  /// In az, this message translates to:
+  /// **'Dizaynlar'**
+  String get profileDesigns;
+
+  /// No description provided for @profileWishlist.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevimlilər'**
+  String get profileWishlist;
+
+  /// No description provided for @profileGroupShopping.
+  ///
+  /// In az, this message translates to:
+  /// **'Alış-veriş'**
+  String get profileGroupShopping;
+
+  /// No description provided for @profileGroupAccount.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesab'**
+  String get profileGroupAccount;
+
+  /// No description provided for @profileGroupMore.
+  ///
+  /// In az, this message translates to:
+  /// **'Daha çox'**
+  String get profileGroupMore;
+
+  /// No description provided for @profileActiveOrders.
+  ///
+  /// In az, this message translates to:
+  /// **'{count} aktiv sifariş'**
+  String profileActiveOrders(int count);
+
+  /// No description provided for @profilePersonalInfo.
+  ///
+  /// In az, this message translates to:
+  /// **'Şəxsi məlumatlar'**
+  String get profilePersonalInfo;
+
+  /// No description provided for @profileAddresses.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvanlar'**
+  String get profileAddresses;
+
+  /// No description provided for @profileSavedCards.
+  ///
+  /// In az, this message translates to:
+  /// **'Saxlanılmış kartlar'**
+  String get profileSavedCards;
+
+  /// No description provided for @profileStyleProfile.
+  ///
+  /// In az, this message translates to:
+  /// **'Stil profili'**
+  String get profileStyleProfile;
+
+  /// No description provided for @profileStyleProfileHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü seçimini asanlaşdırın'**
+  String get profileStyleProfileHint;
+
+  /// No description provided for @profileNotifications.
+  ///
+  /// In az, this message translates to:
+  /// **'Bildirişlər'**
+  String get profileNotifications;
+
+  /// No description provided for @profileChangePassword.
+  ///
+  /// In az, this message translates to:
+  /// **'Parolu dəyiş'**
+  String get profileChangePassword;
+
+  /// No description provided for @profileActiveDevices.
+  ///
+  /// In az, this message translates to:
+  /// **'Aktiv cihazlar'**
+  String get profileActiveDevices;
+
+  /// No description provided for @profileSettings.
+  ///
+  /// In az, this message translates to:
+  /// **'Tənzimləmələr'**
+  String get profileSettings;
+
+  /// No description provided for @profileHelp.
+  ///
+  /// In az, this message translates to:
+  /// **'Kömək'**
+  String get profileHelp;
+
+  /// No description provided for @profileSignOutTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesabdan çıxmaq istəyirsiniz?'**
+  String get profileSignOutTitle;
+
+  /// No description provided for @profileSignOutMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətiniz bu cihazda qalacaq.'**
+  String get profileSignOutMessage;
+
+  /// No description provided for @profileNameTooLong.
+  ///
+  /// In az, this message translates to:
+  /// **'Ad çox uzundur'**
+  String get profileNameTooLong;
+
+  /// No description provided for @profileLanguage.
+  ///
+  /// In az, this message translates to:
+  /// **'Dil'**
+  String get profileLanguage;
+
+  /// No description provided for @profileAppearance.
+  ///
+  /// In az, this message translates to:
+  /// **'Görünüş'**
+  String get profileAppearance;
+
+  /// No description provided for @profileThemeSystem.
+  ///
+  /// In az, this message translates to:
+  /// **'Sistem'**
+  String get profileThemeSystem;
+
+  /// No description provided for @profileThemeLight.
+  ///
+  /// In az, this message translates to:
+  /// **'Açıq'**
+  String get profileThemeLight;
+
+  /// No description provided for @profileThemeDark.
+  ///
+  /// In az, this message translates to:
+  /// **'Tünd'**
+  String get profileThemeDark;
+
+  /// No description provided for @profileCurrentPassword.
+  ///
+  /// In az, this message translates to:
+  /// **'Cari parol'**
+  String get profileCurrentPassword;
+
+  /// No description provided for @profileConfirmPassword.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni parolu təkrarlayın'**
+  String get profileConfirmPassword;
+
+  /// No description provided for @profilePasswordMismatch.
+  ///
+  /// In az, this message translates to:
+  /// **'Parollar uyğun gəlmir'**
+  String get profilePasswordMismatch;
+
+  /// No description provided for @profilePasswordChanged.
+  ///
+  /// In az, this message translates to:
+  /// **'Parol dəyişdirildi'**
+  String get profilePasswordChanged;
+
+  /// No description provided for @profileAddressesEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvan yoxdur'**
+  String get profileAddressesEmptyTitle;
+
+  /// No description provided for @profileAddressesEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvan əlavə edin, ödənişdə vaxta qənaət edin.'**
+  String get profileAddressesEmptyMessage;
+
+  /// No description provided for @profileAddressAdd.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvan əlavə et'**
+  String get profileAddressAdd;
+
+  /// No description provided for @profileAddressEdit.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvanı redaktə et'**
+  String get profileAddressEdit;
+
+  /// No description provided for @profileAddressDeleteTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ünvan silinsin?'**
+  String get profileAddressDeleteTitle;
+
+  /// No description provided for @profileAddressLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Ad (məs. Ev)'**
+  String get profileAddressLabel;
+
+  /// No description provided for @profileBuilding.
+  ///
+  /// In az, this message translates to:
+  /// **'Bina'**
+  String get profileBuilding;
+
+  /// No description provided for @profileDefault.
+  ///
+  /// In az, this message translates to:
+  /// **'Əsas'**
+  String get profileDefault;
+
+  /// No description provided for @profileMakeDefault.
+  ///
+  /// In az, this message translates to:
+  /// **'Əsas ünvan et'**
+  String get profileMakeDefault;
+
+  /// No description provided for @profileFieldTooLong.
+  ///
+  /// In az, this message translates to:
+  /// **'Çox uzundur'**
+  String get profileFieldTooLong;
+
+  /// No description provided for @profileCardsEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Saxlanılmış kart yoxdur'**
+  String get profileCardsEmptyTitle;
+
+  /// No description provided for @profileCardsEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş zamanı “Kartı saxla” seçin.'**
+  String get profileCardsEmptyMessage;
+
+  /// No description provided for @profileCardDeleteTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Kart silinsin?'**
+  String get profileCardDeleteTitle;
+
+  /// No description provided for @profileCardAdded.
+  ///
+  /// In az, this message translates to:
+  /// **'Əlavə edilib: {date}'**
+  String profileCardAdded(String date);
+
+  /// No description provided for @profileThisDevice.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu cihaz'**
+  String get profileThisDevice;
+
+  /// No description provided for @profileUnknownDevice.
+  ///
+  /// In az, this message translates to:
+  /// **'Naməlum cihaz'**
+  String get profileUnknownDevice;
+
+  /// No description provided for @profileSignOutDevice.
+  ///
+  /// In az, this message translates to:
+  /// **'Çıxış'**
+  String get profileSignOutDevice;
+
+  /// No description provided for @profileSignOutOthers.
+  ///
+  /// In az, this message translates to:
+  /// **'Digər cihazlardan çıx'**
+  String get profileSignOutOthers;
+
+  /// No description provided for @profileNotificationRequired.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş üçün vacibdir'**
+  String get profileNotificationRequired;
+
+  /// No description provided for @profileStyleIntro.
+  ///
+  /// In az, this message translates to:
+  /// **'İstəyə bağlıdır. Ölçü seçimini və tövsiyələri sizə uyğunlaşdırırıq.'**
+  String get profileStyleIntro;
+
+  /// No description provided for @profileStyleHeight.
+  ///
+  /// In az, this message translates to:
+  /// **'Boy (sm)'**
+  String get profileStyleHeight;
+
+  /// No description provided for @profileStyleWeight.
+  ///
+  /// In az, this message translates to:
+  /// **'Çəki (kq)'**
+  String get profileStyleWeight;
+
+  /// No description provided for @profileStyleChest.
+  ///
+  /// In az, this message translates to:
+  /// **'Sinə (sm)'**
+  String get profileStyleChest;
+
+  /// No description provided for @profileStyleWaist.
+  ///
+  /// In az, this message translates to:
+  /// **'Bel (sm)'**
+  String get profileStyleWaist;
+
+  /// No description provided for @profileStyleRange.
+  ///
+  /// In az, this message translates to:
+  /// **'{min}–{max} arası'**
+  String profileStyleRange(int min, int max);
+
+  /// No description provided for @profileStyleUsualSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Adətən geydiyiniz ölçü'**
+  String get profileStyleUsualSize;
+
+  /// No description provided for @profileStyleFit.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevdiyiniz kəsim'**
+  String get profileStyleFit;
+
+  /// No description provided for @profileStyleColors.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevimli rənglər'**
+  String get profileStyleColors;
+
+  /// No description provided for @profileStyleColorLimit.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən çox {count} rəng seçə bilərsiniz'**
+  String profileStyleColorLimit(int count);
+
+  /// No description provided for @profileStyleStyles.
+  ///
+  /// In az, this message translates to:
+  /// **'Üslub'**
+  String get profileStyleStyles;
+
+  /// No description provided for @profileStyleSkip.
+  ///
+  /// In az, this message translates to:
+  /// **'Keç'**
+  String get profileStyleSkip;
+
+  /// No description provided for @profileHelpContact.
+  ///
+  /// In az, this message translates to:
+  /// **'Bizimlə əlaqə'**
+  String get profileHelpContact;
+
+  /// No description provided for @profileHelpCall.
+  ///
+  /// In az, this message translates to:
+  /// **'Zəng et'**
+  String get profileHelpCall;
+
+  /// No description provided for @profileHelpWhatsApp.
+  ///
+  /// In az, this message translates to:
+  /// **'WhatsApp-da yaz'**
+  String get profileHelpWhatsApp;
+
+  /// No description provided for @profileHelpEmail.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt göndər'**
+  String get profileHelpEmail;
+
+  /// No description provided for @profileHelpFaq.
+  ///
+  /// In az, this message translates to:
+  /// **'Tez-tez verilən suallar'**
+  String get profileHelpFaq;
+
+  /// No description provided for @profileFaqDeliveryQ.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma nə qədər çəkir?'**
+  String get profileFaqDeliveryQ;
+
+  /// No description provided for @profileFaqDeliveryA.
+  ///
+  /// In az, this message translates to:
+  /// **'Bakıda sifariş etdiyiniz vaxtdan asılı olaraq ertəsi gün seçdiyiniz vaxt aralığında çatdırırıq. Fərdi dizaynlar istehsal müddəti qədər gec ola bilər.'**
+  String get profileFaqDeliveryA;
+
+  /// No description provided for @profileFaqReturnsQ.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma və dəyişdirmə'**
+  String get profileFaqReturnsQ;
+
+  /// No description provided for @profileFaqReturnsA.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılmadan sonra müəyyən müddət ərzində sifariş səhifəsindən qaytarma və ya ölçü dəyişdirmə sorğusu göndərə bilərsiniz. Fərdi dizaynlar qaytarılmır.'**
+  String get profileFaqReturnsA;
+
+  /// No description provided for @profileFaqPaymentQ.
+  ///
+  /// In az, this message translates to:
+  /// **'Hansı ödəniş üsulları var?'**
+  String get profileFaqPaymentQ;
+
+  /// No description provided for @profileFaqPaymentA.
+  ///
+  /// In az, this message translates to:
+  /// **'Bank kartı (3-D Secure), Apple Pay, Google Pay və Bakıda qapıda nağd ödəniş.'**
+  String get profileFaqPaymentA;
+
+  /// No description provided for @profileFaqCustomQ.
+  ///
+  /// In az, this message translates to:
+  /// **'Fərdi dizayn necə işləyir?'**
+  String get profileFaqCustomQ;
+
+  /// No description provided for @profileFaqCustomA.
+  ///
+  /// In az, this message translates to:
+  /// **'Studio-da modeli seçin, mətn və şəkil əlavə edin, qiyməti dərhal görün. Sifarişdən sonra komandamız dizaynı yoxlayıb təsdiqləyir.'**
+  String get profileFaqCustomA;
+
   /// No description provided for @searchHint.
   ///
   /// In az, this message translates to:

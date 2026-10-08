@@ -1,0 +1,118 @@
+{
+  "@@locale": "ru",
+  "profileSignedOutTitle": "Войдите в аккаунт",
+  "profileSignedOutBody": "Заказы, избранное и дизайны — в одном месте.",
+  "profileGreeting": "Привет, {name}",
+  "@profileGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTrackOrder": "Отследить заказ",
+  "profileOrders": "Заказы",
+  "profileDesigns": "Дизайны",
+  "profileWishlist": "Избранное",
+  "profileGroupShopping": "Покупки",
+  "profileGroupAccount": "Аккаунт",
+  "profileGroupMore": "Ещё",
+  "profileActiveOrders": "Активных: {count}",
+  "@profileActiveOrders": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profilePersonalInfo": "Личные данные",
+  "profileAddresses": "Адреса",
+  "profileSavedCards": "Сохранённые карты",
+  "profileStyleProfile": "Профиль стиля",
+  "profileStyleProfileHint": "Упростите выбор размера",
+  "profileNotifications": "Уведомления",
+  "profileChangePassword": "Сменить пароль",
+  "profileActiveDevices": "Активные устройства",
+  "profileSettings": "Настройки",
+  "profileHelp": "Помощь",
+  "profileSignOutTitle": "Выйти из аккаунта?",
+  "profileSignOutMessage": "Корзина останется на этом устройстве.",
+  "profileNameTooLong": "Имя слишком длинное",
+  "profileLanguage": "Язык",
+  "profileAppearance": "Оформление",
+  "profileThemeSystem": "Системная",
+  "profileThemeLight": "Светлая",
+  "profileThemeDark": "Тёмная",
+  "profileCurrentPassword": "Текущий пароль",
+  "profileConfirmPassword": "Повторите новый пароль",
+  "profilePasswordMismatch": "Пароли не совпадают",
+  "profilePasswordChanged": "Пароль изменён",
+  "profileAddressesEmptyTitle": "Нет сохранённых адресов",
+  "profileAddressesEmptyMessage": "Добавьте адрес, чтобы оформлять заказ быстрее.",
+  "profileAddressAdd": "Добавить адрес",
+  "profileAddressEdit": "Изменить адрес",
+  "profileAddressDeleteTitle": "Удалить адрес?",
+  "profileAddressLabel": "Название (например, Дом)",
+  "profileBuilding": "Дом",
+  "profileDefault": "Основной",
+  "profileMakeDefault": "Сделать основным",
+  "profileFieldTooLong": "Слишком длинно",
+  "profileCardsEmptyTitle": "Нет сохранённых карт",
+  "profileCardsEmptyMessage": "Выберите «Сохранить карту» при оплате.",
+  "profileCardDeleteTitle": "Удалить карту?",
+  "profileCardAdded": "Добавлена: {date}",
+  "@profileCardAdded": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profileThisDevice": "Это устройство",
+  "profileUnknownDevice": "Неизвестное устройство",
+  "profileSignOutDevice": "Выйти",
+  "profileSignOutOthers": "Выйти на других устройствах",
+  "profileNotificationRequired": "Нужно для ваших заказов",
+  "profileStyleIntro": "Необязательно. Мы подберём размер и рекомендации под вас.",
+  "profileStyleHeight": "Рост (см)",
+  "profileStyleWeight": "Вес (кг)",
+  "profileStyleChest": "Грудь (см)",
+  "profileStyleWaist": "Талия (см)",
+  "profileStyleRange": "От {min} до {max}",
+  "@profileStyleRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStyleUsualSize": "Ваш обычный размер",
+  "profileStyleFit": "Предпочитаемый крой",
+  "profileStyleColors": "Любимые цвета",
+  "profileStyleColorLimit": "Можно выбрать до {count} цветов",
+  "@profileStyleColorLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStyleStyles": "Стиль",
+  "profileStyleSkip": "Пропустить",
+  "profileHelpContact": "Связаться с нами",
+  "profileHelpCall": "Позвонить",
+  "profileHelpWhatsApp": "Написать в WhatsApp",
+  "profileHelpEmail": "Написать на почту",
+  "profileHelpFaq": "Частые вопросы",
+  "profileFaqDeliveryQ": "Сколько занимает доставка?",
+  "profileFaqDeliveryA": "По Баку доставляем в выбранное вами окно, обычно на следующий день. Индивидуальные дизайны изготавливаются дольше.",
+  "profileFaqReturnsQ": "Возврат и обмен",
+  "profileFaqReturnsA": "В течение срока возврата можно оформить возврат или обмен размера на странице заказа. Индивидуальные дизайны возврату не подлежат.",
+  "profileFaqPaymentQ": "Какие способы оплаты доступны?",
+  "profileFaqPaymentA": "Банковские карты (3-D Secure), Apple Pay, Google Pay и наличные при получении в Баку.",
+  "profileFaqCustomQ": "Как работает свой дизайн?",
+  "profileFaqCustomA": "Выберите модель в Студии, добавьте текст и рисунок — цена видна сразу. После заказа команда проверит и одобрит дизайн."
+}

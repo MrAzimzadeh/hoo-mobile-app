@@ -1,0 +1,118 @@
+{
+  "@@locale": "en",
+  "profileSignedOutTitle": "Sign in to your account",
+  "profileSignedOutBody": "Keep orders, favorites and designs in one place.",
+  "profileGreeting": "Hi, {name}",
+  "@profileGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTrackOrder": "Track an order",
+  "profileOrders": "Orders",
+  "profileDesigns": "Designs",
+  "profileWishlist": "Wishlist",
+  "profileGroupShopping": "Shopping",
+  "profileGroupAccount": "Account",
+  "profileGroupMore": "More",
+  "profileActiveOrders": "{count} active",
+  "@profileActiveOrders": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profilePersonalInfo": "Personal info",
+  "profileAddresses": "Addresses",
+  "profileSavedCards": "Saved cards",
+  "profileStyleProfile": "Style profile",
+  "profileStyleProfileHint": "Make sizing easier",
+  "profileNotifications": "Notifications",
+  "profileChangePassword": "Change password",
+  "profileActiveDevices": "Active devices",
+  "profileSettings": "Settings",
+  "profileHelp": "Help",
+  "profileSignOutTitle": "Sign out?",
+  "profileSignOutMessage": "Your bag stays on this device.",
+  "profileNameTooLong": "The name is too long",
+  "profileLanguage": "Language",
+  "profileAppearance": "Appearance",
+  "profileThemeSystem": "System",
+  "profileThemeLight": "Light",
+  "profileThemeDark": "Dark",
+  "profileCurrentPassword": "Current password",
+  "profileConfirmPassword": "Repeat new password",
+  "profilePasswordMismatch": "Passwords do not match",
+  "profilePasswordChanged": "Password changed",
+  "profileAddressesEmptyTitle": "No saved addresses",
+  "profileAddressesEmptyMessage": "Add an address to check out faster.",
+  "profileAddressAdd": "Add address",
+  "profileAddressEdit": "Edit address",
+  "profileAddressDeleteTitle": "Delete this address?",
+  "profileAddressLabel": "Label (e.g. Home)",
+  "profileBuilding": "Building",
+  "profileDefault": "Default",
+  "profileMakeDefault": "Make default",
+  "profileFieldTooLong": "Too long",
+  "profileCardsEmptyTitle": "No saved cards",
+  "profileCardsEmptyMessage": "Choose “Save this card” when you pay.",
+  "profileCardDeleteTitle": "Remove this card?",
+  "profileCardAdded": "Added {date}",
+  "@profileCardAdded": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profileThisDevice": "This device",
+  "profileUnknownDevice": "Unknown device",
+  "profileSignOutDevice": "Sign out",
+  "profileSignOutOthers": "Sign out of other devices",
+  "profileNotificationRequired": "Required for your orders",
+  "profileStyleIntro": "Optional. We use it to pre-select your size and tune recommendations.",
+  "profileStyleHeight": "Height (cm)",
+  "profileStyleWeight": "Weight (kg)",
+  "profileStyleChest": "Chest (cm)",
+  "profileStyleWaist": "Waist (cm)",
+  "profileStyleRange": "Between {min} and {max}",
+  "@profileStyleRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStyleUsualSize": "Your usual size",
+  "profileStyleFit": "Preferred fit",
+  "profileStyleColors": "Favorite colors",
+  "profileStyleColorLimit": "You can pick up to {count} colors",
+  "@profileStyleColorLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStyleStyles": "Style",
+  "profileStyleSkip": "Skip",
+  "profileHelpContact": "Contact us",
+  "profileHelpCall": "Call us",
+  "profileHelpWhatsApp": "Chat on WhatsApp",
+  "profileHelpEmail": "Send an email",
+  "profileHelpFaq": "Common questions",
+  "profileFaqDeliveryQ": "How long does delivery take?",
+  "profileFaqDeliveryA": "In Baku we deliver in the time slot you choose, usually the next day. Custom designs take a little longer to make.",
+  "profileFaqReturnsQ": "Returns and exchanges",
+  "profileFaqReturnsA": "Within the return window you can request a return or size exchange from the order page. Custom designs cannot be returned.",
+  "profileFaqPaymentQ": "Which payment methods do you accept?",
+  "profileFaqPaymentA": "Bank cards (3-D Secure), Apple Pay, Google Pay and cash on delivery in Baku.",
+  "profileFaqCustomQ": "How do custom designs work?",
+  "profileFaqCustomA": "Pick a garment in the Studio, add text and art, and see the price instantly. After you order, our team reviews and approves the design."
+}

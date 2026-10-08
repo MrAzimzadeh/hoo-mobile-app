@@ -1770,6 +1770,255 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
+  String get profileSignedOutTitle => 'Войдите в аккаунт';
+
+  @override
+  String get profileSignedOutBody =>
+      'Заказы, избранное и дизайны — в одном месте.';
+
+  @override
+  String profileGreeting(String name) {
+    return 'Привет, $name';
+  }
+
+  @override
+  String get profileTrackOrder => 'Отследить заказ';
+
+  @override
+  String get profileOrders => 'Заказы';
+
+  @override
+  String get profileDesigns => 'Дизайны';
+
+  @override
+  String get profileWishlist => 'Избранное';
+
+  @override
+  String get profileGroupShopping => 'Покупки';
+
+  @override
+  String get profileGroupAccount => 'Аккаунт';
+
+  @override
+  String get profileGroupMore => 'Ещё';
+
+  @override
+  String profileActiveOrders(int count) {
+    return 'Активных: $count';
+  }
+
+  @override
+  String get profilePersonalInfo => 'Личные данные';
+
+  @override
+  String get profileAddresses => 'Адреса';
+
+  @override
+  String get profileSavedCards => 'Сохранённые карты';
+
+  @override
+  String get profileStyleProfile => 'Профиль стиля';
+
+  @override
+  String get profileStyleProfileHint => 'Упростите выбор размера';
+
+  @override
+  String get profileNotifications => 'Уведомления';
+
+  @override
+  String get profileChangePassword => 'Сменить пароль';
+
+  @override
+  String get profileActiveDevices => 'Активные устройства';
+
+  @override
+  String get profileSettings => 'Настройки';
+
+  @override
+  String get profileHelp => 'Помощь';
+
+  @override
+  String get profileSignOutTitle => 'Выйти из аккаунта?';
+
+  @override
+  String get profileSignOutMessage => 'Корзина останется на этом устройстве.';
+
+  @override
+  String get profileNameTooLong => 'Имя слишком длинное';
+
+  @override
+  String get profileLanguage => 'Язык';
+
+  @override
+  String get profileAppearance => 'Оформление';
+
+  @override
+  String get profileThemeSystem => 'Системная';
+
+  @override
+  String get profileThemeLight => 'Светлая';
+
+  @override
+  String get profileThemeDark => 'Тёмная';
+
+  @override
+  String get profileCurrentPassword => 'Текущий пароль';
+
+  @override
+  String get profileConfirmPassword => 'Повторите новый пароль';
+
+  @override
+  String get profilePasswordMismatch => 'Пароли не совпадают';
+
+  @override
+  String get profilePasswordChanged => 'Пароль изменён';
+
+  @override
+  String get profileAddressesEmptyTitle => 'Нет сохранённых адресов';
+
+  @override
+  String get profileAddressesEmptyMessage =>
+      'Добавьте адрес, чтобы оформлять заказ быстрее.';
+
+  @override
+  String get profileAddressAdd => 'Добавить адрес';
+
+  @override
+  String get profileAddressEdit => 'Изменить адрес';
+
+  @override
+  String get profileAddressDeleteTitle => 'Удалить адрес?';
+
+  @override
+  String get profileAddressLabel => 'Название (например, Дом)';
+
+  @override
+  String get profileBuilding => 'Дом';
+
+  @override
+  String get profileDefault => 'Основной';
+
+  @override
+  String get profileMakeDefault => 'Сделать основным';
+
+  @override
+  String get profileFieldTooLong => 'Слишком длинно';
+
+  @override
+  String get profileCardsEmptyTitle => 'Нет сохранённых карт';
+
+  @override
+  String get profileCardsEmptyMessage =>
+      'Выберите «Сохранить карту» при оплате.';
+
+  @override
+  String get profileCardDeleteTitle => 'Удалить карту?';
+
+  @override
+  String profileCardAdded(String date) {
+    return 'Добавлена: $date';
+  }
+
+  @override
+  String get profileThisDevice => 'Это устройство';
+
+  @override
+  String get profileUnknownDevice => 'Неизвестное устройство';
+
+  @override
+  String get profileSignOutDevice => 'Выйти';
+
+  @override
+  String get profileSignOutOthers => 'Выйти на других устройствах';
+
+  @override
+  String get profileNotificationRequired => 'Нужно для ваших заказов';
+
+  @override
+  String get profileStyleIntro =>
+      'Необязательно. Мы подберём размер и рекомендации под вас.';
+
+  @override
+  String get profileStyleHeight => 'Рост (см)';
+
+  @override
+  String get profileStyleWeight => 'Вес (кг)';
+
+  @override
+  String get profileStyleChest => 'Грудь (см)';
+
+  @override
+  String get profileStyleWaist => 'Талия (см)';
+
+  @override
+  String profileStyleRange(int min, int max) {
+    return 'От $min до $max';
+  }
+
+  @override
+  String get profileStyleUsualSize => 'Ваш обычный размер';
+
+  @override
+  String get profileStyleFit => 'Предпочитаемый крой';
+
+  @override
+  String get profileStyleColors => 'Любимые цвета';
+
+  @override
+  String profileStyleColorLimit(int count) {
+    return 'Можно выбрать до $count цветов';
+  }
+
+  @override
+  String get profileStyleStyles => 'Стиль';
+
+  @override
+  String get profileStyleSkip => 'Пропустить';
+
+  @override
+  String get profileHelpContact => 'Связаться с нами';
+
+  @override
+  String get profileHelpCall => 'Позвонить';
+
+  @override
+  String get profileHelpWhatsApp => 'Написать в WhatsApp';
+
+  @override
+  String get profileHelpEmail => 'Написать на почту';
+
+  @override
+  String get profileHelpFaq => 'Частые вопросы';
+
+  @override
+  String get profileFaqDeliveryQ => 'Сколько занимает доставка?';
+
+  @override
+  String get profileFaqDeliveryA =>
+      'По Баку доставляем в выбранное вами окно, обычно на следующий день. Индивидуальные дизайны изготавливаются дольше.';
+
+  @override
+  String get profileFaqReturnsQ => 'Возврат и обмен';
+
+  @override
+  String get profileFaqReturnsA =>
+      'В течение срока возврата можно оформить возврат или обмен размера на странице заказа. Индивидуальные дизайны возврату не подлежат.';
+
+  @override
+  String get profileFaqPaymentQ => 'Какие способы оплаты доступны?';
+
+  @override
+  String get profileFaqPaymentA =>
+      'Банковские карты (3-D Secure), Apple Pay, Google Pay и наличные при получении в Баку.';
+
+  @override
+  String get profileFaqCustomQ => 'Как работает свой дизайн?';
+
+  @override
+  String get profileFaqCustomA =>
+      'Выберите модель в Студии, добавьте текст и рисунок — цена видна сразу. После заказа команда проверит и одобрит дизайн.';
+
+  @override
   String get searchHint => 'Поиск: худи, футболки, дизайны…';
 
   @override

@@ -5,12 +5,15 @@ import '../../core/network/api_client.dart';
 import '../../core/session/session_store.dart';
 import '../../core/storage/app_database.dart';
 import '../../shared/application/contracts.dart';
+import '../../shared/domain/models.dart';
 import 'data/language_sync.dart';
 import 'data/profile_api.dart';
 import 'data/profile_repositories_impl.dart';
 import 'domain/profile_repositories.dart';
 import 'presentation/cubit/active_devices_cubit.dart';
+import 'presentation/cubit/address_form_cubit.dart';
 import 'presentation/cubit/addresses_cubit.dart';
+import 'presentation/cubit/change_password_cubit.dart';
 import 'presentation/cubit/notification_prefs_cubit.dart';
 import 'presentation/cubit/personal_info_cubit.dart';
 import 'presentation/cubit/profile_cubit.dart';
@@ -43,6 +46,8 @@ void registerProfileModule(GetIt sl) {
     ..registerFactory<SavedCardsCubit>(() => SavedCardsCubit(sl<SavedCardRepository>()))
     ..registerFactory<ActiveDevicesCubit>(() => ActiveDevicesCubit(sl<SessionRepository>()))
     ..registerFactory<NotificationPrefsCubit>(() => NotificationPrefsCubit(sl<NotificationPreferencesRepository>()))
+    ..registerFactoryParam<ChangePasswordCubit, bool, void>((hasPassword, _) => ChangePasswordCubit(sl<AccountRepository>(), hasPassword: hasPassword))
+    ..registerFactoryParam<AddressFormCubit, SavedAddress?, void>((initial, _) => AddressFormCubit(sl<AddressRepository>(), initial: initial))
     ..registerFactory<StyleProfileCubit>(() => StyleProfileCubit(sl<StyleProfileRepository>(), sl<AuthGate>()))
     // app language → account language while signed in (see AppSettingsCubit)
     ..registerSingleton<LanguageSync>(

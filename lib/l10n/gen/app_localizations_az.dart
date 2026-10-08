@@ -1763,6 +1763,254 @@ class AppLocalizationsAz extends AppLocalizations {
   }
 
   @override
+  String get profileSignedOutTitle => 'Hesabınıza daxil olun';
+
+  @override
+  String get profileSignedOutBody =>
+      'Sifarişləri, sevimliləri və dizaynları bir yerdə saxlayın.';
+
+  @override
+  String profileGreeting(String name) {
+    return 'Salam, $name';
+  }
+
+  @override
+  String get profileTrackOrder => 'Sifarişi izlə';
+
+  @override
+  String get profileOrders => 'Sifarişlər';
+
+  @override
+  String get profileDesigns => 'Dizaynlar';
+
+  @override
+  String get profileWishlist => 'Sevimlilər';
+
+  @override
+  String get profileGroupShopping => 'Alış-veriş';
+
+  @override
+  String get profileGroupAccount => 'Hesab';
+
+  @override
+  String get profileGroupMore => 'Daha çox';
+
+  @override
+  String profileActiveOrders(int count) {
+    return '$count aktiv sifariş';
+  }
+
+  @override
+  String get profilePersonalInfo => 'Şəxsi məlumatlar';
+
+  @override
+  String get profileAddresses => 'Ünvanlar';
+
+  @override
+  String get profileSavedCards => 'Saxlanılmış kartlar';
+
+  @override
+  String get profileStyleProfile => 'Stil profili';
+
+  @override
+  String get profileStyleProfileHint => 'Ölçü seçimini asanlaşdırın';
+
+  @override
+  String get profileNotifications => 'Bildirişlər';
+
+  @override
+  String get profileChangePassword => 'Parolu dəyiş';
+
+  @override
+  String get profileActiveDevices => 'Aktiv cihazlar';
+
+  @override
+  String get profileSettings => 'Tənzimləmələr';
+
+  @override
+  String get profileHelp => 'Kömək';
+
+  @override
+  String get profileSignOutTitle => 'Hesabdan çıxmaq istəyirsiniz?';
+
+  @override
+  String get profileSignOutMessage => 'Səbətiniz bu cihazda qalacaq.';
+
+  @override
+  String get profileNameTooLong => 'Ad çox uzundur';
+
+  @override
+  String get profileLanguage => 'Dil';
+
+  @override
+  String get profileAppearance => 'Görünüş';
+
+  @override
+  String get profileThemeSystem => 'Sistem';
+
+  @override
+  String get profileThemeLight => 'Açıq';
+
+  @override
+  String get profileThemeDark => 'Tünd';
+
+  @override
+  String get profileCurrentPassword => 'Cari parol';
+
+  @override
+  String get profileConfirmPassword => 'Yeni parolu təkrarlayın';
+
+  @override
+  String get profilePasswordMismatch => 'Parollar uyğun gəlmir';
+
+  @override
+  String get profilePasswordChanged => 'Parol dəyişdirildi';
+
+  @override
+  String get profileAddressesEmptyTitle => 'Ünvan yoxdur';
+
+  @override
+  String get profileAddressesEmptyMessage =>
+      'Ünvan əlavə edin, ödənişdə vaxta qənaət edin.';
+
+  @override
+  String get profileAddressAdd => 'Ünvan əlavə et';
+
+  @override
+  String get profileAddressEdit => 'Ünvanı redaktə et';
+
+  @override
+  String get profileAddressDeleteTitle => 'Ünvan silinsin?';
+
+  @override
+  String get profileAddressLabel => 'Ad (məs. Ev)';
+
+  @override
+  String get profileBuilding => 'Bina';
+
+  @override
+  String get profileDefault => 'Əsas';
+
+  @override
+  String get profileMakeDefault => 'Əsas ünvan et';
+
+  @override
+  String get profileFieldTooLong => 'Çox uzundur';
+
+  @override
+  String get profileCardsEmptyTitle => 'Saxlanılmış kart yoxdur';
+
+  @override
+  String get profileCardsEmptyMessage => 'Ödəniş zamanı “Kartı saxla” seçin.';
+
+  @override
+  String get profileCardDeleteTitle => 'Kart silinsin?';
+
+  @override
+  String profileCardAdded(String date) {
+    return 'Əlavə edilib: $date';
+  }
+
+  @override
+  String get profileThisDevice => 'Bu cihaz';
+
+  @override
+  String get profileUnknownDevice => 'Naməlum cihaz';
+
+  @override
+  String get profileSignOutDevice => 'Çıxış';
+
+  @override
+  String get profileSignOutOthers => 'Digər cihazlardan çıx';
+
+  @override
+  String get profileNotificationRequired => 'Sifariş üçün vacibdir';
+
+  @override
+  String get profileStyleIntro =>
+      'İstəyə bağlıdır. Ölçü seçimini və tövsiyələri sizə uyğunlaşdırırıq.';
+
+  @override
+  String get profileStyleHeight => 'Boy (sm)';
+
+  @override
+  String get profileStyleWeight => 'Çəki (kq)';
+
+  @override
+  String get profileStyleChest => 'Sinə (sm)';
+
+  @override
+  String get profileStyleWaist => 'Bel (sm)';
+
+  @override
+  String profileStyleRange(int min, int max) {
+    return '$min–$max arası';
+  }
+
+  @override
+  String get profileStyleUsualSize => 'Adətən geydiyiniz ölçü';
+
+  @override
+  String get profileStyleFit => 'Sevdiyiniz kəsim';
+
+  @override
+  String get profileStyleColors => 'Sevimli rənglər';
+
+  @override
+  String profileStyleColorLimit(int count) {
+    return 'Ən çox $count rəng seçə bilərsiniz';
+  }
+
+  @override
+  String get profileStyleStyles => 'Üslub';
+
+  @override
+  String get profileStyleSkip => 'Keç';
+
+  @override
+  String get profileHelpContact => 'Bizimlə əlaqə';
+
+  @override
+  String get profileHelpCall => 'Zəng et';
+
+  @override
+  String get profileHelpWhatsApp => 'WhatsApp-da yaz';
+
+  @override
+  String get profileHelpEmail => 'E-poçt göndər';
+
+  @override
+  String get profileHelpFaq => 'Tez-tez verilən suallar';
+
+  @override
+  String get profileFaqDeliveryQ => 'Çatdırılma nə qədər çəkir?';
+
+  @override
+  String get profileFaqDeliveryA =>
+      'Bakıda sifariş etdiyiniz vaxtdan asılı olaraq ertəsi gün seçdiyiniz vaxt aralığında çatdırırıq. Fərdi dizaynlar istehsal müddəti qədər gec ola bilər.';
+
+  @override
+  String get profileFaqReturnsQ => 'Qaytarma və dəyişdirmə';
+
+  @override
+  String get profileFaqReturnsA =>
+      'Çatdırılmadan sonra müəyyən müddət ərzində sifariş səhifəsindən qaytarma və ya ölçü dəyişdirmə sorğusu göndərə bilərsiniz. Fərdi dizaynlar qaytarılmır.';
+
+  @override
+  String get profileFaqPaymentQ => 'Hansı ödəniş üsulları var?';
+
+  @override
+  String get profileFaqPaymentA =>
+      'Bank kartı (3-D Secure), Apple Pay, Google Pay və Bakıda qapıda nağd ödəniş.';
+
+  @override
+  String get profileFaqCustomQ => 'Fərdi dizayn necə işləyir?';
+
+  @override
+  String get profileFaqCustomA =>
+      'Studio-da modeli seçin, mətn və şəkil əlavə edin, qiyməti dərhal görün. Sifarişdən sonra komandamız dizaynı yoxlayıb təsdiqləyir.';
+
+  @override
   String get searchHint => 'Axtar: hudi, tişört, dizayn…';
 
   @override
