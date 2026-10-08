@@ -1,0 +1,12 @@
+{
+  "name": "hoo-studio-engine-mobile",
+  "private": true,
+  "description": "three.js renderer for the HOO Studio, bundled into assets/studio/engine.js and run inside a WebView.",
+  "scripts": {
+    "build": "esbuild src/engine.js --bundle --format=iife --minify --target=es2020 --outfile=../../assets/studio/engine.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "three": "0.171.0"
+  }
+}
