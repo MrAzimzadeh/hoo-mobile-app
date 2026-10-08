@@ -1553,6 +1553,223 @@ class AppLocalizationsRu extends AppLocalizations {
       'Курьер в выбранный вами интервал. Следите за заказом на каждом шаге.';
 
   @override
+  String get ordersTitle => 'Мои заказы';
+
+  @override
+  String get ordersEmptyTitle => 'Заказов пока нет';
+
+  @override
+  String get ordersEmptyMessage => 'Ваш первый заказ появится здесь.';
+
+  @override
+  String get ordersNoMatch => 'Нет заказов по этому фильтру';
+
+  @override
+  String get ordersFilterAll => 'Все';
+
+  @override
+  String get ordersFilterActive => 'Активные';
+
+  @override
+  String get ordersFilterDelivered => 'Доставлены';
+
+  @override
+  String get ordersFilterClosed => 'Закрытые';
+
+  @override
+  String get ordersMyReturns => 'Мои возвраты';
+
+  @override
+  String get ordersTimeline => 'История заказа';
+
+  @override
+  String get ordersItems => 'Товары';
+
+  @override
+  String get ordersCustomDesign => 'Свой дизайн';
+
+  @override
+  String get ordersNonReturnable => 'Возврату не подлежит';
+
+  @override
+  String get ordersRefresh => 'Обновить';
+
+  @override
+  String get ordersRecipientView =>
+      'Вы просматриваете заказ как получатель подарка.';
+
+  @override
+  String get ordersPayPrompt => 'Заказ ещё не оплачен.';
+
+  @override
+  String get ordersPayAgain => 'Оплатить снова';
+
+  @override
+  String get ordersPaymentSucceeded => 'Оплата прошла';
+
+  @override
+  String get ordersChangeSlot => 'Изменить время доставки';
+
+  @override
+  String get ordersSlotChanged => 'Время доставки изменено';
+
+  @override
+  String get ordersSlotCurrent => 'Текущее';
+
+  @override
+  String get ordersSlotUnavailable => 'Время доставки изменить нельзя';
+
+  @override
+  String ordersCourier(String name) {
+    return 'Курьер: $name';
+  }
+
+  @override
+  String ordersCourierEta(int minutes) {
+    return 'около $minutes мин';
+  }
+
+  @override
+  String ordersCourierStops(int count) {
+    return 'до вас $count остановок';
+  }
+
+  @override
+  String get ordersContactWhatsApp => 'Написать в WhatsApp';
+
+  @override
+  String get ordersRequestReturn => 'Возврат или обмен';
+
+  @override
+  String get ordersEventPlaced => 'Заказ принят';
+
+  @override
+  String get ordersEventPaymentCaptured => 'Оплата получена';
+
+  @override
+  String get ordersEventPaymentFailed => 'Оплата не прошла';
+
+  @override
+  String get ordersEventCourierAssigned => 'Курьер назначен';
+
+  @override
+  String get ordersEventCourierEta => 'Время прибытия обновлено';
+
+  @override
+  String get ordersEventSlotChanged => 'Время доставки изменено';
+
+  @override
+  String get ordersEventRefund => 'Возврат средств выполнен';
+
+  @override
+  String get ordersEventReturnRequested => 'Запрошен возврат';
+
+  @override
+  String get ordersEventReturnUpdated => 'Возврат обновлён';
+
+  @override
+  String get ordersEventDesignApproved => 'Дизайн одобрен';
+
+  @override
+  String get ordersReturnsTitle => 'Возвраты';
+
+  @override
+  String get ordersReturnsEmptyTitle => 'Возвратов нет';
+
+  @override
+  String get ordersReturnsEmptyMessage =>
+      'Здесь появятся ваши запросы на возврат и обмен.';
+
+  @override
+  String get ordersReturnKindReturn => 'Возврат';
+
+  @override
+  String get ordersReturnKindExchange => 'Обмен';
+
+  @override
+  String get ordersReturnPick => 'Выберите товары';
+
+  @override
+  String get ordersReturnNewSize => 'Новый размер';
+
+  @override
+  String get ordersReturnReason => 'Причина';
+
+  @override
+  String get ordersReturnSubmit => 'Отправить запрос';
+
+  @override
+  String get ordersReturnNoItems => 'Выберите хотя бы один товар';
+
+  @override
+  String get ordersReturnSizeMissing => 'Выберите новый размер для обмена';
+
+  @override
+  String get ordersReturnSameSize =>
+      'Новый размер должен отличаться от текущего';
+
+  @override
+  String get ordersReturnReasonLong => 'Причина слишком длинная';
+
+  @override
+  String get ordersReturnNotAvailable => 'Для этого заказа возврат недоступен';
+
+  @override
+  String get ordersReturnNotAvailableHint =>
+      'Срок возврата истёк или товары не подлежат возврату.';
+
+  @override
+  String get ordersReturnSent => 'Запрос отправлен';
+
+  @override
+  String get ordersReturnSentBody =>
+      'Статус можно отслеживать в разделе «Возвраты».';
+
+  @override
+  String get ordersTrackTitle => 'Отследить заказ';
+
+  @override
+  String get ordersTrackSubtitle =>
+      'Введите номер заказа и телефон, указанный при заказе.';
+
+  @override
+  String get ordersOrderNumber => 'Номер заказа';
+
+  @override
+  String get ordersTrackCta => 'Отследить';
+
+  @override
+  String get ordersGiftSubtitle =>
+      'Введите код подарочного чека и свой телефон.';
+
+  @override
+  String get ordersGiftCode => 'Код чека';
+
+  @override
+  String get ordersGiftOpen => 'Открыть подарок';
+
+  @override
+  String ordersGiftFor(String name) {
+    return 'Подарок для $name';
+  }
+
+  @override
+  String ordersGiftFrom(String name) {
+    return 'От $name';
+  }
+
+  @override
+  String get ordersGiftExchange => 'Обменять размер';
+
+  @override
+  String get ordersGiftExchangeClosed => 'Срок обмена этого подарка истёк.';
+
+  @override
+  String ordersGiftExchangeUntil(String date) {
+    return 'Обмен возможен до $date';
+  }
+
+  @override
   String get searchHint => 'Поиск: худи, футболки, дизайны…';
 
   @override

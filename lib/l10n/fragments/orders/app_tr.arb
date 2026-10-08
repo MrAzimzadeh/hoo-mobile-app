@@ -1,0 +1,111 @@
+{
+  "@@locale": "tr",
+  "ordersTitle": "Siparişlerim",
+  "ordersEmptyTitle": "Henüz sipariş yok",
+  "ordersEmptyMessage": "İlk siparişin burada görünecek.",
+  "ordersNoMatch": "Bu filtreye uyan sipariş yok",
+  "ordersFilterAll": "Tümü",
+  "ordersFilterActive": "Aktif",
+  "ordersFilterDelivered": "Teslim edildi",
+  "ordersFilterClosed": "Kapalı",
+  "ordersMyReturns": "İadelerim",
+  "ordersTimeline": "Sipariş geçmişi",
+  "ordersItems": "Ürünler",
+  "ordersCustomDesign": "Özel tasarım",
+  "ordersNonReturnable": "İade edilemez",
+  "ordersRefresh": "Yenile",
+  "ordersRecipientView": "Bu siparişe hediye alıcısı olarak bakıyorsun.",
+  "ordersPayPrompt": "Bu sipariş henüz ödenmedi.",
+  "ordersPayAgain": "Tekrar öde",
+  "ordersPaymentSucceeded": "Ödeme tamamlandı",
+  "ordersChangeSlot": "Teslimat zamanını değiştir",
+  "ordersSlotChanged": "Teslimat zamanı güncellendi",
+  "ordersSlotCurrent": "Mevcut",
+  "ordersSlotUnavailable": "Teslimat zamanı artık değiştirilemiyor",
+  "ordersCourier": "Kurye: {name}",
+  "@ordersCourier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersCourierEta": "yaklaşık {minutes} dk",
+  "@ordersCourierEta": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersCourierStops": "{count} durak kaldı",
+  "@ordersCourierStops": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersContactWhatsApp": "WhatsApp'tan yaz",
+  "ordersRequestReturn": "İade veya değişim",
+  "ordersEventPlaced": "Sipariş alındı",
+  "ordersEventPaymentCaptured": "Ödeme alındı",
+  "ordersEventPaymentFailed": "Ödeme başarısız",
+  "ordersEventCourierAssigned": "Kurye atandı",
+  "ordersEventCourierEta": "Tahmini varış güncellendi",
+  "ordersEventSlotChanged": "Teslimat zamanı değişti",
+  "ordersEventRefund": "İade yapıldı",
+  "ordersEventReturnRequested": "İade talep edildi",
+  "ordersEventReturnUpdated": "İade güncellendi",
+  "ordersEventDesignApproved": "Tasarım onaylandı",
+  "ordersReturnsTitle": "İadeler",
+  "ordersReturnsEmptyTitle": "İade yok",
+  "ordersReturnsEmptyMessage": "İade ve değişim taleplerin burada görünür.",
+  "ordersReturnKindReturn": "İade",
+  "ordersReturnKindExchange": "Değişim",
+  "ordersReturnPick": "Ürünleri seç",
+  "ordersReturnNewSize": "Yeni beden",
+  "ordersReturnReason": "Neden",
+  "ordersReturnSubmit": "Talebi gönder",
+  "ordersReturnNoItems": "En az bir ürün seç",
+  "ordersReturnSizeMissing": "Değişim için yeni beden seç",
+  "ordersReturnSameSize": "Yeni beden mevcuttan farklı olmalı",
+  "ordersReturnReasonLong": "Neden çok uzun",
+  "ordersReturnNotAvailable": "Bu sipariş için iade mümkün değil",
+  "ordersReturnNotAvailableHint": "İade süresi doldu veya ürünler iade edilemez.",
+  "ordersReturnSent": "Talep gönderildi",
+  "ordersReturnSentBody": "Durumunu İadeler bölümünden takip edebilirsin.",
+  "ordersTrackTitle": "Siparişi takip et",
+  "ordersTrackSubtitle": "Sipariş numarasını ve sipariş verirken yazdığın telefonu gir.",
+  "ordersOrderNumber": "Sipariş numarası",
+  "ordersTrackCta": "Takip et",
+  "ordersGiftSubtitle": "Hediye fişi kodunu ve telefon numaranı gir.",
+  "ordersGiftCode": "Fiş kodu",
+  "ordersGiftOpen": "Hediyeyi aç",
+  "ordersGiftFor": "{name} için hediye",
+  "@ordersGiftFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersGiftFrom": "{name} tarafından",
+  "@ordersGiftFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersGiftExchange": "Bedeni değiştir",
+  "ordersGiftExchangeClosed": "Bu hediye için değişim süresi doldu.",
+  "ordersGiftExchangeUntil": "{date} tarihine kadar değiştirebilirsin",
+  "@ordersGiftExchangeUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
+}

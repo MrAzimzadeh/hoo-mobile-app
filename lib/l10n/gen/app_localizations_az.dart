@@ -1544,6 +1544,225 @@ class AppLocalizationsAz extends AppLocalizations {
       'Kuryer seçdiyiniz vaxt aralığında gəlir. Sifarişinizi addım-addım izləyin.';
 
   @override
+  String get ordersTitle => 'Sifarişlərim';
+
+  @override
+  String get ordersEmptyTitle => 'Hələ sifariş yoxdur';
+
+  @override
+  String get ordersEmptyMessage => 'İlk sifarişiniz burada görünəcək.';
+
+  @override
+  String get ordersNoMatch => 'Bu filtrə uyğun sifariş yoxdur';
+
+  @override
+  String get ordersFilterAll => 'Hamısı';
+
+  @override
+  String get ordersFilterActive => 'Aktiv';
+
+  @override
+  String get ordersFilterDelivered => 'Çatdırılıb';
+
+  @override
+  String get ordersFilterClosed => 'Bağlanıb';
+
+  @override
+  String get ordersMyReturns => 'Qaytarmalarım';
+
+  @override
+  String get ordersTimeline => 'Sifariş tarixçəsi';
+
+  @override
+  String get ordersItems => 'Məhsullar';
+
+  @override
+  String get ordersCustomDesign => 'Fərdi dizayn';
+
+  @override
+  String get ordersNonReturnable => 'Qaytarılmır';
+
+  @override
+  String get ordersRefresh => 'Yenilə';
+
+  @override
+  String get ordersRecipientView =>
+      'Hədiyyə alıcısı kimi baxırsınız. Qiymətlər gizlədilə bilər.';
+
+  @override
+  String get ordersPayPrompt => 'Ödəniş tamamlanmayıb.';
+
+  @override
+  String get ordersPayAgain => 'Yenidən ödə';
+
+  @override
+  String get ordersPaymentSucceeded => 'Ödəniş uğurla tamamlandı';
+
+  @override
+  String get ordersChangeSlot => 'Çatdırılma vaxtını dəyiş';
+
+  @override
+  String get ordersSlotChanged => 'Çatdırılma vaxtı dəyişdirildi';
+
+  @override
+  String get ordersSlotCurrent => 'Hazırkı';
+
+  @override
+  String get ordersSlotUnavailable =>
+      'Bu sifariş üçün vaxt dəyişmək mümkün deyil';
+
+  @override
+  String ordersCourier(String name) {
+    return 'Kuryer: $name';
+  }
+
+  @override
+  String ordersCourierEta(int minutes) {
+    return 'təxmini $minutes dəq';
+  }
+
+  @override
+  String ordersCourierStops(int count) {
+    return '$count dayanacaq qalıb';
+  }
+
+  @override
+  String get ordersContactWhatsApp => 'WhatsApp ilə yaz';
+
+  @override
+  String get ordersRequestReturn => 'Qaytarma və ya dəyişdirmə';
+
+  @override
+  String get ordersEventPlaced => 'Sifariş qəbul edildi';
+
+  @override
+  String get ordersEventPaymentCaptured => 'Ödəniş alındı';
+
+  @override
+  String get ordersEventPaymentFailed => 'Ödəniş alınmadı';
+
+  @override
+  String get ordersEventCourierAssigned => 'Kuryer təyin olundu';
+
+  @override
+  String get ordersEventCourierEta => 'Çatdırılma vaxtı yeniləndi';
+
+  @override
+  String get ordersEventSlotChanged => 'Çatdırılma vaxtı dəyişdi';
+
+  @override
+  String get ordersEventRefund => 'Geri ödəniş edildi';
+
+  @override
+  String get ordersEventReturnRequested => 'Qaytarma sorğusu göndərildi';
+
+  @override
+  String get ordersEventReturnUpdated => 'Qaytarma yeniləndi';
+
+  @override
+  String get ordersEventDesignApproved => 'Dizayn təsdiqləndi';
+
+  @override
+  String get ordersReturnsTitle => 'Qaytarmalar';
+
+  @override
+  String get ordersReturnsEmptyTitle => 'Qaytarma yoxdur';
+
+  @override
+  String get ordersReturnsEmptyMessage =>
+      'Qaytarma və dəyişdirmə sorğularınız burada görünəcək.';
+
+  @override
+  String get ordersReturnKindReturn => 'Qaytarma';
+
+  @override
+  String get ordersReturnKindExchange => 'Dəyişdirmə';
+
+  @override
+  String get ordersReturnPick => 'Məhsulları seçin';
+
+  @override
+  String get ordersReturnNewSize => 'Yeni ölçü';
+
+  @override
+  String get ordersReturnReason => 'Səbəb';
+
+  @override
+  String get ordersReturnSubmit => 'Sorğunu göndər';
+
+  @override
+  String get ordersReturnNoItems => 'Ən azı bir məhsul seçin';
+
+  @override
+  String get ordersReturnSizeMissing => 'Dəyişdirmə üçün yeni ölçü seçin';
+
+  @override
+  String get ordersReturnSameSize => 'Yeni ölçü hazırkından fərqli olmalıdır';
+
+  @override
+  String get ordersReturnReasonLong => 'Səbəb çox uzundur';
+
+  @override
+  String get ordersReturnNotAvailable =>
+      'Bu sifariş üçün qaytarma mümkün deyil';
+
+  @override
+  String get ordersReturnNotAvailableHint =>
+      'Qaytarma müddəti bitib və ya məhsullar qaytarıla bilməz.';
+
+  @override
+  String get ordersReturnSent => 'Sorğu göndərildi';
+
+  @override
+  String get ordersReturnSentBody =>
+      'Statusu Qaytarmalar bölməsində izləyə bilərsiniz.';
+
+  @override
+  String get ordersTrackTitle => 'Sifarişi izlə';
+
+  @override
+  String get ordersTrackSubtitle =>
+      'Sifariş nömrəsini və sifariş zamanı yazdığınız telefonu daxil edin.';
+
+  @override
+  String get ordersOrderNumber => 'Sifariş nömrəsi';
+
+  @override
+  String get ordersTrackCta => 'İzlə';
+
+  @override
+  String get ordersGiftSubtitle =>
+      'Hədiyyə qəbzi kodunu və telefon nömrənizi daxil edin.';
+
+  @override
+  String get ordersGiftCode => 'Qəbz kodu';
+
+  @override
+  String get ordersGiftOpen => 'Hədiyyəyə bax';
+
+  @override
+  String ordersGiftFor(String name) {
+    return '$name üçün hədiyyə';
+  }
+
+  @override
+  String ordersGiftFrom(String name) {
+    return '$name tərəfindən';
+  }
+
+  @override
+  String get ordersGiftExchange => 'Ölçünü dəyiş';
+
+  @override
+  String get ordersGiftExchangeClosed =>
+      'Bu hədiyyə üçün dəyişdirmə müddəti bitib.';
+
+  @override
+  String ordersGiftExchangeUntil(String date) {
+    return '$date tarixinədək dəyişə bilərsiniz';
+  }
+
+  @override
   String get searchHint => 'Axtar: hudi, tişört, dizayn…';
 
   @override

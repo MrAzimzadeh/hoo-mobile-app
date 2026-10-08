@@ -1552,6 +1552,225 @@ class AppLocalizationsEn extends AppLocalizations {
       'A courier in the time slot you choose. Follow your order every step of the way.';
 
   @override
+  String get ordersTitle => 'My orders';
+
+  @override
+  String get ordersEmptyTitle => 'No orders yet';
+
+  @override
+  String get ordersEmptyMessage => 'Your first order will show up here.';
+
+  @override
+  String get ordersNoMatch => 'No orders match this filter';
+
+  @override
+  String get ordersFilterAll => 'All';
+
+  @override
+  String get ordersFilterActive => 'Active';
+
+  @override
+  String get ordersFilterDelivered => 'Delivered';
+
+  @override
+  String get ordersFilterClosed => 'Closed';
+
+  @override
+  String get ordersMyReturns => 'My returns';
+
+  @override
+  String get ordersTimeline => 'Order history';
+
+  @override
+  String get ordersItems => 'Items';
+
+  @override
+  String get ordersCustomDesign => 'Custom design';
+
+  @override
+  String get ordersNonReturnable => 'Non-returnable';
+
+  @override
+  String get ordersRefresh => 'Refresh';
+
+  @override
+  String get ordersRecipientView =>
+      'You are viewing this as the gift recipient.';
+
+  @override
+  String get ordersPayPrompt => 'This order is not paid yet.';
+
+  @override
+  String get ordersPayAgain => 'Pay again';
+
+  @override
+  String get ordersPaymentSucceeded => 'Payment completed';
+
+  @override
+  String get ordersChangeSlot => 'Change delivery time';
+
+  @override
+  String get ordersSlotChanged => 'Delivery time updated';
+
+  @override
+  String get ordersSlotCurrent => 'Current';
+
+  @override
+  String get ordersSlotUnavailable =>
+      'The delivery time can no longer be changed';
+
+  @override
+  String ordersCourier(String name) {
+    return 'Courier: $name';
+  }
+
+  @override
+  String ordersCourierEta(int minutes) {
+    return 'about $minutes min';
+  }
+
+  @override
+  String ordersCourierStops(int count) {
+    return '$count stops away';
+  }
+
+  @override
+  String get ordersContactWhatsApp => 'Message us on WhatsApp';
+
+  @override
+  String get ordersRequestReturn => 'Return or exchange';
+
+  @override
+  String get ordersEventPlaced => 'Order placed';
+
+  @override
+  String get ordersEventPaymentCaptured => 'Payment received';
+
+  @override
+  String get ordersEventPaymentFailed => 'Payment failed';
+
+  @override
+  String get ordersEventCourierAssigned => 'Courier assigned';
+
+  @override
+  String get ordersEventCourierEta => 'Delivery estimate updated';
+
+  @override
+  String get ordersEventSlotChanged => 'Delivery time changed';
+
+  @override
+  String get ordersEventRefund => 'Refund issued';
+
+  @override
+  String get ordersEventReturnRequested => 'Return requested';
+
+  @override
+  String get ordersEventReturnUpdated => 'Return updated';
+
+  @override
+  String get ordersEventDesignApproved => 'Design approved';
+
+  @override
+  String get ordersReturnsTitle => 'Returns';
+
+  @override
+  String get ordersReturnsEmptyTitle => 'No returns';
+
+  @override
+  String get ordersReturnsEmptyMessage =>
+      'Your return and exchange requests appear here.';
+
+  @override
+  String get ordersReturnKindReturn => 'Return';
+
+  @override
+  String get ordersReturnKindExchange => 'Exchange';
+
+  @override
+  String get ordersReturnPick => 'Choose items';
+
+  @override
+  String get ordersReturnNewSize => 'New size';
+
+  @override
+  String get ordersReturnReason => 'Reason';
+
+  @override
+  String get ordersReturnSubmit => 'Send request';
+
+  @override
+  String get ordersReturnNoItems => 'Choose at least one item';
+
+  @override
+  String get ordersReturnSizeMissing => 'Choose a new size for each exchange';
+
+  @override
+  String get ordersReturnSameSize =>
+      'The new size must differ from the current one';
+
+  @override
+  String get ordersReturnReasonLong => 'The reason is too long';
+
+  @override
+  String get ordersReturnNotAvailable =>
+      'Returns are not available for this order';
+
+  @override
+  String get ordersReturnNotAvailableHint =>
+      'The return window is over or the items cannot be returned.';
+
+  @override
+  String get ordersReturnSent => 'Request sent';
+
+  @override
+  String get ordersReturnSentBody => 'Follow its status under Returns.';
+
+  @override
+  String get ordersTrackTitle => 'Track an order';
+
+  @override
+  String get ordersTrackSubtitle =>
+      'Enter the order number and the phone you used when ordering.';
+
+  @override
+  String get ordersOrderNumber => 'Order number';
+
+  @override
+  String get ordersTrackCta => 'Track';
+
+  @override
+  String get ordersGiftSubtitle =>
+      'Enter the gift receipt code and your phone number.';
+
+  @override
+  String get ordersGiftCode => 'Receipt code';
+
+  @override
+  String get ordersGiftOpen => 'Open gift';
+
+  @override
+  String ordersGiftFor(String name) {
+    return 'A gift for $name';
+  }
+
+  @override
+  String ordersGiftFrom(String name) {
+    return 'From $name';
+  }
+
+  @override
+  String get ordersGiftExchange => 'Exchange size';
+
+  @override
+  String get ordersGiftExchangeClosed =>
+      'The exchange period for this gift has ended.';
+
+  @override
+  String ordersGiftExchangeUntil(String date) {
+    return 'Exchange until $date';
+  }
+
+  @override
   String get searchHint => 'Search hoodies, tees, designs…';
 
   @override

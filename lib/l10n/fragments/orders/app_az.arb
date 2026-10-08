@@ -1,0 +1,117 @@
+{
+  "@@locale": "az",
+  "ordersTitle": "Sifarişlərim",
+  "ordersEmptyTitle": "Hələ sifariş yoxdur",
+  "ordersEmptyMessage": "İlk sifarişiniz burada görünəcək.",
+  "ordersNoMatch": "Bu filtrə uyğun sifariş yoxdur",
+  "ordersFilterAll": "Hamısı",
+  "ordersFilterActive": "Aktiv",
+  "ordersFilterDelivered": "Çatdırılıb",
+  "ordersFilterClosed": "Bağlanıb",
+  "ordersMyReturns": "Qaytarmalarım",
+  "ordersTimeline": "Sifariş tarixçəsi",
+  "ordersItems": "Məhsullar",
+  "ordersCustomDesign": "Fərdi dizayn",
+  "ordersNonReturnable": "Qaytarılmır",
+  "ordersRefresh": "Yenilə",
+  "ordersRecipientView": "Hədiyyə alıcısı kimi baxırsınız. Qiymətlər gizlədilə bilər.",
+  "ordersPayPrompt": "Ödəniş tamamlanmayıb.",
+  "ordersPayAgain": "Yenidən ödə",
+  "ordersPaymentSucceeded": "Ödəniş uğurla tamamlandı",
+  "ordersChangeSlot": "Çatdırılma vaxtını dəyiş",
+  "ordersSlotChanged": "Çatdırılma vaxtı dəyişdirildi",
+  "ordersSlotCurrent": "Hazırkı",
+  "ordersSlotUnavailable": "Bu sifariş üçün vaxt dəyişmək mümkün deyil",
+  "ordersCourier": "Kuryer: {name}",
+  "@ordersCourier": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "ordersCourierEta": "təxmini {minutes} dəq",
+  "@ordersCourierEta": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "description": "Placeholder minutes"
+      }
+    }
+  },
+  "ordersCourierStops": "{count} dayanacaq qalıb",
+  "@ordersCourierStops": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "ordersContactWhatsApp": "WhatsApp ilə yaz",
+  "ordersRequestReturn": "Qaytarma və ya dəyişdirmə",
+  "ordersEventPlaced": "Sifariş qəbul edildi",
+  "ordersEventPaymentCaptured": "Ödəniş alındı",
+  "ordersEventPaymentFailed": "Ödəniş alınmadı",
+  "ordersEventCourierAssigned": "Kuryer təyin olundu",
+  "ordersEventCourierEta": "Çatdırılma vaxtı yeniləndi",
+  "ordersEventSlotChanged": "Çatdırılma vaxtı dəyişdi",
+  "ordersEventRefund": "Geri ödəniş edildi",
+  "ordersEventReturnRequested": "Qaytarma sorğusu göndərildi",
+  "ordersEventReturnUpdated": "Qaytarma yeniləndi",
+  "ordersEventDesignApproved": "Dizayn təsdiqləndi",
+  "ordersReturnsTitle": "Qaytarmalar",
+  "ordersReturnsEmptyTitle": "Qaytarma yoxdur",
+  "ordersReturnsEmptyMessage": "Qaytarma və dəyişdirmə sorğularınız burada görünəcək.",
+  "ordersReturnKindReturn": "Qaytarma",
+  "ordersReturnKindExchange": "Dəyişdirmə",
+  "ordersReturnPick": "Məhsulları seçin",
+  "ordersReturnNewSize": "Yeni ölçü",
+  "ordersReturnReason": "Səbəb",
+  "ordersReturnSubmit": "Sorğunu göndər",
+  "ordersReturnNoItems": "Ən azı bir məhsul seçin",
+  "ordersReturnSizeMissing": "Dəyişdirmə üçün yeni ölçü seçin",
+  "ordersReturnSameSize": "Yeni ölçü hazırkından fərqli olmalıdır",
+  "ordersReturnReasonLong": "Səbəb çox uzundur",
+  "ordersReturnNotAvailable": "Bu sifariş üçün qaytarma mümkün deyil",
+  "ordersReturnNotAvailableHint": "Qaytarma müddəti bitib və ya məhsullar qaytarıla bilməz.",
+  "ordersReturnSent": "Sorğu göndərildi",
+  "ordersReturnSentBody": "Statusu Qaytarmalar bölməsində izləyə bilərsiniz.",
+  "ordersTrackTitle": "Sifarişi izlə",
+  "ordersTrackSubtitle": "Sifariş nömrəsini və sifariş zamanı yazdığınız telefonu daxil edin.",
+  "ordersOrderNumber": "Sifariş nömrəsi",
+  "ordersTrackCta": "İzlə",
+  "ordersGiftSubtitle": "Hədiyyə qəbzi kodunu və telefon nömrənizi daxil edin.",
+  "ordersGiftCode": "Qəbz kodu",
+  "ordersGiftOpen": "Hədiyyəyə bax",
+  "ordersGiftFor": "{name} üçün hədiyyə",
+  "@ordersGiftFor": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "ordersGiftFrom": "{name} tərəfindən",
+  "@ordersGiftFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "ordersGiftExchange": "Ölçünü dəyiş",
+  "ordersGiftExchangeClosed": "Bu hədiyyə üçün dəyişdirmə müddəti bitib.",
+  "ordersGiftExchangeUntil": "{date} tarixinədək dəyişə bilərsiniz",
+  "@ordersGiftExchangeUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "description": "Placeholder date"
+      }
+    }
+  }
+}

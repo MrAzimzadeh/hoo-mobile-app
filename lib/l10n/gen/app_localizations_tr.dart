@@ -1542,6 +1542,222 @@ class AppLocalizationsTr extends AppLocalizations {
       'Kurye seçtiğiniz saat aralığında gelir. Siparişinizi adım adım takip edin.';
 
   @override
+  String get ordersTitle => 'Siparişlerim';
+
+  @override
+  String get ordersEmptyTitle => 'Henüz sipariş yok';
+
+  @override
+  String get ordersEmptyMessage => 'İlk siparişin burada görünecek.';
+
+  @override
+  String get ordersNoMatch => 'Bu filtreye uyan sipariş yok';
+
+  @override
+  String get ordersFilterAll => 'Tümü';
+
+  @override
+  String get ordersFilterActive => 'Aktif';
+
+  @override
+  String get ordersFilterDelivered => 'Teslim edildi';
+
+  @override
+  String get ordersFilterClosed => 'Kapalı';
+
+  @override
+  String get ordersMyReturns => 'İadelerim';
+
+  @override
+  String get ordersTimeline => 'Sipariş geçmişi';
+
+  @override
+  String get ordersItems => 'Ürünler';
+
+  @override
+  String get ordersCustomDesign => 'Özel tasarım';
+
+  @override
+  String get ordersNonReturnable => 'İade edilemez';
+
+  @override
+  String get ordersRefresh => 'Yenile';
+
+  @override
+  String get ordersRecipientView =>
+      'Bu siparişe hediye alıcısı olarak bakıyorsun.';
+
+  @override
+  String get ordersPayPrompt => 'Bu sipariş henüz ödenmedi.';
+
+  @override
+  String get ordersPayAgain => 'Tekrar öde';
+
+  @override
+  String get ordersPaymentSucceeded => 'Ödeme tamamlandı';
+
+  @override
+  String get ordersChangeSlot => 'Teslimat zamanını değiştir';
+
+  @override
+  String get ordersSlotChanged => 'Teslimat zamanı güncellendi';
+
+  @override
+  String get ordersSlotCurrent => 'Mevcut';
+
+  @override
+  String get ordersSlotUnavailable => 'Teslimat zamanı artık değiştirilemiyor';
+
+  @override
+  String ordersCourier(String name) {
+    return 'Kurye: $name';
+  }
+
+  @override
+  String ordersCourierEta(int minutes) {
+    return 'yaklaşık $minutes dk';
+  }
+
+  @override
+  String ordersCourierStops(int count) {
+    return '$count durak kaldı';
+  }
+
+  @override
+  String get ordersContactWhatsApp => 'WhatsApp\'tan yaz';
+
+  @override
+  String get ordersRequestReturn => 'İade veya değişim';
+
+  @override
+  String get ordersEventPlaced => 'Sipariş alındı';
+
+  @override
+  String get ordersEventPaymentCaptured => 'Ödeme alındı';
+
+  @override
+  String get ordersEventPaymentFailed => 'Ödeme başarısız';
+
+  @override
+  String get ordersEventCourierAssigned => 'Kurye atandı';
+
+  @override
+  String get ordersEventCourierEta => 'Tahmini varış güncellendi';
+
+  @override
+  String get ordersEventSlotChanged => 'Teslimat zamanı değişti';
+
+  @override
+  String get ordersEventRefund => 'İade yapıldı';
+
+  @override
+  String get ordersEventReturnRequested => 'İade talep edildi';
+
+  @override
+  String get ordersEventReturnUpdated => 'İade güncellendi';
+
+  @override
+  String get ordersEventDesignApproved => 'Tasarım onaylandı';
+
+  @override
+  String get ordersReturnsTitle => 'İadeler';
+
+  @override
+  String get ordersReturnsEmptyTitle => 'İade yok';
+
+  @override
+  String get ordersReturnsEmptyMessage =>
+      'İade ve değişim taleplerin burada görünür.';
+
+  @override
+  String get ordersReturnKindReturn => 'İade';
+
+  @override
+  String get ordersReturnKindExchange => 'Değişim';
+
+  @override
+  String get ordersReturnPick => 'Ürünleri seç';
+
+  @override
+  String get ordersReturnNewSize => 'Yeni beden';
+
+  @override
+  String get ordersReturnReason => 'Neden';
+
+  @override
+  String get ordersReturnSubmit => 'Talebi gönder';
+
+  @override
+  String get ordersReturnNoItems => 'En az bir ürün seç';
+
+  @override
+  String get ordersReturnSizeMissing => 'Değişim için yeni beden seç';
+
+  @override
+  String get ordersReturnSameSize => 'Yeni beden mevcuttan farklı olmalı';
+
+  @override
+  String get ordersReturnReasonLong => 'Neden çok uzun';
+
+  @override
+  String get ordersReturnNotAvailable => 'Bu sipariş için iade mümkün değil';
+
+  @override
+  String get ordersReturnNotAvailableHint =>
+      'İade süresi doldu veya ürünler iade edilemez.';
+
+  @override
+  String get ordersReturnSent => 'Talep gönderildi';
+
+  @override
+  String get ordersReturnSentBody =>
+      'Durumunu İadeler bölümünden takip edebilirsin.';
+
+  @override
+  String get ordersTrackTitle => 'Siparişi takip et';
+
+  @override
+  String get ordersTrackSubtitle =>
+      'Sipariş numarasını ve sipariş verirken yazdığın telefonu gir.';
+
+  @override
+  String get ordersOrderNumber => 'Sipariş numarası';
+
+  @override
+  String get ordersTrackCta => 'Takip et';
+
+  @override
+  String get ordersGiftSubtitle =>
+      'Hediye fişi kodunu ve telefon numaranı gir.';
+
+  @override
+  String get ordersGiftCode => 'Fiş kodu';
+
+  @override
+  String get ordersGiftOpen => 'Hediyeyi aç';
+
+  @override
+  String ordersGiftFor(String name) {
+    return '$name için hediye';
+  }
+
+  @override
+  String ordersGiftFrom(String name) {
+    return '$name tarafından';
+  }
+
+  @override
+  String get ordersGiftExchange => 'Bedeni değiştir';
+
+  @override
+  String get ordersGiftExchangeClosed => 'Bu hediye için değişim süresi doldu.';
+
+  @override
+  String ordersGiftExchangeUntil(String date) {
+    return '$date tarihine kadar değiştirebilirsin';
+  }
+
+  @override
   String get searchHint => 'Ara: hoodie, tişört, tasarım…';
 
   @override

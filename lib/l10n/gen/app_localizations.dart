@@ -2862,6 +2862,402 @@ abstract class AppLocalizations {
   /// **'Kuryer seçdiyiniz vaxt aralığında gəlir. Sifarişinizi addım-addım izləyin.'**
   String get launchOnboardingSlide3Body;
 
+  /// No description provided for @ordersTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişlərim'**
+  String get ordersTitle;
+
+  /// No description provided for @ordersEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hələ sifariş yoxdur'**
+  String get ordersEmptyTitle;
+
+  /// No description provided for @ordersEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'İlk sifarişiniz burada görünəcək.'**
+  String get ordersEmptyMessage;
+
+  /// No description provided for @ordersNoMatch.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu filtrə uyğun sifariş yoxdur'**
+  String get ordersNoMatch;
+
+  /// No description provided for @ordersFilterAll.
+  ///
+  /// In az, this message translates to:
+  /// **'Hamısı'**
+  String get ordersFilterAll;
+
+  /// No description provided for @ordersFilterActive.
+  ///
+  /// In az, this message translates to:
+  /// **'Aktiv'**
+  String get ordersFilterActive;
+
+  /// No description provided for @ordersFilterDelivered.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılıb'**
+  String get ordersFilterDelivered;
+
+  /// No description provided for @ordersFilterClosed.
+  ///
+  /// In az, this message translates to:
+  /// **'Bağlanıb'**
+  String get ordersFilterClosed;
+
+  /// No description provided for @ordersMyReturns.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarmalarım'**
+  String get ordersMyReturns;
+
+  /// No description provided for @ordersTimeline.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş tarixçəsi'**
+  String get ordersTimeline;
+
+  /// No description provided for @ordersItems.
+  ///
+  /// In az, this message translates to:
+  /// **'Məhsullar'**
+  String get ordersItems;
+
+  /// No description provided for @ordersCustomDesign.
+  ///
+  /// In az, this message translates to:
+  /// **'Fərdi dizayn'**
+  String get ordersCustomDesign;
+
+  /// No description provided for @ordersNonReturnable.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarılmır'**
+  String get ordersNonReturnable;
+
+  /// No description provided for @ordersRefresh.
+  ///
+  /// In az, this message translates to:
+  /// **'Yenilə'**
+  String get ordersRefresh;
+
+  /// No description provided for @ordersRecipientView.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyə alıcısı kimi baxırsınız. Qiymətlər gizlədilə bilər.'**
+  String get ordersRecipientView;
+
+  /// No description provided for @ordersPayPrompt.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş tamamlanmayıb.'**
+  String get ordersPayPrompt;
+
+  /// No description provided for @ordersPayAgain.
+  ///
+  /// In az, this message translates to:
+  /// **'Yenidən ödə'**
+  String get ordersPayAgain;
+
+  /// No description provided for @ordersPaymentSucceeded.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş uğurla tamamlandı'**
+  String get ordersPaymentSucceeded;
+
+  /// No description provided for @ordersChangeSlot.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma vaxtını dəyiş'**
+  String get ordersChangeSlot;
+
+  /// No description provided for @ordersSlotChanged.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma vaxtı dəyişdirildi'**
+  String get ordersSlotChanged;
+
+  /// No description provided for @ordersSlotCurrent.
+  ///
+  /// In az, this message translates to:
+  /// **'Hazırkı'**
+  String get ordersSlotCurrent;
+
+  /// No description provided for @ordersSlotUnavailable.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu sifariş üçün vaxt dəyişmək mümkün deyil'**
+  String get ordersSlotUnavailable;
+
+  /// No description provided for @ordersCourier.
+  ///
+  /// In az, this message translates to:
+  /// **'Kuryer: {name}'**
+  String ordersCourier(String name);
+
+  /// No description provided for @ordersCourierEta.
+  ///
+  /// In az, this message translates to:
+  /// **'təxmini {minutes} dəq'**
+  String ordersCourierEta(int minutes);
+
+  /// No description provided for @ordersCourierStops.
+  ///
+  /// In az, this message translates to:
+  /// **'{count} dayanacaq qalıb'**
+  String ordersCourierStops(int count);
+
+  /// No description provided for @ordersContactWhatsApp.
+  ///
+  /// In az, this message translates to:
+  /// **'WhatsApp ilə yaz'**
+  String get ordersContactWhatsApp;
+
+  /// No description provided for @ordersRequestReturn.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma və ya dəyişdirmə'**
+  String get ordersRequestReturn;
+
+  /// No description provided for @ordersEventPlaced.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş qəbul edildi'**
+  String get ordersEventPlaced;
+
+  /// No description provided for @ordersEventPaymentCaptured.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş alındı'**
+  String get ordersEventPaymentCaptured;
+
+  /// No description provided for @ordersEventPaymentFailed.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş alınmadı'**
+  String get ordersEventPaymentFailed;
+
+  /// No description provided for @ordersEventCourierAssigned.
+  ///
+  /// In az, this message translates to:
+  /// **'Kuryer təyin olundu'**
+  String get ordersEventCourierAssigned;
+
+  /// No description provided for @ordersEventCourierEta.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma vaxtı yeniləndi'**
+  String get ordersEventCourierEta;
+
+  /// No description provided for @ordersEventSlotChanged.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma vaxtı dəyişdi'**
+  String get ordersEventSlotChanged;
+
+  /// No description provided for @ordersEventRefund.
+  ///
+  /// In az, this message translates to:
+  /// **'Geri ödəniş edildi'**
+  String get ordersEventRefund;
+
+  /// No description provided for @ordersEventReturnRequested.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma sorğusu göndərildi'**
+  String get ordersEventReturnRequested;
+
+  /// No description provided for @ordersEventReturnUpdated.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma yeniləndi'**
+  String get ordersEventReturnUpdated;
+
+  /// No description provided for @ordersEventDesignApproved.
+  ///
+  /// In az, this message translates to:
+  /// **'Dizayn təsdiqləndi'**
+  String get ordersEventDesignApproved;
+
+  /// No description provided for @ordersReturnsTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarmalar'**
+  String get ordersReturnsTitle;
+
+  /// No description provided for @ordersReturnsEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma yoxdur'**
+  String get ordersReturnsEmptyTitle;
+
+  /// No description provided for @ordersReturnsEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma və dəyişdirmə sorğularınız burada görünəcək.'**
+  String get ordersReturnsEmptyMessage;
+
+  /// No description provided for @ordersReturnKindReturn.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma'**
+  String get ordersReturnKindReturn;
+
+  /// No description provided for @ordersReturnKindExchange.
+  ///
+  /// In az, this message translates to:
+  /// **'Dəyişdirmə'**
+  String get ordersReturnKindExchange;
+
+  /// No description provided for @ordersReturnPick.
+  ///
+  /// In az, this message translates to:
+  /// **'Məhsulları seçin'**
+  String get ordersReturnPick;
+
+  /// No description provided for @ordersReturnNewSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni ölçü'**
+  String get ordersReturnNewSize;
+
+  /// No description provided for @ordersReturnReason.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbəb'**
+  String get ordersReturnReason;
+
+  /// No description provided for @ordersReturnSubmit.
+  ///
+  /// In az, this message translates to:
+  /// **'Sorğunu göndər'**
+  String get ordersReturnSubmit;
+
+  /// No description provided for @ordersReturnNoItems.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən azı bir məhsul seçin'**
+  String get ordersReturnNoItems;
+
+  /// No description provided for @ordersReturnSizeMissing.
+  ///
+  /// In az, this message translates to:
+  /// **'Dəyişdirmə üçün yeni ölçü seçin'**
+  String get ordersReturnSizeMissing;
+
+  /// No description provided for @ordersReturnSameSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni ölçü hazırkından fərqli olmalıdır'**
+  String get ordersReturnSameSize;
+
+  /// No description provided for @ordersReturnReasonLong.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbəb çox uzundur'**
+  String get ordersReturnReasonLong;
+
+  /// No description provided for @ordersReturnNotAvailable.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu sifariş üçün qaytarma mümkün deyil'**
+  String get ordersReturnNotAvailable;
+
+  /// No description provided for @ordersReturnNotAvailableHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Qaytarma müddəti bitib və ya məhsullar qaytarıla bilməz.'**
+  String get ordersReturnNotAvailableHint;
+
+  /// No description provided for @ordersReturnSent.
+  ///
+  /// In az, this message translates to:
+  /// **'Sorğu göndərildi'**
+  String get ordersReturnSent;
+
+  /// No description provided for @ordersReturnSentBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Statusu Qaytarmalar bölməsində izləyə bilərsiniz.'**
+  String get ordersReturnSentBody;
+
+  /// No description provided for @ordersTrackTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişi izlə'**
+  String get ordersTrackTitle;
+
+  /// No description provided for @ordersTrackSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş nömrəsini və sifariş zamanı yazdığınız telefonu daxil edin.'**
+  String get ordersTrackSubtitle;
+
+  /// No description provided for @ordersOrderNumber.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş nömrəsi'**
+  String get ordersOrderNumber;
+
+  /// No description provided for @ordersTrackCta.
+  ///
+  /// In az, this message translates to:
+  /// **'İzlə'**
+  String get ordersTrackCta;
+
+  /// No description provided for @ordersGiftSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyə qəbzi kodunu və telefon nömrənizi daxil edin.'**
+  String get ordersGiftSubtitle;
+
+  /// No description provided for @ordersGiftCode.
+  ///
+  /// In az, this message translates to:
+  /// **'Qəbz kodu'**
+  String get ordersGiftCode;
+
+  /// No description provided for @ordersGiftOpen.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyəyə bax'**
+  String get ordersGiftOpen;
+
+  /// No description provided for @ordersGiftFor.
+  ///
+  /// In az, this message translates to:
+  /// **'{name} üçün hədiyyə'**
+  String ordersGiftFor(String name);
+
+  /// No description provided for @ordersGiftFrom.
+  ///
+  /// In az, this message translates to:
+  /// **'{name} tərəfindən'**
+  String ordersGiftFrom(String name);
+
+  /// No description provided for @ordersGiftExchange.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçünü dəyiş'**
+  String get ordersGiftExchange;
+
+  /// No description provided for @ordersGiftExchangeClosed.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu hədiyyə üçün dəyişdirmə müddəti bitib.'**
+  String get ordersGiftExchangeClosed;
+
+  /// No description provided for @ordersGiftExchangeUntil.
+  ///
+  /// In az, this message translates to:
+  /// **'{date} tarixinədək dəyişə bilərsiniz'**
+  String ordersGiftExchangeUntil(String date);
+
   /// No description provided for @searchHint.
   ///
   /// In az, this message translates to:
