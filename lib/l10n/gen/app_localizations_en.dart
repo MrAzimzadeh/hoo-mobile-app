@@ -578,4 +578,383 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dsLightDark => 'Light / Dark';
+
+  @override
+  String get cartTitle => 'Bag';
+
+  @override
+  String get cartEmptyTitle => 'Your bag is empty';
+
+  @override
+  String get cartEmptyMessage =>
+      'Add pieces you love or create your own design in the Studio.';
+
+  @override
+  String get cartEmptyCta => 'Start shopping';
+
+  @override
+  String get cartBestsellersTitle => 'Bestsellers';
+
+  @override
+  String get cartCompleteTheLookTitle => 'Complete the look';
+
+  @override
+  String cartFreeDeliveryRemaining(String amount) {
+    return 'Add $amount more for free delivery';
+  }
+
+  @override
+  String get cartFreeDeliveryQualified => 'Nice! Your delivery is free';
+
+  @override
+  String get cartPromoTitle => 'Promo code';
+
+  @override
+  String get cartPromoHint => 'Enter code';
+
+  @override
+  String cartPromoApplied(String code) {
+    return 'Code $code applied';
+  }
+
+  @override
+  String get cartPromoRemoveA11y => 'Remove promo code';
+
+  @override
+  String get cartGiftTitle => 'This is a gift';
+
+  @override
+  String get cartGiftSubtitle =>
+      'Choose packaging, card and message at checkout';
+
+  @override
+  String get cartSummaryTitle => 'Summary';
+
+  @override
+  String get cartDeliveryAtCheckout => 'Calculated at checkout';
+
+  @override
+  String get cartCheckout => 'Checkout';
+
+  @override
+  String cartRemoved(String name) {
+    return '$name removed from your bag';
+  }
+
+  @override
+  String get cartUndo => 'Undo';
+
+  @override
+  String cartRemoveA11y(String name) {
+    return 'Remove $name';
+  }
+
+  @override
+  String get cartCustomDesign => 'Custom design';
+
+  @override
+  String cartLeadTime(int days) {
+    return 'Made in $days days';
+  }
+
+  @override
+  String cartStockLeft(int count) {
+    return 'Only $count left';
+  }
+
+  @override
+  String cartSize(String size) {
+    return 'Size $size';
+  }
+
+  @override
+  String cartUnitPrice(int quantity, String price) {
+    return '$quantity × $price';
+  }
+
+  @override
+  String get cartFixErrors =>
+      'Some items need attention — fix or remove them before checkout.';
+
+  @override
+  String get cartAddedTitle => 'Added to bag';
+
+  @override
+  String get cartViewBag => 'View bag';
+
+  @override
+  String get cartContinueShopping => 'Continue shopping';
+
+  @override
+  String cartSubtotalWithCount(int count) {
+    return 'Subtotal · $count pcs';
+  }
+
+  @override
+  String get catalogSortNewest => 'Newest';
+
+  @override
+  String get catalogSortPriceAsc => 'Price: low to high';
+
+  @override
+  String get catalogSortPriceDesc => 'Price: high to low';
+
+  @override
+  String get catalogSortPopular => 'Popular';
+
+  @override
+  String get catalogFilterTitle => 'Filter & sort';
+
+  @override
+  String get catalogFilterSort => 'Sort by';
+
+  @override
+  String get catalogFilterCategory => 'Category';
+
+  @override
+  String get catalogFilterCollection => 'Collection';
+
+  @override
+  String get catalogFilterSize => 'Size';
+
+  @override
+  String get catalogFilterColor => 'Color';
+
+  @override
+  String get catalogFilterFit => 'Fit';
+
+  @override
+  String get catalogFilterPrice => 'Price';
+
+  @override
+  String get catalogFilterAvailability => 'Availability';
+
+  @override
+  String get catalogFilterInStockOnly => 'In stock only';
+
+  @override
+  String get launchComingSoonEyebrow => 'Coming soon';
+
+  @override
+  String launchComingSoonOpensOn(String date) {
+    return 'Opening $date';
+  }
+
+  @override
+  String get launchComingSoonFallbackTitle => 'The new HOO is on its way';
+
+  @override
+  String get launchComingSoonFallbackSubtitle =>
+      'Premium streetwear made in Baku. Be the first to know when we open.';
+
+  @override
+  String get launchCountdownDays => 'days';
+
+  @override
+  String get launchCountdownHours => 'hours';
+
+  @override
+  String get launchCountdownMinutes => 'min';
+
+  @override
+  String get launchCountdownSeconds => 'sec';
+
+  @override
+  String launchCountdownA11y(int days, int hours, int minutes) {
+    return '$days days, $hours hours, $minutes minutes until launch';
+  }
+
+  @override
+  String get launchWaitlistTitle => 'Join the waitlist';
+
+  @override
+  String get launchWaitlistBody =>
+      'Hear first on launch day and get early access.';
+
+  @override
+  String get launchWaitlistField => 'Email or phone';
+
+  @override
+  String get launchWaitlistJoin => 'Join';
+
+  @override
+  String launchWaitlistJoined(int position, int total) {
+    return 'You are #$position of $total';
+  }
+
+  @override
+  String launchWaitlistAlready(int position, int total) {
+    return 'You’re already on the list: #$position of $total';
+  }
+
+  @override
+  String launchWaitlistCount(int count) {
+    final intl.NumberFormat countNumberFormat =
+        intl.NumberFormat.decimalPattern(localeName);
+    final String countString = countNumberFormat.format(count);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$countString people are already waiting',
+      one: '1 person is already waiting',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String launchWaitlistToday(int count) {
+    return '+$count today';
+  }
+
+  @override
+  String get launchNewsletterTitle => 'Newsletter';
+
+  @override
+  String get launchNewsletterBody =>
+      'New drops, collections and offers — straight to your inbox.';
+
+  @override
+  String get launchNewsletterField => 'Email';
+
+  @override
+  String get launchNewsletterSubscribe => 'Subscribe';
+
+  @override
+  String get launchNewsletterDone => 'You’re subscribed. Thank you!';
+
+  @override
+  String get launchNewsletterAlready => 'This email is already subscribed.';
+
+  @override
+  String get launchFollow => 'Follow HOO';
+
+  @override
+  String launchOpenLink(String name) {
+    return 'Open $name';
+  }
+
+  @override
+  String get launchCannotOpenLink => 'Couldn’t open the link.';
+
+  @override
+  String get launchContactEmail => 'Email';
+
+  @override
+  String get launchContactPhone => 'Phone';
+
+  @override
+  String get launchStaffSignIn => 'Staff sign in';
+
+  @override
+  String get launchStaffNoAccess => 'This account doesn’t have staff access.';
+
+  @override
+  String get launchStoreOpenTitle => 'The store is open';
+
+  @override
+  String get launchEnterStore => 'Enter the store';
+
+  @override
+  String launchRetryIn(String time) {
+    return 'Try again in $time';
+  }
+
+  @override
+  String get launchLanguage => 'Language';
+
+  @override
+  String get launchOnboardingLanguageTitle => 'Choose your language';
+
+  @override
+  String get launchOnboardingLanguageBody =>
+      'You can change it anytime in Settings.';
+
+  @override
+  String get launchOnboardingSkip => 'Skip';
+
+  @override
+  String get launchOnboardingStart => 'Get started';
+
+  @override
+  String get launchOnboardingSlide1Eyebrow => 'From Baku';
+
+  @override
+  String get launchOnboardingSlide1Title => 'Calm. Confident. HOO.';
+
+  @override
+  String get launchOnboardingSlide1Body =>
+      'Hoodies, tees and sweats — premium fabrics, minimal design, made in Baku.';
+
+  @override
+  String get launchOnboardingSlide2Eyebrow => 'Studio';
+
+  @override
+  String get launchOnboardingSlide2Title => 'Design your own';
+
+  @override
+  String get launchOnboardingSlide2Body =>
+      'Pick a garment and color, add text and images, see it in 3D — priced instantly.';
+
+  @override
+  String get launchOnboardingSlide3Eyebrow => 'Delivery';
+
+  @override
+  String get launchOnboardingSlide3Title => 'Fast delivery in Baku';
+
+  @override
+  String get launchOnboardingSlide3Body =>
+      'A courier in the time slot you choose. Follow your order every step of the way.';
+
+  @override
+  String get searchHint => 'Search hoodies, tees, designs…';
+
+  @override
+  String get searchClearA11y => 'Clear search';
+
+  @override
+  String get searchRecentTitle => 'Recent searches';
+
+  @override
+  String get searchBestsellersTitle => 'Bestsellers';
+
+  @override
+  String searchFor(String query) {
+    return 'Search for “$query”';
+  }
+
+  @override
+  String searchNoResultsTitle(String query) {
+    return 'No results for “$query”';
+  }
+
+  @override
+  String get searchNoResultsMessage =>
+      'Check the spelling or try a shorter word.';
+
+  @override
+  String get searchMayLikeTitle => 'You may like';
+
+  @override
+  String searchResultsCount(int count, String query) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count results',
+      one: '1 result',
+    );
+    return '$_temp0 for “$query”';
+  }
+
+  @override
+  String searchFillA11y(String text) {
+    return 'Fill search with “$text”';
+  }
+
+  @override
+  String get searchDesignYourOwnTitle => 'Design your own';
+
+  @override
+  String get searchDesignYourOwnBody =>
+      'Pick a garment in the Studio and add your text and art.';
 }

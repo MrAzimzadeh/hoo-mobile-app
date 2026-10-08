@@ -578,4 +578,387 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get dsLightDark => 'Светлая / Тёмная';
+
+  @override
+  String get cartTitle => 'Корзина';
+
+  @override
+  String get cartEmptyTitle => 'Ваша корзина пуста';
+
+  @override
+  String get cartEmptyMessage =>
+      'Добавьте понравившиеся вещи или создайте свой дизайн в Studio.';
+
+  @override
+  String get cartEmptyCta => 'Перейти к покупкам';
+
+  @override
+  String get cartBestsellersTitle => 'Бестселлеры';
+
+  @override
+  String get cartCompleteTheLookTitle => 'Дополните образ';
+
+  @override
+  String cartFreeDeliveryRemaining(String amount) {
+    return 'Добавьте ещё $amount для бесплатной доставки';
+  }
+
+  @override
+  String get cartFreeDeliveryQualified => 'Отлично! Доставка бесплатная';
+
+  @override
+  String get cartPromoTitle => 'Промокод';
+
+  @override
+  String get cartPromoHint => 'Введите код';
+
+  @override
+  String cartPromoApplied(String code) {
+    return 'Промокод $code применён';
+  }
+
+  @override
+  String get cartPromoRemoveA11y => 'Удалить промокод';
+
+  @override
+  String get cartGiftTitle => 'Это подарок';
+
+  @override
+  String get cartGiftSubtitle =>
+      'Упаковку, открытку и послание выберете при оформлении';
+
+  @override
+  String get cartSummaryTitle => 'Итого';
+
+  @override
+  String get cartDeliveryAtCheckout => 'Рассчитывается при оформлении';
+
+  @override
+  String get cartCheckout => 'Оформить заказ';
+
+  @override
+  String cartRemoved(String name) {
+    return '$name удалён из корзины';
+  }
+
+  @override
+  String get cartUndo => 'Вернуть';
+
+  @override
+  String cartRemoveA11y(String name) {
+    return 'Удалить $name';
+  }
+
+  @override
+  String get cartCustomDesign => 'Свой дизайн';
+
+  @override
+  String cartLeadTime(int days) {
+    return 'Изготовление — $days дн.';
+  }
+
+  @override
+  String cartStockLeft(int count) {
+    return 'Осталось $count шт.';
+  }
+
+  @override
+  String cartSize(String size) {
+    return 'Размер $size';
+  }
+
+  @override
+  String cartUnitPrice(int quantity, String price) {
+    return '$quantity × $price';
+  }
+
+  @override
+  String get cartFixErrors =>
+      'Некоторые товары требуют внимания — исправьте или удалите их перед оформлением.';
+
+  @override
+  String get cartAddedTitle => 'Добавлено в корзину';
+
+  @override
+  String get cartViewBag => 'Перейти в корзину';
+
+  @override
+  String get cartContinueShopping => 'Продолжить покупки';
+
+  @override
+  String cartSubtotalWithCount(int count) {
+    return 'Подытог · $count шт.';
+  }
+
+  @override
+  String get catalogSortNewest => 'Новинки';
+
+  @override
+  String get catalogSortPriceAsc => 'Цена: по возрастанию';
+
+  @override
+  String get catalogSortPriceDesc => 'Цена: по убыванию';
+
+  @override
+  String get catalogSortPopular => 'Популярные';
+
+  @override
+  String get catalogFilterTitle => 'Фильтры и сортировка';
+
+  @override
+  String get catalogFilterSort => 'Сортировка';
+
+  @override
+  String get catalogFilterCategory => 'Категория';
+
+  @override
+  String get catalogFilterCollection => 'Коллекция';
+
+  @override
+  String get catalogFilterSize => 'Размер';
+
+  @override
+  String get catalogFilterColor => 'Цвет';
+
+  @override
+  String get catalogFilterFit => 'Крой';
+
+  @override
+  String get catalogFilterPrice => 'Цена';
+
+  @override
+  String get catalogFilterAvailability => 'Наличие';
+
+  @override
+  String get catalogFilterInStockOnly => 'Только в наличии';
+
+  @override
+  String get launchComingSoonEyebrow => 'Скоро';
+
+  @override
+  String launchComingSoonOpensOn(String date) {
+    return 'Открытие $date';
+  }
+
+  @override
+  String get launchComingSoonFallbackTitle => 'Новый HOO уже в пути';
+
+  @override
+  String get launchComingSoonFallbackSubtitle =>
+      'Премиальный streetwear из Баку. Узнайте первыми об открытии.';
+
+  @override
+  String get launchCountdownDays => 'дн';
+
+  @override
+  String get launchCountdownHours => 'ч';
+
+  @override
+  String get launchCountdownMinutes => 'мин';
+
+  @override
+  String get launchCountdownSeconds => 'сек';
+
+  @override
+  String launchCountdownA11y(int days, int hours, int minutes) {
+    return 'До открытия: $days дн, $hours ч, $minutes мин';
+  }
+
+  @override
+  String get launchWaitlistTitle => 'Встать в лист ожидания';
+
+  @override
+  String get launchWaitlistBody =>
+      'Узнайте первыми в день запуска и получите ранний доступ.';
+
+  @override
+  String get launchWaitlistField => 'Email или телефон';
+
+  @override
+  String get launchWaitlistJoin => 'Присоединиться';
+
+  @override
+  String launchWaitlistJoined(int position, int total) {
+    return 'Вы #$position из $total';
+  }
+
+  @override
+  String launchWaitlistAlready(int position, int total) {
+    return 'Вы уже в списке: #$position из $total';
+  }
+
+  @override
+  String launchWaitlistCount(int count) {
+    final intl.NumberFormat countNumberFormat =
+        intl.NumberFormat.decimalPattern(localeName);
+    final String countString = countNumberFormat.format(count);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$countString человека уже ждут',
+      many: '$countString человек уже ждут',
+      few: '$countString человека уже ждут',
+      one: '$countString человек уже ждёт',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String launchWaitlistToday(int count) {
+    return '+$count сегодня';
+  }
+
+  @override
+  String get launchNewsletterTitle => 'Рассылка';
+
+  @override
+  String get launchNewsletterBody =>
+      'Новые дропы, коллекции и предложения — прямо на почту.';
+
+  @override
+  String get launchNewsletterField => 'Email';
+
+  @override
+  String get launchNewsletterSubscribe => 'Подписаться';
+
+  @override
+  String get launchNewsletterDone => 'Вы подписаны. Спасибо!';
+
+  @override
+  String get launchNewsletterAlready => 'Этот email уже подписан.';
+
+  @override
+  String get launchFollow => 'Следите за HOO';
+
+  @override
+  String launchOpenLink(String name) {
+    return 'Открыть $name';
+  }
+
+  @override
+  String get launchCannotOpenLink => 'Не удалось открыть ссылку.';
+
+  @override
+  String get launchContactEmail => 'Email';
+
+  @override
+  String get launchContactPhone => 'Телефон';
+
+  @override
+  String get launchStaffSignIn => 'Вход для сотрудников';
+
+  @override
+  String get launchStaffNoAccess => 'У этого аккаунта нет доступа сотрудника.';
+
+  @override
+  String get launchStoreOpenTitle => 'Магазин открыт';
+
+  @override
+  String get launchEnterStore => 'Перейти в магазин';
+
+  @override
+  String launchRetryIn(String time) {
+    return 'Повторите через $time';
+  }
+
+  @override
+  String get launchLanguage => 'Язык';
+
+  @override
+  String get launchOnboardingLanguageTitle => 'Выберите язык';
+
+  @override
+  String get launchOnboardingLanguageBody =>
+      'Его можно сменить в любой момент в Настройках.';
+
+  @override
+  String get launchOnboardingSkip => 'Пропустить';
+
+  @override
+  String get launchOnboardingStart => 'Начать';
+
+  @override
+  String get launchOnboardingSlide1Eyebrow => 'Из Баку';
+
+  @override
+  String get launchOnboardingSlide1Title => 'Спокойно. Уверенно. HOO.';
+
+  @override
+  String get launchOnboardingSlide1Body =>
+      'Худи, футболки и свитшоты — премиальные ткани, минимальный дизайн, сшито в Баку.';
+
+  @override
+  String get launchOnboardingSlide2Eyebrow => 'Studio';
+
+  @override
+  String get launchOnboardingSlide2Title => 'Создайте свой дизайн';
+
+  @override
+  String get launchOnboardingSlide2Body =>
+      'Выберите вещь и цвет, добавьте текст и изображения, смотрите в 3D — цена сразу.';
+
+  @override
+  String get launchOnboardingSlide3Eyebrow => 'Доставка';
+
+  @override
+  String get launchOnboardingSlide3Title => 'Быстрая доставка по Баку';
+
+  @override
+  String get launchOnboardingSlide3Body =>
+      'Курьер в выбранный вами интервал. Следите за заказом на каждом шаге.';
+
+  @override
+  String get searchHint => 'Поиск: худи, футболки, дизайны…';
+
+  @override
+  String get searchClearA11y => 'Очистить поиск';
+
+  @override
+  String get searchRecentTitle => 'Недавние запросы';
+
+  @override
+  String get searchBestsellersTitle => 'Бестселлеры';
+
+  @override
+  String searchFor(String query) {
+    return 'Искать «$query»';
+  }
+
+  @override
+  String searchNoResultsTitle(String query) {
+    return 'Ничего не найдено по «$query»';
+  }
+
+  @override
+  String get searchNoResultsMessage =>
+      'Проверьте написание или попробуйте короче.';
+
+  @override
+  String get searchMayLikeTitle => 'Вам может понравиться';
+
+  @override
+  String searchResultsCount(int count, String query) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count результата',
+      many: '$count результатов',
+      few: '$count результата',
+      one: '1 результат',
+    );
+    return '$_temp0 по «$query»';
+  }
+
+  @override
+  String searchFillA11y(String text) {
+    return 'Подставить «$text» в поиск';
+  }
+
+  @override
+  String get searchDesignYourOwnTitle => 'Создайте свой дизайн';
+
+  @override
+  String get searchDesignYourOwnBody =>
+      'Выберите модель в Студии и добавьте текст и рисунок.';
 }

@@ -1181,6 +1181,624 @@ abstract class AppLocalizations {
   /// In az, this message translates to:
   /// **'İşıqlı / Qaranlıq'**
   String get dsLightDark;
+
+  /// No description provided for @cartTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbət'**
+  String get cartTitle;
+
+  /// No description provided for @cartEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətiniz boşdur'**
+  String get cartEmptyTitle;
+
+  /// No description provided for @cartEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Bəyəndiyiniz məhsulları əlavə edin və ya Studio-da öz dizaynınızı yaradın.'**
+  String get cartEmptyMessage;
+
+  /// No description provided for @cartEmptyCta.
+  ///
+  /// In az, this message translates to:
+  /// **'Alış-verişə başla'**
+  String get cartEmptyCta;
+
+  /// No description provided for @cartBestsellersTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bestsellerlər'**
+  String get cartBestsellersTitle;
+
+  /// No description provided for @cartCompleteTheLookTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Obrazı tamamla'**
+  String get cartCompleteTheLookTitle;
+
+  /// Pulsuz çatdırılmaya qalan məbləğ (serverdən, formatlanmış pul)
+  ///
+  /// In az, this message translates to:
+  /// **'Pulsuz çatdırılma üçün daha {amount} əlavə edin'**
+  String cartFreeDeliveryRemaining(String amount);
+
+  /// No description provided for @cartFreeDeliveryQualified.
+  ///
+  /// In az, this message translates to:
+  /// **'Afərin! Çatdırılma pulsuzdur'**
+  String get cartFreeDeliveryQualified;
+
+  /// No description provided for @cartPromoTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Promo kod'**
+  String get cartPromoTitle;
+
+  /// No description provided for @cartPromoHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Kodu daxil edin'**
+  String get cartPromoHint;
+
+  /// Tətbiq olunmuş promo kod
+  ///
+  /// In az, this message translates to:
+  /// **'{code} kodu tətbiq olundu'**
+  String cartPromoApplied(String code);
+
+  /// No description provided for @cartPromoRemoveA11y.
+  ///
+  /// In az, this message translates to:
+  /// **'Promo kodu sil'**
+  String get cartPromoRemoveA11y;
+
+  /// No description provided for @cartGiftTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu hədiyyədir'**
+  String get cartGiftTitle;
+
+  /// No description provided for @cartGiftSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Qablaşdırma, kart və mesajı sifariş zamanı seçəcəksiniz'**
+  String get cartGiftSubtitle;
+
+  /// No description provided for @cartSummaryTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Xülasə'**
+  String get cartSummaryTitle;
+
+  /// No description provided for @cartDeliveryAtCheckout.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş zamanı hesablanır'**
+  String get cartDeliveryAtCheckout;
+
+  /// No description provided for @cartCheckout.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişi rəsmiləşdir'**
+  String get cartCheckout;
+
+  /// Silinmiş məhsulun adı
+  ///
+  /// In az, this message translates to:
+  /// **'{name} səbətdən silindi'**
+  String cartRemoved(String name);
+
+  /// No description provided for @cartUndo.
+  ///
+  /// In az, this message translates to:
+  /// **'Geri qaytar'**
+  String get cartUndo;
+
+  /// Silinəcək məhsulun adı (ekran oxuyucu üçün)
+  ///
+  /// In az, this message translates to:
+  /// **'{name} məhsulunu sil'**
+  String cartRemoveA11y(String name);
+
+  /// No description provided for @cartCustomDesign.
+  ///
+  /// In az, this message translates to:
+  /// **'Fərdi dizayn'**
+  String get cartCustomDesign;
+
+  /// Studio sifarişinin istehsal müddəti (gün)
+  ///
+  /// In az, this message translates to:
+  /// **'{days} gün ərzində hazırlanır'**
+  String cartLeadTime(int days);
+
+  /// Anbarda qalan say
+  ///
+  /// In az, this message translates to:
+  /// **'Cəmi {count} ədəd qalıb'**
+  String cartStockLeft(int count);
+
+  /// Ölçü etiketi (XS, M, 3XL…)
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü {size}'**
+  String cartSize(String size);
+
+  /// Say × vahid qiymət (hər ikisi serverdən)
+  ///
+  /// In az, this message translates to:
+  /// **'{quantity} × {price}'**
+  String cartUnitPrice(int quantity, String price);
+
+  /// No description provided for @cartFixErrors.
+  ///
+  /// In az, this message translates to:
+  /// **'Bəzi məhsullar diqqət tələb edir — sifarişdən əvvəl onları düzəldin və ya silin.'**
+  String get cartFixErrors;
+
+  /// No description provided for @cartAddedTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətə əlavə olundu'**
+  String get cartAddedTitle;
+
+  /// No description provided for @cartViewBag.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətə bax'**
+  String get cartViewBag;
+
+  /// No description provided for @cartContinueShopping.
+  ///
+  /// In az, this message translates to:
+  /// **'Alış-verişə davam et'**
+  String get cartContinueShopping;
+
+  /// Səbətdəki ümumi say
+  ///
+  /// In az, this message translates to:
+  /// **'Ara cəm · {count} ədəd'**
+  String cartSubtotalWithCount(int count);
+
+  /// No description provided for @catalogSortNewest.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən yenilər'**
+  String get catalogSortNewest;
+
+  /// No description provided for @catalogSortPriceAsc.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət: aşağıdan yuxarı'**
+  String get catalogSortPriceAsc;
+
+  /// No description provided for @catalogSortPriceDesc.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət: yuxarıdan aşağı'**
+  String get catalogSortPriceDesc;
+
+  /// No description provided for @catalogSortPopular.
+  ///
+  /// In az, this message translates to:
+  /// **'Populyar'**
+  String get catalogSortPopular;
+
+  /// No description provided for @catalogFilterTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Filtr və sıralama'**
+  String get catalogFilterTitle;
+
+  /// No description provided for @catalogFilterSort.
+  ///
+  /// In az, this message translates to:
+  /// **'Sıralama'**
+  String get catalogFilterSort;
+
+  /// No description provided for @catalogFilterCategory.
+  ///
+  /// In az, this message translates to:
+  /// **'Kateqoriya'**
+  String get catalogFilterCategory;
+
+  /// No description provided for @catalogFilterCollection.
+  ///
+  /// In az, this message translates to:
+  /// **'Kolleksiya'**
+  String get catalogFilterCollection;
+
+  /// No description provided for @catalogFilterSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü'**
+  String get catalogFilterSize;
+
+  /// No description provided for @catalogFilterColor.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəng'**
+  String get catalogFilterColor;
+
+  /// No description provided for @catalogFilterFit.
+  ///
+  /// In az, this message translates to:
+  /// **'Kəsim'**
+  String get catalogFilterFit;
+
+  /// No description provided for @catalogFilterPrice.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət'**
+  String get catalogFilterPrice;
+
+  /// No description provided for @catalogFilterAvailability.
+  ///
+  /// In az, this message translates to:
+  /// **'Mövcudluq'**
+  String get catalogFilterAvailability;
+
+  /// No description provided for @catalogFilterInStockOnly.
+  ///
+  /// In az, this message translates to:
+  /// **'Yalnız stokda olanlar'**
+  String get catalogFilterInStockOnly;
+
+  /// No description provided for @launchComingSoonEyebrow.
+  ///
+  /// In az, this message translates to:
+  /// **'Tezliklə'**
+  String get launchComingSoonEyebrow;
+
+  /// No description provided for @launchComingSoonOpensOn.
+  ///
+  /// In az, this message translates to:
+  /// **'{date} açılır'**
+  String launchComingSoonOpensOn(String date);
+
+  /// No description provided for @launchComingSoonFallbackTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni HOO yoldadır'**
+  String get launchComingSoonFallbackTitle;
+
+  /// No description provided for @launchComingSoonFallbackSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bakıda tikilən premium streetwear. Açılışı ilk siz bilin.'**
+  String get launchComingSoonFallbackSubtitle;
+
+  /// No description provided for @launchCountdownDays.
+  ///
+  /// In az, this message translates to:
+  /// **'gün'**
+  String get launchCountdownDays;
+
+  /// No description provided for @launchCountdownHours.
+  ///
+  /// In az, this message translates to:
+  /// **'saat'**
+  String get launchCountdownHours;
+
+  /// No description provided for @launchCountdownMinutes.
+  ///
+  /// In az, this message translates to:
+  /// **'dəq'**
+  String get launchCountdownMinutes;
+
+  /// No description provided for @launchCountdownSeconds.
+  ///
+  /// In az, this message translates to:
+  /// **'san'**
+  String get launchCountdownSeconds;
+
+  /// No description provided for @launchCountdownA11y.
+  ///
+  /// In az, this message translates to:
+  /// **'Açılışa {days} gün, {hours} saat, {minutes} dəqiqə qalıb'**
+  String launchCountdownA11y(int days, int hours, int minutes);
+
+  /// No description provided for @launchWaitlistTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Gözləmə siyahısına qoşul'**
+  String get launchWaitlistTitle;
+
+  /// No description provided for @launchWaitlistBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Açılış günü ilk siz xəbər tutun və erkən giriş əldə edin.'**
+  String get launchWaitlistBody;
+
+  /// No description provided for @launchWaitlistField.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt və ya telefon'**
+  String get launchWaitlistField;
+
+  /// No description provided for @launchWaitlistJoin.
+  ///
+  /// In az, this message translates to:
+  /// **'Qoşul'**
+  String get launchWaitlistJoin;
+
+  /// No description provided for @launchWaitlistJoined.
+  ///
+  /// In az, this message translates to:
+  /// **'Siz {total} nəfər arasında #{position} sıradasınız'**
+  String launchWaitlistJoined(int position, int total);
+
+  /// No description provided for @launchWaitlistAlready.
+  ///
+  /// In az, this message translates to:
+  /// **'Siz artıq siyahıdasınız: {total} nəfər arasında #{position}'**
+  String launchWaitlistAlready(int position, int total);
+
+  /// No description provided for @launchWaitlistCount.
+  ///
+  /// In az, this message translates to:
+  /// **'{count, plural, =1{1 nəfər artıq gözləyir} other{{count} nəfər artıq gözləyir}}'**
+  String launchWaitlistCount(int count);
+
+  /// No description provided for @launchWaitlistToday.
+  ///
+  /// In az, this message translates to:
+  /// **'bu gün +{count}'**
+  String launchWaitlistToday(int count);
+
+  /// No description provided for @launchNewsletterTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bülleten'**
+  String get launchNewsletterTitle;
+
+  /// No description provided for @launchNewsletterBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni droplar, kolleksiyalar və təkliflər — birbaşa e-poçtunuza.'**
+  String get launchNewsletterBody;
+
+  /// No description provided for @launchNewsletterField.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt'**
+  String get launchNewsletterField;
+
+  /// No description provided for @launchNewsletterSubscribe.
+  ///
+  /// In az, this message translates to:
+  /// **'Abunə ol'**
+  String get launchNewsletterSubscribe;
+
+  /// No description provided for @launchNewsletterDone.
+  ///
+  /// In az, this message translates to:
+  /// **'Abunə oldunuz. Təşəkkürlər!'**
+  String get launchNewsletterDone;
+
+  /// No description provided for @launchNewsletterAlready.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu e-poçt artıq abunədir.'**
+  String get launchNewsletterAlready;
+
+  /// No description provided for @launchFollow.
+  ///
+  /// In az, this message translates to:
+  /// **'Bizi izləyin'**
+  String get launchFollow;
+
+  /// No description provided for @launchOpenLink.
+  ///
+  /// In az, this message translates to:
+  /// **'{name} açın'**
+  String launchOpenLink(String name);
+
+  /// No description provided for @launchCannotOpenLink.
+  ///
+  /// In az, this message translates to:
+  /// **'Linki açmaq mümkün olmadı.'**
+  String get launchCannotOpenLink;
+
+  /// No description provided for @launchContactEmail.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt'**
+  String get launchContactEmail;
+
+  /// No description provided for @launchContactPhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Telefon'**
+  String get launchContactPhone;
+
+  /// No description provided for @launchStaffSignIn.
+  ///
+  /// In az, this message translates to:
+  /// **'Əməkdaş girişi'**
+  String get launchStaffSignIn;
+
+  /// No description provided for @launchStaffNoAccess.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu hesabın əməkdaş girişi yoxdur.'**
+  String get launchStaffNoAccess;
+
+  /// No description provided for @launchStoreOpenTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Mağaza açıldı'**
+  String get launchStoreOpenTitle;
+
+  /// No description provided for @launchEnterStore.
+  ///
+  /// In az, this message translates to:
+  /// **'Mağazaya keç'**
+  String get launchEnterStore;
+
+  /// No description provided for @launchRetryIn.
+  ///
+  /// In az, this message translates to:
+  /// **'{time} sonra yenidən cəhd edin'**
+  String launchRetryIn(String time);
+
+  /// No description provided for @launchLanguage.
+  ///
+  /// In az, this message translates to:
+  /// **'Dil'**
+  String get launchLanguage;
+
+  /// No description provided for @launchOnboardingLanguageTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Dilinizi seçin'**
+  String get launchOnboardingLanguageTitle;
+
+  /// No description provided for @launchOnboardingLanguageBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Dili istənilən vaxt Parametrlərdə dəyişə bilərsiniz.'**
+  String get launchOnboardingLanguageBody;
+
+  /// No description provided for @launchOnboardingSkip.
+  ///
+  /// In az, this message translates to:
+  /// **'Keç'**
+  String get launchOnboardingSkip;
+
+  /// No description provided for @launchOnboardingStart.
+  ///
+  /// In az, this message translates to:
+  /// **'Başla'**
+  String get launchOnboardingStart;
+
+  /// No description provided for @launchOnboardingSlide1Eyebrow.
+  ///
+  /// In az, this message translates to:
+  /// **'Bakıdan'**
+  String get launchOnboardingSlide1Eyebrow;
+
+  /// No description provided for @launchOnboardingSlide1Title.
+  ///
+  /// In az, this message translates to:
+  /// **'Sakit. Əmin. HOO.'**
+  String get launchOnboardingSlide1Title;
+
+  /// No description provided for @launchOnboardingSlide1Body.
+  ///
+  /// In az, this message translates to:
+  /// **'Hudilər, futbolkalar və sviterlər — premium parçalar, minimal dizayn, Bakıda tikilir.'**
+  String get launchOnboardingSlide1Body;
+
+  /// No description provided for @launchOnboardingSlide2Eyebrow.
+  ///
+  /// In az, this message translates to:
+  /// **'Studio'**
+  String get launchOnboardingSlide2Eyebrow;
+
+  /// No description provided for @launchOnboardingSlide2Title.
+  ///
+  /// In az, this message translates to:
+  /// **'Öz dizaynını yarat'**
+  String get launchOnboardingSlide2Title;
+
+  /// No description provided for @launchOnboardingSlide2Body.
+  ///
+  /// In az, this message translates to:
+  /// **'Geyimi və rəngi seç, mətn və şəkil əlavə et, 3D-də bax — qiymət dərhal hesablanır.'**
+  String get launchOnboardingSlide2Body;
+
+  /// No description provided for @launchOnboardingSlide3Eyebrow.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma'**
+  String get launchOnboardingSlide3Eyebrow;
+
+  /// No description provided for @launchOnboardingSlide3Title.
+  ///
+  /// In az, this message translates to:
+  /// **'Bakıda sürətli çatdırılma'**
+  String get launchOnboardingSlide3Title;
+
+  /// No description provided for @launchOnboardingSlide3Body.
+  ///
+  /// In az, this message translates to:
+  /// **'Kuryer seçdiyiniz vaxt aralığında gəlir. Sifarişinizi addım-addım izləyin.'**
+  String get launchOnboardingSlide3Body;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Axtar: hudi, tişört, dizayn…'**
+  String get searchHint;
+
+  /// No description provided for @searchClearA11y.
+  ///
+  /// In az, this message translates to:
+  /// **'Axtarışı təmizlə'**
+  String get searchClearA11y;
+
+  /// No description provided for @searchRecentTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Son axtarışlar'**
+  String get searchRecentTitle;
+
+  /// No description provided for @searchBestsellersTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən çox satılanlar'**
+  String get searchBestsellersTitle;
+
+  /// No description provided for @searchFor.
+  ///
+  /// In az, this message translates to:
+  /// **'“{query}” üçün axtar'**
+  String searchFor(String query);
+
+  /// No description provided for @searchNoResultsTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'“{query}” üçün nəticə yoxdur'**
+  String searchNoResultsTitle(String query);
+
+  /// No description provided for @searchNoResultsMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Yazılışı yoxlayın və ya daha qısa söz yazın.'**
+  String get searchNoResultsMessage;
+
+  /// No description provided for @searchMayLikeTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bəyənə bilərsiniz'**
+  String get searchMayLikeTitle;
+
+  /// No description provided for @searchResultsCount.
+  ///
+  /// In az, this message translates to:
+  /// **'“{query}” üçün {count, plural, =1{1 nəticə} other{{count} nəticə}}'**
+  String searchResultsCount(int count, String query);
+
+  /// No description provided for @searchFillA11y.
+  ///
+  /// In az, this message translates to:
+  /// **'“{text}” axtarış sahəsinə yaz'**
+  String searchFillA11y(String text);
+
+  /// No description provided for @searchDesignYourOwnTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Özünüz dizayn edin'**
+  String get searchDesignYourOwnTitle;
+
+  /// No description provided for @searchDesignYourOwnBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Studio-da modeli seçin, mətn və şəkil əlavə edin.'**
+  String get searchDesignYourOwnBody;
 }
 
 class _AppLocalizationsDelegate

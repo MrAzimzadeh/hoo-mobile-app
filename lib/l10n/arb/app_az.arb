@@ -255,5 +255,310 @@
   "stockStateMadeToOrder": "Sifarişlə hazırlanır",
   "stockStateUnavailable": "Mövcud deyil",
   "dsTitle": "Dizayn sistemi",
-  "dsLightDark": "İşıqlı / Qaranlıq"
+  "dsLightDark": "İşıqlı / Qaranlıq",
+  "cartTitle": "Səbət",
+  "cartEmptyTitle": "Səbətiniz boşdur",
+  "cartEmptyMessage": "Bəyəndiyiniz məhsulları əlavə edin və ya Studio-da öz dizaynınızı yaradın.",
+  "cartEmptyCta": "Alış-verişə başla",
+  "cartBestsellersTitle": "Bestsellerlər",
+  "cartCompleteTheLookTitle": "Obrazı tamamla",
+  "cartFreeDeliveryRemaining": "Pulsuz çatdırılma üçün daha {amount} əlavə edin",
+  "@cartFreeDeliveryRemaining": {
+    "description": "Pulsuz çatdırılmaya qalan məbləğ (serverdən, formatlanmış pul)",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "12,50 ₼"
+      }
+    }
+  },
+  "cartFreeDeliveryQualified": "Afərin! Çatdırılma pulsuzdur",
+  "cartPromoTitle": "Promo kod",
+  "cartPromoHint": "Kodu daxil edin",
+  "cartPromoApplied": "{code} kodu tətbiq olundu",
+  "@cartPromoApplied": {
+    "description": "Tətbiq olunmuş promo kod",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "HOO10"
+      }
+    }
+  },
+  "cartPromoRemoveA11y": "Promo kodu sil",
+  "cartGiftTitle": "Bu hədiyyədir",
+  "cartGiftSubtitle": "Qablaşdırma, kart və mesajı sifariş zamanı seçəcəksiniz",
+  "cartSummaryTitle": "Xülasə",
+  "cartDeliveryAtCheckout": "Sifariş zamanı hesablanır",
+  "cartCheckout": "Sifarişi rəsmiləşdir",
+  "cartRemoved": "{name} səbətdən silindi",
+  "@cartRemoved": {
+    "description": "Silinmiş məhsulun adı",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Oversized hoodie"
+      }
+    }
+  },
+  "cartUndo": "Geri qaytar",
+  "cartRemoveA11y": "{name} məhsulunu sil",
+  "@cartRemoveA11y": {
+    "description": "Silinəcək məhsulun adı (ekran oxuyucu üçün)",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Oversized hoodie"
+      }
+    }
+  },
+  "cartCustomDesign": "Fərdi dizayn",
+  "cartLeadTime": "{days} gün ərzində hazırlanır",
+  "@cartLeadTime": {
+    "description": "Studio sifarişinin istehsal müddəti (gün)",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "cartStockLeft": "Cəmi {count} ədəd qalıb",
+  "@cartStockLeft": {
+    "description": "Anbarda qalan say",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "cartSize": "Ölçü {size}",
+  "@cartSize": {
+    "description": "Ölçü etiketi (XS, M, 3XL…)",
+    "placeholders": {
+      "size": {
+        "type": "String",
+        "example": "M"
+      }
+    }
+  },
+  "cartUnitPrice": "{quantity} × {price}",
+  "@cartUnitPrice": {
+    "description": "Say × vahid qiymət (hər ikisi serverdən)",
+    "placeholders": {
+      "quantity": {
+        "type": "int",
+        "example": "2"
+      },
+      "price": {
+        "type": "String",
+        "example": "79,00 ₼"
+      }
+    }
+  },
+  "cartFixErrors": "Bəzi məhsullar diqqət tələb edir — sifarişdən əvvəl onları düzəldin və ya silin.",
+  "cartAddedTitle": "Səbətə əlavə olundu",
+  "cartViewBag": "Səbətə bax",
+  "cartContinueShopping": "Alış-verişə davam et",
+  "cartSubtotalWithCount": "Ara cəm · {count} ədəd",
+  "@cartSubtotalWithCount": {
+    "description": "Səbətdəki ümumi say",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "catalogSortNewest": "Ən yenilər",
+  "catalogSortPriceAsc": "Qiymət: aşağıdan yuxarı",
+  "catalogSortPriceDesc": "Qiymət: yuxarıdan aşağı",
+  "catalogSortPopular": "Populyar",
+  "catalogFilterTitle": "Filtr və sıralama",
+  "catalogFilterSort": "Sıralama",
+  "catalogFilterCategory": "Kateqoriya",
+  "catalogFilterCollection": "Kolleksiya",
+  "catalogFilterSize": "Ölçü",
+  "catalogFilterColor": "Rəng",
+  "catalogFilterFit": "Kəsim",
+  "catalogFilterPrice": "Qiymət",
+  "catalogFilterAvailability": "Mövcudluq",
+  "catalogFilterInStockOnly": "Yalnız stokda olanlar",
+  "launchComingSoonEyebrow": "Tezliklə",
+  "launchComingSoonOpensOn": "{date} açılır",
+  "@launchComingSoonOpensOn": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "description": "Açılış tarixi, lokal formatda (məs. 12 noy 2026)"
+      }
+    }
+  },
+  "launchComingSoonFallbackTitle": "Yeni HOO yoldadır",
+  "launchComingSoonFallbackSubtitle": "Bakıda tikilən premium streetwear. Açılışı ilk siz bilin.",
+  "launchCountdownDays": "gün",
+  "launchCountdownHours": "saat",
+  "launchCountdownMinutes": "dəq",
+  "launchCountdownSeconds": "san",
+  "launchCountdownA11y": "Açılışa {days} gün, {hours} saat, {minutes} dəqiqə qalıb",
+  "@launchCountdownA11y": {
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Gün sayı"
+      },
+      "hours": {
+        "type": "int",
+        "description": "Saat sayı"
+      },
+      "minutes": {
+        "type": "int",
+        "description": "Dəqiqə sayı"
+      }
+    }
+  },
+  "launchWaitlistTitle": "Gözləmə siyahısına qoşul",
+  "launchWaitlistBody": "Açılış günü ilk siz xəbər tutun və erkən giriş əldə edin.",
+  "launchWaitlistField": "E-poçt və ya telefon",
+  "launchWaitlistJoin": "Qoşul",
+  "launchWaitlistJoined": "Siz {total} nəfər arasında #{position} sıradasınız",
+  "@launchWaitlistJoined": {
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "description": "İstifadəçinin siyahıdakı sırası"
+      },
+      "total": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say"
+      }
+    }
+  },
+  "launchWaitlistAlready": "Siz artıq siyahıdasınız: {total} nəfər arasında #{position}",
+  "@launchWaitlistAlready": {
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "description": "İstifadəçinin siyahıdakı sırası"
+      },
+      "total": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say"
+      }
+    }
+  },
+  "launchWaitlistCount": "{count, plural, =1{1 nəfər artıq gözləyir} other{{count} nəfər artıq gözləyir}}",
+  "@launchWaitlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "launchWaitlistToday": "bu gün +{count}",
+  "@launchWaitlistToday": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Bu gün qoşulanların sayı"
+      }
+    }
+  },
+  "launchNewsletterTitle": "Bülleten",
+  "launchNewsletterBody": "Yeni droplar, kolleksiyalar və təkliflər — birbaşa e-poçtunuza.",
+  "launchNewsletterField": "E-poçt",
+  "launchNewsletterSubscribe": "Abunə ol",
+  "launchNewsletterDone": "Abunə oldunuz. Təşəkkürlər!",
+  "launchNewsletterAlready": "Bu e-poçt artıq abunədir.",
+  "launchFollow": "Bizi izləyin",
+  "launchOpenLink": "{name} açın",
+  "@launchOpenLink": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Sosial şəbəkənin və ya əlaqənin adı (Instagram, e-poçt…)"
+      }
+    }
+  },
+  "launchCannotOpenLink": "Linki açmaq mümkün olmadı.",
+  "launchContactEmail": "E-poçt",
+  "launchContactPhone": "Telefon",
+  "launchStaffSignIn": "Əməkdaş girişi",
+  "launchStaffNoAccess": "Bu hesabın əməkdaş girişi yoxdur.",
+  "launchStoreOpenTitle": "Mağaza açıldı",
+  "launchEnterStore": "Mağazaya keç",
+  "launchRetryIn": "{time} sonra yenidən cəhd edin",
+  "@launchRetryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "description": "Geri sayım, mm:ss formatında"
+      }
+    }
+  },
+  "launchLanguage": "Dil",
+  "launchOnboardingLanguageTitle": "Dilinizi seçin",
+  "launchOnboardingLanguageBody": "Dili istənilən vaxt Parametrlərdə dəyişə bilərsiniz.",
+  "launchOnboardingSkip": "Keç",
+  "launchOnboardingStart": "Başla",
+  "launchOnboardingSlide1Eyebrow": "Bakıdan",
+  "launchOnboardingSlide1Title": "Sakit. Əmin. HOO.",
+  "launchOnboardingSlide1Body": "Hudilər, futbolkalar və sviterlər — premium parçalar, minimal dizayn, Bakıda tikilir.",
+  "launchOnboardingSlide2Eyebrow": "Studio",
+  "launchOnboardingSlide2Title": "Öz dizaynını yarat",
+  "launchOnboardingSlide2Body": "Geyimi və rəngi seç, mətn və şəkil əlavə et, 3D-də bax — qiymət dərhal hesablanır.",
+  "launchOnboardingSlide3Eyebrow": "Çatdırılma",
+  "launchOnboardingSlide3Title": "Bakıda sürətli çatdırılma",
+  "launchOnboardingSlide3Body": "Kuryer seçdiyiniz vaxt aralığında gəlir. Sifarişinizi addım-addım izləyin.",
+  "searchHint": "Axtar: hudi, tişört, dizayn…",
+  "searchClearA11y": "Axtarışı təmizlə",
+  "searchRecentTitle": "Son axtarışlar",
+  "searchBestsellersTitle": "Ən çox satılanlar",
+  "searchFor": "“{query}” üçün axtar",
+  "@searchFor": {
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchNoResultsTitle": "“{query}” üçün nəticə yoxdur",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchNoResultsMessage": "Yazılışı yoxlayın və ya daha qısa söz yazın.",
+  "searchMayLikeTitle": "Bəyənə bilərsiniz",
+  "searchResultsCount": "“{query}” üçün {count, plural, =1{1 nəticə} other{{count} nəticə}}",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      },
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchFillA11y": "“{text}” axtarış sahəsinə yaz",
+  "@searchFillA11y": {
+    "placeholders": {
+      "text": {
+        "type": "String",
+        "description": "Placeholder text"
+      }
+    }
+  },
+  "searchDesignYourOwnTitle": "Özünüz dizayn edin",
+  "searchDesignYourOwnBody": "Studio-da modeli seçin, mətn və şəkil əlavə edin."
 }

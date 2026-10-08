@@ -1,0 +1,131 @@
+{
+  "@@locale": "az",
+  "launchComingSoonEyebrow": "Tezliklə",
+  "launchComingSoonOpensOn": "{date} açılır",
+  "@launchComingSoonOpensOn": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "description": "Açılış tarixi, lokal formatda (məs. 12 noy 2026)"
+      }
+    }
+  },
+  "launchComingSoonFallbackTitle": "Yeni HOO yoldadır",
+  "launchComingSoonFallbackSubtitle": "Bakıda tikilən premium streetwear. Açılışı ilk siz bilin.",
+  "launchCountdownDays": "gün",
+  "launchCountdownHours": "saat",
+  "launchCountdownMinutes": "dəq",
+  "launchCountdownSeconds": "san",
+  "launchCountdownA11y": "Açılışa {days} gün, {hours} saat, {minutes} dəqiqə qalıb",
+  "@launchCountdownA11y": {
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Gün sayı"
+      },
+      "hours": {
+        "type": "int",
+        "description": "Saat sayı"
+      },
+      "minutes": {
+        "type": "int",
+        "description": "Dəqiqə sayı"
+      }
+    }
+  },
+  "launchWaitlistTitle": "Gözləmə siyahısına qoşul",
+  "launchWaitlistBody": "Açılış günü ilk siz xəbər tutun və erkən giriş əldə edin.",
+  "launchWaitlistField": "E-poçt və ya telefon",
+  "launchWaitlistJoin": "Qoşul",
+  "launchWaitlistJoined": "Siz {total} nəfər arasında #{position} sıradasınız",
+  "@launchWaitlistJoined": {
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "description": "İstifadəçinin siyahıdakı sırası"
+      },
+      "total": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say"
+      }
+    }
+  },
+  "launchWaitlistAlready": "Siz artıq siyahıdasınız: {total} nəfər arasında #{position}",
+  "@launchWaitlistAlready": {
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "description": "İstifadəçinin siyahıdakı sırası"
+      },
+      "total": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say"
+      }
+    }
+  },
+  "launchWaitlistCount": "{count, plural, =1{1 nəfər artıq gözləyir} other{{count} nəfər artıq gözləyir}}",
+  "@launchWaitlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Siyahıdakı ümumi say",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "launchWaitlistToday": "bu gün +{count}",
+  "@launchWaitlistToday": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Bu gün qoşulanların sayı"
+      }
+    }
+  },
+  "launchNewsletterTitle": "Bülleten",
+  "launchNewsletterBody": "Yeni droplar, kolleksiyalar və təkliflər — birbaşa e-poçtunuza.",
+  "launchNewsletterField": "E-poçt",
+  "launchNewsletterSubscribe": "Abunə ol",
+  "launchNewsletterDone": "Abunə oldunuz. Təşəkkürlər!",
+  "launchNewsletterAlready": "Bu e-poçt artıq abunədir.",
+  "launchFollow": "Bizi izləyin",
+  "launchOpenLink": "{name} açın",
+  "@launchOpenLink": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Sosial şəbəkənin və ya əlaqənin adı (Instagram, e-poçt…)"
+      }
+    }
+  },
+  "launchCannotOpenLink": "Linki açmaq mümkün olmadı.",
+  "launchContactEmail": "E-poçt",
+  "launchContactPhone": "Telefon",
+  "launchStaffSignIn": "Əməkdaş girişi",
+  "launchStaffNoAccess": "Bu hesabın əməkdaş girişi yoxdur.",
+  "launchStoreOpenTitle": "Mağaza açıldı",
+  "launchEnterStore": "Mağazaya keç",
+  "launchRetryIn": "{time} sonra yenidən cəhd edin",
+  "@launchRetryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "description": "Geri sayım, mm:ss formatında"
+      }
+    }
+  },
+  "launchLanguage": "Dil",
+  "launchOnboardingLanguageTitle": "Dilinizi seçin",
+  "launchOnboardingLanguageBody": "Dili istənilən vaxt Parametrlərdə dəyişə bilərsiniz.",
+  "launchOnboardingSkip": "Keç",
+  "launchOnboardingStart": "Başla",
+  "launchOnboardingSlide1Eyebrow": "Bakıdan",
+  "launchOnboardingSlide1Title": "Sakit. Əmin. HOO.",
+  "launchOnboardingSlide1Body": "Hudilər, futbolkalar və sviterlər — premium parçalar, minimal dizayn, Bakıda tikilir.",
+  "launchOnboardingSlide2Eyebrow": "Studio",
+  "launchOnboardingSlide2Title": "Öz dizaynını yarat",
+  "launchOnboardingSlide2Body": "Geyimi və rəngi seç, mətn və şəkil əlavə et, 3D-də bax — qiymət dərhal hesablanır.",
+  "launchOnboardingSlide3Eyebrow": "Çatdırılma",
+  "launchOnboardingSlide3Title": "Bakıda sürətli çatdırılma",
+  "launchOnboardingSlide3Body": "Kuryer seçdiyiniz vaxt aralığında gəlir. Sifarişinizi addım-addım izləyin."
+}

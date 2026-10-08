@@ -571,4 +571,383 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get dsLightDark => 'Açık / Koyu';
+
+  @override
+  String get cartTitle => 'Sepet';
+
+  @override
+  String get cartEmptyTitle => 'Sepetiniz boş';
+
+  @override
+  String get cartEmptyMessage =>
+      'Beğendiğiniz ürünleri ekleyin ya da Studio\'da kendi tasarımınızı oluşturun.';
+
+  @override
+  String get cartEmptyCta => 'Alışverişe başla';
+
+  @override
+  String get cartBestsellersTitle => 'Çok satanlar';
+
+  @override
+  String get cartCompleteTheLookTitle => 'Kombini tamamla';
+
+  @override
+  String cartFreeDeliveryRemaining(String amount) {
+    return 'Ücretsiz teslimat için $amount daha ekleyin';
+  }
+
+  @override
+  String get cartFreeDeliveryQualified => 'Harika! Teslimat ücretsiz';
+
+  @override
+  String get cartPromoTitle => 'Promosyon kodu';
+
+  @override
+  String get cartPromoHint => 'Kodu girin';
+
+  @override
+  String cartPromoApplied(String code) {
+    return '$code kodu uygulandı';
+  }
+
+  @override
+  String get cartPromoRemoveA11y => 'Promosyon kodunu kaldır';
+
+  @override
+  String get cartGiftTitle => 'Bu bir hediye';
+
+  @override
+  String get cartGiftSubtitle =>
+      'Paketleme, kart ve mesajı ödeme sırasında seçeceksiniz';
+
+  @override
+  String get cartSummaryTitle => 'Özet';
+
+  @override
+  String get cartDeliveryAtCheckout => 'Ödeme sırasında hesaplanır';
+
+  @override
+  String get cartCheckout => 'Siparişi tamamla';
+
+  @override
+  String cartRemoved(String name) {
+    return '$name sepetten çıkarıldı';
+  }
+
+  @override
+  String get cartUndo => 'Geri al';
+
+  @override
+  String cartRemoveA11y(String name) {
+    return '$name ürününü kaldır';
+  }
+
+  @override
+  String get cartCustomDesign => 'Özel tasarım';
+
+  @override
+  String cartLeadTime(int days) {
+    return '$days günde hazırlanır';
+  }
+
+  @override
+  String cartStockLeft(int count) {
+    return 'Sadece $count adet kaldı';
+  }
+
+  @override
+  String cartSize(String size) {
+    return 'Beden $size';
+  }
+
+  @override
+  String cartUnitPrice(int quantity, String price) {
+    return '$quantity × $price';
+  }
+
+  @override
+  String get cartFixErrors =>
+      'Bazı ürünler ilgi bekliyor — ödemeden önce düzeltin veya kaldırın.';
+
+  @override
+  String get cartAddedTitle => 'Sepete eklendi';
+
+  @override
+  String get cartViewBag => 'Sepete git';
+
+  @override
+  String get cartContinueShopping => 'Alışverişe devam et';
+
+  @override
+  String cartSubtotalWithCount(int count) {
+    return 'Ara toplam · $count ürün';
+  }
+
+  @override
+  String get catalogSortNewest => 'En yeni';
+
+  @override
+  String get catalogSortPriceAsc => 'Fiyat: artan';
+
+  @override
+  String get catalogSortPriceDesc => 'Fiyat: azalan';
+
+  @override
+  String get catalogSortPopular => 'Popüler';
+
+  @override
+  String get catalogFilterTitle => 'Filtre ve sıralama';
+
+  @override
+  String get catalogFilterSort => 'Sıralama';
+
+  @override
+  String get catalogFilterCategory => 'Kategori';
+
+  @override
+  String get catalogFilterCollection => 'Koleksiyon';
+
+  @override
+  String get catalogFilterSize => 'Beden';
+
+  @override
+  String get catalogFilterColor => 'Renk';
+
+  @override
+  String get catalogFilterFit => 'Kalıp';
+
+  @override
+  String get catalogFilterPrice => 'Fiyat';
+
+  @override
+  String get catalogFilterAvailability => 'Stok durumu';
+
+  @override
+  String get catalogFilterInStockOnly => 'Yalnızca stokta olanlar';
+
+  @override
+  String get launchComingSoonEyebrow => 'Çok yakında';
+
+  @override
+  String launchComingSoonOpensOn(String date) {
+    return '$date tarihinde açılıyor';
+  }
+
+  @override
+  String get launchComingSoonFallbackTitle => 'Yeni HOO yolda';
+
+  @override
+  String get launchComingSoonFallbackSubtitle =>
+      'Bakü\'de üretilen premium streetwear. Açılıştan ilk siz haberdar olun.';
+
+  @override
+  String get launchCountdownDays => 'gün';
+
+  @override
+  String get launchCountdownHours => 'saat';
+
+  @override
+  String get launchCountdownMinutes => 'dk';
+
+  @override
+  String get launchCountdownSeconds => 'sn';
+
+  @override
+  String launchCountdownA11y(int days, int hours, int minutes) {
+    return 'Açılışa $days gün, $hours saat, $minutes dakika kaldı';
+  }
+
+  @override
+  String get launchWaitlistTitle => 'Bekleme listesine katıl';
+
+  @override
+  String get launchWaitlistBody =>
+      'Açılış gününde ilk siz haberdar olun, erken erişim kazanın.';
+
+  @override
+  String get launchWaitlistField => 'E-posta veya telefon';
+
+  @override
+  String get launchWaitlistJoin => 'Katıl';
+
+  @override
+  String launchWaitlistJoined(int position, int total) {
+    return '$total kişi arasında #$position sıradasınız';
+  }
+
+  @override
+  String launchWaitlistAlready(int position, int total) {
+    return 'Zaten listedesiniz: $total kişi arasında #$position';
+  }
+
+  @override
+  String launchWaitlistCount(int count) {
+    final intl.NumberFormat countNumberFormat =
+        intl.NumberFormat.decimalPattern(localeName);
+    final String countString = countNumberFormat.format(count);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$countString kişi şimdiden bekliyor',
+      one: '1 kişi şimdiden bekliyor',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String launchWaitlistToday(int count) {
+    return 'bugün +$count';
+  }
+
+  @override
+  String get launchNewsletterTitle => 'Bülten';
+
+  @override
+  String get launchNewsletterBody =>
+      'Yeni droplar, koleksiyonlar ve fırsatlar — doğrudan e-postanıza.';
+
+  @override
+  String get launchNewsletterField => 'E-posta';
+
+  @override
+  String get launchNewsletterSubscribe => 'Abone ol';
+
+  @override
+  String get launchNewsletterDone => 'Abone oldunuz. Teşekkürler!';
+
+  @override
+  String get launchNewsletterAlready => 'Bu e-posta zaten abone.';
+
+  @override
+  String get launchFollow => 'HOO’yu takip edin';
+
+  @override
+  String launchOpenLink(String name) {
+    return '$name aç';
+  }
+
+  @override
+  String get launchCannotOpenLink => 'Bağlantı açılamadı.';
+
+  @override
+  String get launchContactEmail => 'E-posta';
+
+  @override
+  String get launchContactPhone => 'Telefon';
+
+  @override
+  String get launchStaffSignIn => 'Personel girişi';
+
+  @override
+  String get launchStaffNoAccess => 'Bu hesabın personel erişimi yok.';
+
+  @override
+  String get launchStoreOpenTitle => 'Mağaza açıldı';
+
+  @override
+  String get launchEnterStore => 'Mağazaya gir';
+
+  @override
+  String launchRetryIn(String time) {
+    return '$time sonra tekrar deneyin';
+  }
+
+  @override
+  String get launchLanguage => 'Dil';
+
+  @override
+  String get launchOnboardingLanguageTitle => 'Dilinizi seçin';
+
+  @override
+  String get launchOnboardingLanguageBody =>
+      'Dilediğiniz zaman Ayarlar’dan değiştirebilirsiniz.';
+
+  @override
+  String get launchOnboardingSkip => 'Geç';
+
+  @override
+  String get launchOnboardingStart => 'Başla';
+
+  @override
+  String get launchOnboardingSlide1Eyebrow => 'Bakü’den';
+
+  @override
+  String get launchOnboardingSlide1Title => 'Sakin. Kendinden emin. HOO.';
+
+  @override
+  String get launchOnboardingSlide1Body =>
+      'Hoodie, tişört ve sweatshirtler — premium kumaşlar, minimal tasarım, Bakü’de üretildi.';
+
+  @override
+  String get launchOnboardingSlide2Eyebrow => 'Studio';
+
+  @override
+  String get launchOnboardingSlide2Title => 'Kendi tasarımını yap';
+
+  @override
+  String get launchOnboardingSlide2Body =>
+      'Ürünü ve rengi seç, metin ve görsel ekle, 3D gör — fiyat anında hesaplanır.';
+
+  @override
+  String get launchOnboardingSlide3Eyebrow => 'Teslimat';
+
+  @override
+  String get launchOnboardingSlide3Title => 'Bakü’de hızlı teslimat';
+
+  @override
+  String get launchOnboardingSlide3Body =>
+      'Kurye seçtiğiniz saat aralığında gelir. Siparişinizi adım adım takip edin.';
+
+  @override
+  String get searchHint => 'Ara: hoodie, tişört, tasarım…';
+
+  @override
+  String get searchClearA11y => 'Aramayı temizle';
+
+  @override
+  String get searchRecentTitle => 'Son aramalar';
+
+  @override
+  String get searchBestsellersTitle => 'Çok satanlar';
+
+  @override
+  String searchFor(String query) {
+    return '“$query” için ara';
+  }
+
+  @override
+  String searchNoResultsTitle(String query) {
+    return '“$query” için sonuç yok';
+  }
+
+  @override
+  String get searchNoResultsMessage =>
+      'Yazımı kontrol edin veya daha kısa bir sözcük deneyin.';
+
+  @override
+  String get searchMayLikeTitle => 'Hoşunuza gidebilir';
+
+  @override
+  String searchResultsCount(int count, String query) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count sonuç',
+      one: '1 sonuç',
+    );
+    return '“$query” için $_temp0';
+  }
+
+  @override
+  String searchFillA11y(String text) {
+    return 'Aramaya “$text” yaz';
+  }
+
+  @override
+  String get searchDesignYourOwnTitle => 'Kendi tasarımını yap';
+
+  @override
+  String get searchDesignYourOwnBody =>
+      'Studio\'da modeli seç, yazı ve görsel ekle.';
 }
