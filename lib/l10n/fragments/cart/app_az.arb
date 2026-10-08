@@ -1,0 +1,118 @@
+{
+  "@@locale": "az",
+  "cartTitle": "Səbət",
+  "cartEmptyTitle": "Səbətiniz boşdur",
+  "cartEmptyMessage": "Bəyəndiyiniz məhsulları əlavə edin və ya Studio-da öz dizaynınızı yaradın.",
+  "cartEmptyCta": "Alış-verişə başla",
+  "cartBestsellersTitle": "Bestsellerlər",
+  "cartCompleteTheLookTitle": "Obrazı tamamla",
+  "cartFreeDeliveryRemaining": "Pulsuz çatdırılma üçün daha {amount} əlavə edin",
+  "@cartFreeDeliveryRemaining": {
+    "description": "Pulsuz çatdırılmaya qalan məbləğ (serverdən, formatlanmış pul)",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "12,50 ₼"
+      }
+    }
+  },
+  "cartFreeDeliveryQualified": "Afərin! Çatdırılma pulsuzdur",
+  "cartPromoTitle": "Promo kod",
+  "cartPromoHint": "Kodu daxil edin",
+  "cartPromoApplied": "{code} kodu tətbiq olundu",
+  "@cartPromoApplied": {
+    "description": "Tətbiq olunmuş promo kod",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "HOO10"
+      }
+    }
+  },
+  "cartPromoRemoveA11y": "Promo kodu sil",
+  "cartGiftTitle": "Bu hədiyyədir",
+  "cartGiftSubtitle": "Qablaşdırma, kart və mesajı sifariş zamanı seçəcəksiniz",
+  "cartSummaryTitle": "Xülasə",
+  "cartDeliveryAtCheckout": "Sifariş zamanı hesablanır",
+  "cartCheckout": "Sifarişi rəsmiləşdir",
+  "cartRemoved": "{name} səbətdən silindi",
+  "@cartRemoved": {
+    "description": "Silinmiş məhsulun adı",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Oversized hoodie"
+      }
+    }
+  },
+  "cartUndo": "Geri qaytar",
+  "cartRemoveA11y": "{name} məhsulunu sil",
+  "@cartRemoveA11y": {
+    "description": "Silinəcək məhsulun adı (ekran oxuyucu üçün)",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Oversized hoodie"
+      }
+    }
+  },
+  "cartCustomDesign": "Fərdi dizayn",
+  "cartLeadTime": "{days} gün ərzində hazırlanır",
+  "@cartLeadTime": {
+    "description": "Studio sifarişinin istehsal müddəti (gün)",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "cartStockLeft": "Cəmi {count} ədəd qalıb",
+  "@cartStockLeft": {
+    "description": "Anbarda qalan say",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "cartSize": "Ölçü {size}",
+  "@cartSize": {
+    "description": "Ölçü etiketi (XS, M, 3XL…)",
+    "placeholders": {
+      "size": {
+        "type": "String",
+        "example": "M"
+      }
+    }
+  },
+  "cartUnitPrice": "{quantity} × {price}",
+  "@cartUnitPrice": {
+    "description": "Say × vahid qiymət (hər ikisi serverdən)",
+    "placeholders": {
+      "quantity": {
+        "type": "int",
+        "example": "2"
+      },
+      "price": {
+        "type": "String",
+        "example": "79,00 ₼"
+      }
+    }
+  },
+  "cartFixErrors": "Bəzi məhsullar diqqət tələb edir — sifarişdən əvvəl onları düzəldin və ya silin.",
+  "cartAddedTitle": "Səbətə əlavə olundu",
+  "cartViewBag": "Səbətə bax",
+  "cartContinueShopping": "Alış-verişə davam et",
+  "cartSubtotalWithCount": "Ara cəm · {count} ədəd",
+  "@cartSubtotalWithCount": {
+    "description": "Səbətdəki ümumi say",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  }
+}
