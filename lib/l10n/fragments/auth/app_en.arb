@@ -1,0 +1,75 @@
+{
+  "@@locale": "en",
+  "authWelcomeTitle": "Welcome to HOO",
+  "authWelcomeBody": "Premium streetwear from Baku. Sign in or keep browsing as a guest.",
+  "authWelcomeGuest": "Continue as guest",
+  "authSignInTitle": "Sign in",
+  "authSignInSubtitle": "Use your email or phone number.",
+  "authIdentifierLabel": "Email or phone",
+  "authPasswordLabel": "Password",
+  "authPasswordHint": "At least 8 characters with a digit and a symbol",
+  "authForgotLink": "Forgot password?",
+  "authSignInSubmit": "Sign in",
+  "authSignInWithSms": "Sign in with an SMS code",
+  "authOr": "or",
+  "authContinueWithGoogle": "Continue with Google",
+  "authContinueWithApple": "Continue with Apple",
+  "authSocialFailed": "Sign-in did not complete. Please try again.",
+  "authTermsPromptTitle": "Create your HOO account",
+  "authTermsPromptBody": "There is no HOO account for this identity yet. By continuing you accept the Terms and Privacy Policy.",
+  "authTermsPromptAccept": "Accept and continue",
+  "authNoAccount": "New to HOO?",
+  "authHaveAccount": "Already have an account?",
+  "authCreateAccount": "Create account",
+  "authSignUpTitle": "Create your account",
+  "authSignUpSubtitle": "Track orders, save favorites and keep your designs.",
+  "authFullNameLabel": "Full name",
+  "authEmailLabel": "Email",
+  "authPhoneLabel": "Phone",
+  "authAcceptTerms": "I accept the Terms and Privacy Policy",
+  "authMarketingConsent": "Send me news and offers",
+  "authErrRequired": "This field is required",
+  "authErrInvalidEmail": "Enter a valid email address",
+  "authErrInvalidPhone": "Enter a valid phone number",
+  "authErrInvalidIdentifier": "Enter a valid email or phone",
+  "authErrWeakPassword": "Use 8+ characters with a digit and a symbol",
+  "authErrTerms": "Accept the terms to continue",
+  "authErrInvalidCode": "The code is not valid",
+  "authOtpPhoneTitle": "Sign in with your phone",
+  "authOtpPhoneBody": "We will send a 6-digit code to your number.",
+  "authOtpNewAccount": "No account for this number yet. Add your name and accept the terms.",
+  "authOtpSendSms": "Send code by SMS",
+  "authOtpSendWhatsapp": "Send via WhatsApp",
+  "authOtpCodeTitle": "Enter the code",
+  "authOtpCodeBody": "Sent to {phone}",
+  "@authOtpCodeBody": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "authOtpResendIn": "Resend in {seconds} s",
+  "@authOtpResendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authOtpResendSms": "Resend by SMS",
+  "authOtpResendWhatsapp": "Resend on WhatsApp",
+  "authOtpResent": "Code sent again",
+  "authOtpChangePhone": "Change number",
+  "authForgotTitle": "Reset your password",
+  "authForgotBody": "Enter your email or phone and we will send reset instructions.",
+  "authForgotSubmit": "Send instructions",
+  "authForgotSentEmail": "If an account exists, we emailed you a reset link.",
+  "authForgotSentPhone": "If an account exists, we sent a code to your phone.",
+  "authResetEnterCode": "Enter the code",
+  "authResetTitle": "Set a new password",
+  "authResetCodeLabel": "Code",
+  "authResetNewPassword": "New password",
+  "authResetSubmit": "Update password",
+  "authResetDone": "Password updated. Sign in with your new password."
+}

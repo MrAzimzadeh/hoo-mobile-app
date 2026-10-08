@@ -580,6 +580,192 @@ class AppLocalizationsRu extends AppLocalizations {
   String get dsLightDark => 'Светлая / Тёмная';
 
   @override
+  String get authWelcomeTitle => 'Добро пожаловать в HOO';
+
+  @override
+  String get authWelcomeBody =>
+      'Премиальный стритвир из Баку. Войдите или продолжите как гость.';
+
+  @override
+  String get authWelcomeGuest => 'Продолжить как гость';
+
+  @override
+  String get authSignInTitle => 'Вход';
+
+  @override
+  String get authSignInSubtitle => 'Используйте почту или номер телефона.';
+
+  @override
+  String get authIdentifierLabel => 'Почта или телефон';
+
+  @override
+  String get authPasswordLabel => 'Пароль';
+
+  @override
+  String get authPasswordHint => 'Не менее 8 символов, цифра и спецсимвол';
+
+  @override
+  String get authForgotLink => 'Забыли пароль?';
+
+  @override
+  String get authSignInSubmit => 'Войти';
+
+  @override
+  String get authSignInWithSms => 'Войти по коду из SMS';
+
+  @override
+  String get authOr => 'или';
+
+  @override
+  String get authContinueWithGoogle => 'Продолжить с Google';
+
+  @override
+  String get authContinueWithApple => 'Продолжить с Apple';
+
+  @override
+  String get authSocialFailed => 'Не удалось войти. Попробуйте ещё раз.';
+
+  @override
+  String get authTermsPromptTitle => 'Создайте аккаунт HOO';
+
+  @override
+  String get authTermsPromptBody =>
+      'Аккаунта HOO ещё нет. Продолжая, вы принимаете Условия и Политику конфиденциальности.';
+
+  @override
+  String get authTermsPromptAccept => 'Принять и продолжить';
+
+  @override
+  String get authNoAccount => 'Впервые в HOO?';
+
+  @override
+  String get authHaveAccount => 'Уже есть аккаунт?';
+
+  @override
+  String get authCreateAccount => 'Создать аккаунт';
+
+  @override
+  String get authSignUpTitle => 'Создайте аккаунт';
+
+  @override
+  String get authSignUpSubtitle =>
+      'Следите за заказами, сохраняйте избранное и дизайны.';
+
+  @override
+  String get authFullNameLabel => 'Имя и фамилия';
+
+  @override
+  String get authEmailLabel => 'Почта';
+
+  @override
+  String get authPhoneLabel => 'Телефон';
+
+  @override
+  String get authAcceptTerms =>
+      'Принимаю Условия и Политику конфиденциальности';
+
+  @override
+  String get authMarketingConsent => 'Присылайте мне новости и предложения';
+
+  @override
+  String get authErrRequired => 'Обязательное поле';
+
+  @override
+  String get authErrInvalidEmail => 'Введите корректную почту';
+
+  @override
+  String get authErrInvalidPhone => 'Введите корректный номер';
+
+  @override
+  String get authErrInvalidIdentifier => 'Введите корректную почту или телефон';
+
+  @override
+  String get authErrWeakPassword => 'Минимум 8 символов, цифра и спецсимвол';
+
+  @override
+  String get authErrTerms => 'Примите условия, чтобы продолжить';
+
+  @override
+  String get authErrInvalidCode => 'Неверный код';
+
+  @override
+  String get authOtpPhoneTitle => 'Вход по телефону';
+
+  @override
+  String get authOtpPhoneBody => 'Мы отправим 6-значный код на ваш номер.';
+
+  @override
+  String get authOtpNewAccount =>
+      'Для этого номера нет аккаунта. Укажите имя и примите условия.';
+
+  @override
+  String get authOtpSendSms => 'Отправить код по SMS';
+
+  @override
+  String get authOtpSendWhatsapp => 'Отправить в WhatsApp';
+
+  @override
+  String get authOtpCodeTitle => 'Введите код';
+
+  @override
+  String authOtpCodeBody(String phone) {
+    return 'Отправлено на $phone';
+  }
+
+  @override
+  String authOtpResendIn(int seconds) {
+    return 'Повторно через $seconds с';
+  }
+
+  @override
+  String get authOtpResendSms => 'Отправить SMS';
+
+  @override
+  String get authOtpResendWhatsapp => 'Отправить в WhatsApp';
+
+  @override
+  String get authOtpResent => 'Код отправлен снова';
+
+  @override
+  String get authOtpChangePhone => 'Изменить номер';
+
+  @override
+  String get authForgotTitle => 'Восстановление пароля';
+
+  @override
+  String get authForgotBody =>
+      'Введите почту или телефон, мы отправим инструкцию.';
+
+  @override
+  String get authForgotSubmit => 'Отправить';
+
+  @override
+  String get authForgotSentEmail =>
+      'Если аккаунт существует, мы отправили ссылку на почту.';
+
+  @override
+  String get authForgotSentPhone =>
+      'Если аккаунт существует, мы отправили код на телефон.';
+
+  @override
+  String get authResetEnterCode => 'Ввести код';
+
+  @override
+  String get authResetTitle => 'Новый пароль';
+
+  @override
+  String get authResetCodeLabel => 'Код';
+
+  @override
+  String get authResetNewPassword => 'Новый пароль';
+
+  @override
+  String get authResetSubmit => 'Обновить пароль';
+
+  @override
+  String get authResetDone => 'Пароль обновлён. Войдите с новым паролем.';
+
+  @override
   String get cartTitle => 'Корзина';
 
   @override

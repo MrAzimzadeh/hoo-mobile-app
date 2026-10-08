@@ -580,6 +580,194 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dsLightDark => 'Light / Dark';
 
   @override
+  String get authWelcomeTitle => 'Welcome to HOO';
+
+  @override
+  String get authWelcomeBody =>
+      'Premium streetwear from Baku. Sign in or keep browsing as a guest.';
+
+  @override
+  String get authWelcomeGuest => 'Continue as guest';
+
+  @override
+  String get authSignInTitle => 'Sign in';
+
+  @override
+  String get authSignInSubtitle => 'Use your email or phone number.';
+
+  @override
+  String get authIdentifierLabel => 'Email or phone';
+
+  @override
+  String get authPasswordLabel => 'Password';
+
+  @override
+  String get authPasswordHint =>
+      'At least 8 characters with a digit and a symbol';
+
+  @override
+  String get authForgotLink => 'Forgot password?';
+
+  @override
+  String get authSignInSubmit => 'Sign in';
+
+  @override
+  String get authSignInWithSms => 'Sign in with an SMS code';
+
+  @override
+  String get authOr => 'or';
+
+  @override
+  String get authContinueWithGoogle => 'Continue with Google';
+
+  @override
+  String get authContinueWithApple => 'Continue with Apple';
+
+  @override
+  String get authSocialFailed => 'Sign-in did not complete. Please try again.';
+
+  @override
+  String get authTermsPromptTitle => 'Create your HOO account';
+
+  @override
+  String get authTermsPromptBody =>
+      'There is no HOO account for this identity yet. By continuing you accept the Terms and Privacy Policy.';
+
+  @override
+  String get authTermsPromptAccept => 'Accept and continue';
+
+  @override
+  String get authNoAccount => 'New to HOO?';
+
+  @override
+  String get authHaveAccount => 'Already have an account?';
+
+  @override
+  String get authCreateAccount => 'Create account';
+
+  @override
+  String get authSignUpTitle => 'Create your account';
+
+  @override
+  String get authSignUpSubtitle =>
+      'Track orders, save favorites and keep your designs.';
+
+  @override
+  String get authFullNameLabel => 'Full name';
+
+  @override
+  String get authEmailLabel => 'Email';
+
+  @override
+  String get authPhoneLabel => 'Phone';
+
+  @override
+  String get authAcceptTerms => 'I accept the Terms and Privacy Policy';
+
+  @override
+  String get authMarketingConsent => 'Send me news and offers';
+
+  @override
+  String get authErrRequired => 'This field is required';
+
+  @override
+  String get authErrInvalidEmail => 'Enter a valid email address';
+
+  @override
+  String get authErrInvalidPhone => 'Enter a valid phone number';
+
+  @override
+  String get authErrInvalidIdentifier => 'Enter a valid email or phone';
+
+  @override
+  String get authErrWeakPassword =>
+      'Use 8+ characters with a digit and a symbol';
+
+  @override
+  String get authErrTerms => 'Accept the terms to continue';
+
+  @override
+  String get authErrInvalidCode => 'The code is not valid';
+
+  @override
+  String get authOtpPhoneTitle => 'Sign in with your phone';
+
+  @override
+  String get authOtpPhoneBody => 'We will send a 6-digit code to your number.';
+
+  @override
+  String get authOtpNewAccount =>
+      'No account for this number yet. Add your name and accept the terms.';
+
+  @override
+  String get authOtpSendSms => 'Send code by SMS';
+
+  @override
+  String get authOtpSendWhatsapp => 'Send via WhatsApp';
+
+  @override
+  String get authOtpCodeTitle => 'Enter the code';
+
+  @override
+  String authOtpCodeBody(String phone) {
+    return 'Sent to $phone';
+  }
+
+  @override
+  String authOtpResendIn(int seconds) {
+    return 'Resend in $seconds s';
+  }
+
+  @override
+  String get authOtpResendSms => 'Resend by SMS';
+
+  @override
+  String get authOtpResendWhatsapp => 'Resend on WhatsApp';
+
+  @override
+  String get authOtpResent => 'Code sent again';
+
+  @override
+  String get authOtpChangePhone => 'Change number';
+
+  @override
+  String get authForgotTitle => 'Reset your password';
+
+  @override
+  String get authForgotBody =>
+      'Enter your email or phone and we will send reset instructions.';
+
+  @override
+  String get authForgotSubmit => 'Send instructions';
+
+  @override
+  String get authForgotSentEmail =>
+      'If an account exists, we emailed you a reset link.';
+
+  @override
+  String get authForgotSentPhone =>
+      'If an account exists, we sent a code to your phone.';
+
+  @override
+  String get authResetEnterCode => 'Enter the code';
+
+  @override
+  String get authResetTitle => 'Set a new password';
+
+  @override
+  String get authResetCodeLabel => 'Code';
+
+  @override
+  String get authResetNewPassword => 'New password';
+
+  @override
+  String get authResetSubmit => 'Update password';
+
+  @override
+  String get authResetDone =>
+      'Password updated. Sign in with your new password.';
+
+  @override
   String get cartTitle => 'Bag';
 
   @override

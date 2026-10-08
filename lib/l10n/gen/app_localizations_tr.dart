@@ -573,6 +573,193 @@ class AppLocalizationsTr extends AppLocalizations {
   String get dsLightDark => 'Açık / Koyu';
 
   @override
+  String get authWelcomeTitle => 'HOO\'ya hoş geldin';
+
+  @override
+  String get authWelcomeBody =>
+      'Bakü\'den premium streetwear. Giriş yap veya misafir olarak devam et.';
+
+  @override
+  String get authWelcomeGuest => 'Misafir olarak devam et';
+
+  @override
+  String get authSignInTitle => 'Giriş yap';
+
+  @override
+  String get authSignInSubtitle => 'E-posta veya telefon numaranla giriş yap.';
+
+  @override
+  String get authIdentifierLabel => 'E-posta veya telefon';
+
+  @override
+  String get authPasswordLabel => 'Şifre';
+
+  @override
+  String get authPasswordHint => 'En az 8 karakter, bir rakam ve bir sembol';
+
+  @override
+  String get authForgotLink => 'Şifreni mi unuttun?';
+
+  @override
+  String get authSignInSubmit => 'Giriş yap';
+
+  @override
+  String get authSignInWithSms => 'SMS kodu ile giriş yap';
+
+  @override
+  String get authOr => 'veya';
+
+  @override
+  String get authContinueWithGoogle => 'Google ile devam et';
+
+  @override
+  String get authContinueWithApple => 'Apple ile devam et';
+
+  @override
+  String get authSocialFailed => 'Giriş tamamlanamadı. Tekrar dene.';
+
+  @override
+  String get authTermsPromptTitle => 'HOO hesabı oluştur';
+
+  @override
+  String get authTermsPromptBody =>
+      'Bu kimlik için henüz HOO hesabı yok. Devam ederek Koşullar\'ı ve Gizlilik Politikası\'nı kabul etmiş olursun.';
+
+  @override
+  String get authTermsPromptAccept => 'Kabul et ve devam et';
+
+  @override
+  String get authNoAccount => 'HOO\'da yeni misin?';
+
+  @override
+  String get authHaveAccount => 'Zaten hesabın var mı?';
+
+  @override
+  String get authCreateAccount => 'Hesap oluştur';
+
+  @override
+  String get authSignUpTitle => 'Hesabını oluştur';
+
+  @override
+  String get authSignUpSubtitle =>
+      'Siparişlerini takip et, favorilerini ve tasarımlarını sakla.';
+
+  @override
+  String get authFullNameLabel => 'Ad soyad';
+
+  @override
+  String get authEmailLabel => 'E-posta';
+
+  @override
+  String get authPhoneLabel => 'Telefon';
+
+  @override
+  String get authAcceptTerms =>
+      'Koşulları ve Gizlilik Politikası\'nı kabul ediyorum';
+
+  @override
+  String get authMarketingConsent =>
+      'Yenilik ve fırsatlardan haberdar olmak istiyorum';
+
+  @override
+  String get authErrRequired => 'Bu alan zorunlu';
+
+  @override
+  String get authErrInvalidEmail => 'Geçerli bir e-posta gir';
+
+  @override
+  String get authErrInvalidPhone => 'Geçerli bir telefon numarası gir';
+
+  @override
+  String get authErrInvalidIdentifier => 'Geçerli bir e-posta veya telefon gir';
+
+  @override
+  String get authErrWeakPassword =>
+      'En az 8 karakter, bir rakam ve bir sembol kullan';
+
+  @override
+  String get authErrTerms => 'Devam etmek için koşulları kabul et';
+
+  @override
+  String get authErrInvalidCode => 'Kod geçerli değil';
+
+  @override
+  String get authOtpPhoneTitle => 'Telefonla giriş yap';
+
+  @override
+  String get authOtpPhoneBody => 'Numarana 6 haneli bir kod göndereceğiz.';
+
+  @override
+  String get authOtpNewAccount =>
+      'Bu numarayla hesap yok. Adını yaz ve koşulları kabul et.';
+
+  @override
+  String get authOtpSendSms => 'Kodu SMS ile gönder';
+
+  @override
+  String get authOtpSendWhatsapp => 'WhatsApp ile gönder';
+
+  @override
+  String get authOtpCodeTitle => 'Kodu gir';
+
+  @override
+  String authOtpCodeBody(String phone) {
+    return '$phone numarasına gönderildi';
+  }
+
+  @override
+  String authOtpResendIn(int seconds) {
+    return '$seconds sn sonra tekrar gönder';
+  }
+
+  @override
+  String get authOtpResendSms => 'SMS ile gönder';
+
+  @override
+  String get authOtpResendWhatsapp => 'WhatsApp ile gönder';
+
+  @override
+  String get authOtpResent => 'Kod tekrar gönderildi';
+
+  @override
+  String get authOtpChangePhone => 'Numarayı değiştir';
+
+  @override
+  String get authForgotTitle => 'Şifreni sıfırla';
+
+  @override
+  String get authForgotBody =>
+      'E-posta veya telefonunu yaz, sıfırlama talimatını gönderelim.';
+
+  @override
+  String get authForgotSubmit => 'Gönder';
+
+  @override
+  String get authForgotSentEmail =>
+      'Hesap varsa e-postana sıfırlama bağlantısı gönderdik.';
+
+  @override
+  String get authForgotSentPhone => 'Hesap varsa telefonuna bir kod gönderdik.';
+
+  @override
+  String get authResetEnterCode => 'Kodu gir';
+
+  @override
+  String get authResetTitle => 'Yeni şifre';
+
+  @override
+  String get authResetCodeLabel => 'Kod';
+
+  @override
+  String get authResetNewPassword => 'Yeni şifre';
+
+  @override
+  String get authResetSubmit => 'Şifreyi güncelle';
+
+  @override
+  String get authResetDone => 'Şifre güncellendi. Yeni şifrenle giriş yap.';
+
+  @override
   String get cartTitle => 'Sepet';
 
   @override

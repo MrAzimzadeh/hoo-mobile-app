@@ -1182,6 +1182,354 @@ abstract class AppLocalizations {
   /// **'İşıqlı / Qaranlıq'**
   String get dsLightDark;
 
+  /// No description provided for @authWelcomeTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'HOO-ya xoş gəlmisiniz'**
+  String get authWelcomeTitle;
+
+  /// No description provided for @authWelcomeBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Bakıda hazırlanan premium streetwear. Daxil olun və ya qonaq kimi davam edin.'**
+  String get authWelcomeBody;
+
+  /// No description provided for @authWelcomeGuest.
+  ///
+  /// In az, this message translates to:
+  /// **'Qonaq kimi davam et'**
+  String get authWelcomeGuest;
+
+  /// No description provided for @authSignInTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Daxil ol'**
+  String get authSignInTitle;
+
+  /// No description provided for @authSignInSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesabınıza e-poçt və ya telefon ilə daxil olun.'**
+  String get authSignInSubtitle;
+
+  /// No description provided for @authIdentifierLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt və ya telefon'**
+  String get authIdentifierLabel;
+
+  /// No description provided for @authPasswordLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Parol'**
+  String get authPasswordLabel;
+
+  /// No description provided for @authPasswordHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən azı 8 simvol, rəqəm və xüsusi simvol ilə'**
+  String get authPasswordHint;
+
+  /// No description provided for @authForgotLink.
+  ///
+  /// In az, this message translates to:
+  /// **'Parolu unutmusunuz?'**
+  String get authForgotLink;
+
+  /// No description provided for @authSignInSubmit.
+  ///
+  /// In az, this message translates to:
+  /// **'Daxil ol'**
+  String get authSignInSubmit;
+
+  /// No description provided for @authSignInWithSms.
+  ///
+  /// In az, this message translates to:
+  /// **'SMS kodu ilə daxil ol'**
+  String get authSignInWithSms;
+
+  /// No description provided for @authOr.
+  ///
+  /// In az, this message translates to:
+  /// **'və ya'**
+  String get authOr;
+
+  /// No description provided for @authContinueWithGoogle.
+  ///
+  /// In az, this message translates to:
+  /// **'Google ilə davam et'**
+  String get authContinueWithGoogle;
+
+  /// No description provided for @authContinueWithApple.
+  ///
+  /// In az, this message translates to:
+  /// **'Apple ilə davam et'**
+  String get authContinueWithApple;
+
+  /// No description provided for @authSocialFailed.
+  ///
+  /// In az, this message translates to:
+  /// **'Daxil olmaq alınmadı. Yenidən cəhd edin.'**
+  String get authSocialFailed;
+
+  /// No description provided for @authTermsPromptTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'HOO hesabı yaradın'**
+  String get authTermsPromptTitle;
+
+  /// No description provided for @authTermsPromptBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu hesab üçün hələ qeydiyyat yoxdur. Davam etməklə İstifadə şərtləri və Məxfilik siyasəti ilə razılaşırsınız.'**
+  String get authTermsPromptBody;
+
+  /// No description provided for @authTermsPromptAccept.
+  ///
+  /// In az, this message translates to:
+  /// **'Qəbul et və davam et'**
+  String get authTermsPromptAccept;
+
+  /// No description provided for @authNoAccount.
+  ///
+  /// In az, this message translates to:
+  /// **'HOO-da yenisiniz?'**
+  String get authNoAccount;
+
+  /// No description provided for @authHaveAccount.
+  ///
+  /// In az, this message translates to:
+  /// **'Artıq hesabınız var?'**
+  String get authHaveAccount;
+
+  /// No description provided for @authCreateAccount.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesab yarat'**
+  String get authCreateAccount;
+
+  /// No description provided for @authSignUpTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesab yaradın'**
+  String get authSignUpTitle;
+
+  /// No description provided for @authSignUpSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişlərinizi izləyin, sevimliləri saxlayın, dizaynlarınızı idarə edin.'**
+  String get authSignUpSubtitle;
+
+  /// No description provided for @authFullNameLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Ad və soyad'**
+  String get authFullNameLabel;
+
+  /// No description provided for @authEmailLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt'**
+  String get authEmailLabel;
+
+  /// No description provided for @authPhoneLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Telefon'**
+  String get authPhoneLabel;
+
+  /// No description provided for @authAcceptTerms.
+  ///
+  /// In az, this message translates to:
+  /// **'İstifadə şərtləri və Məxfilik siyasəti ilə razıyam'**
+  String get authAcceptTerms;
+
+  /// No description provided for @authMarketingConsent.
+  ///
+  /// In az, this message translates to:
+  /// **'Yenilik və endirimlər barədə xəbər almaq istəyirəm'**
+  String get authMarketingConsent;
+
+  /// No description provided for @authErrRequired.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu sahə vacibdir'**
+  String get authErrRequired;
+
+  /// No description provided for @authErrInvalidEmail.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt ünvanı düzgün deyil'**
+  String get authErrInvalidEmail;
+
+  /// No description provided for @authErrInvalidPhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Telefon nömrəsi düzgün deyil'**
+  String get authErrInvalidPhone;
+
+  /// No description provided for @authErrInvalidIdentifier.
+  ///
+  /// In az, this message translates to:
+  /// **'Düzgün e-poçt və ya telefon yazın'**
+  String get authErrInvalidIdentifier;
+
+  /// No description provided for @authErrWeakPassword.
+  ///
+  /// In az, this message translates to:
+  /// **'Parol ən azı 8 simvol, bir rəqəm və bir xüsusi simvol içərməlidir'**
+  String get authErrWeakPassword;
+
+  /// No description provided for @authErrTerms.
+  ///
+  /// In az, this message translates to:
+  /// **'Davam etmək üçün şərtləri qəbul edin'**
+  String get authErrTerms;
+
+  /// No description provided for @authErrInvalidCode.
+  ///
+  /// In az, this message translates to:
+  /// **'Kod düzgün deyil'**
+  String get authErrInvalidCode;
+
+  /// No description provided for @authOtpPhoneTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Telefonla daxil olun'**
+  String get authOtpPhoneTitle;
+
+  /// No description provided for @authOtpPhoneBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Nömrənizə 6 rəqəmli kod göndərəcəyik.'**
+  String get authOtpPhoneBody;
+
+  /// No description provided for @authOtpNewAccount.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu nömrə ilə hesab yoxdur. Ad yazın və şərtləri qəbul edin.'**
+  String get authOtpNewAccount;
+
+  /// No description provided for @authOtpSendSms.
+  ///
+  /// In az, this message translates to:
+  /// **'SMS ilə kod göndər'**
+  String get authOtpSendSms;
+
+  /// No description provided for @authOtpSendWhatsapp.
+  ///
+  /// In az, this message translates to:
+  /// **'WhatsApp ilə göndər'**
+  String get authOtpSendWhatsapp;
+
+  /// No description provided for @authOtpCodeTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Kodu daxil edin'**
+  String get authOtpCodeTitle;
+
+  /// No description provided for @authOtpCodeBody.
+  ///
+  /// In az, this message translates to:
+  /// **'{phone} nömrəsinə göndərildi'**
+  String authOtpCodeBody(String phone);
+
+  /// No description provided for @authOtpResendIn.
+  ///
+  /// In az, this message translates to:
+  /// **'{seconds} san sonra yenidən göndər'**
+  String authOtpResendIn(int seconds);
+
+  /// No description provided for @authOtpResendSms.
+  ///
+  /// In az, this message translates to:
+  /// **'SMS ilə göndər'**
+  String get authOtpResendSms;
+
+  /// No description provided for @authOtpResendWhatsapp.
+  ///
+  /// In az, this message translates to:
+  /// **'WhatsApp ilə göndər'**
+  String get authOtpResendWhatsapp;
+
+  /// No description provided for @authOtpResent.
+  ///
+  /// In az, this message translates to:
+  /// **'Kod yenidən göndərildi'**
+  String get authOtpResent;
+
+  /// No description provided for @authOtpChangePhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Nömrəni dəyiş'**
+  String get authOtpChangePhone;
+
+  /// No description provided for @authForgotTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Parolu bərpa et'**
+  String get authForgotTitle;
+
+  /// No description provided for @authForgotBody.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt və ya telefonunuzu yazın, sizə bərpa təlimatı göndərək.'**
+  String get authForgotBody;
+
+  /// No description provided for @authForgotSubmit.
+  ///
+  /// In az, this message translates to:
+  /// **'Göndər'**
+  String get authForgotSubmit;
+
+  /// No description provided for @authForgotSentEmail.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesab mövcuddursa, e-poçtunuza bərpa linki göndərildi.'**
+  String get authForgotSentEmail;
+
+  /// No description provided for @authForgotSentPhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Hesab mövcuddursa, telefonunuza kod göndərildi.'**
+  String get authForgotSentPhone;
+
+  /// No description provided for @authResetEnterCode.
+  ///
+  /// In az, this message translates to:
+  /// **'Kodu daxil et'**
+  String get authResetEnterCode;
+
+  /// No description provided for @authResetTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni parol'**
+  String get authResetTitle;
+
+  /// No description provided for @authResetCodeLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Kod'**
+  String get authResetCodeLabel;
+
+  /// No description provided for @authResetNewPassword.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni parol'**
+  String get authResetNewPassword;
+
+  /// No description provided for @authResetSubmit.
+  ///
+  /// In az, this message translates to:
+  /// **'Parolu yenilə'**
+  String get authResetSubmit;
+
+  /// No description provided for @authResetDone.
+  ///
+  /// In az, this message translates to:
+  /// **'Parol yeniləndi. Yeni parolla daxil olun.'**
+  String get authResetDone;
+
   /// No description provided for @cartTitle.
   ///
   /// In az, this message translates to:
