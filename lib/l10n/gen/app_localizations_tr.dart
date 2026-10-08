@@ -1362,4 +1362,67 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get searchDesignYourOwnBody =>
       'Studio\'da modeli seç, yazı ve görsel ekle.';
+
+  @override
+  String get wishlistTitle => 'Favoriler';
+
+  @override
+  String get wishlistRemoved => 'Favorilerden çıkarıldı';
+
+  @override
+  String get wishlistUndo => 'Geri al';
+
+  @override
+  String get wishlistMovedToBag => 'Sepete eklendi';
+
+  @override
+  String get wishlistMoveToBag => 'Sepete taşı';
+
+  @override
+  String get wishlistSoldOut => 'Tükendi';
+
+  @override
+  String get wishlistEmptyTitle => 'Favori listen boş';
+
+  @override
+  String get wishlistEmptyMessage =>
+      'Beğendiğin ürünleri kalp simgesiyle buraya kaydet.';
+
+  @override
+  String get wishlistEmptyCta => 'Alışverişe başla';
+
+  @override
+  String get wishlistChooseSize => 'Beden seç';
+
+  @override
+  String wishlistSharedTitle(String name) {
+    return '$name kişisinin listesi';
+  }
+
+  @override
+  String get wishlistSharedEmpty => 'Bu liste boş';
+
+  @override
+  String get wishlistAlertsTitle => 'Uyarılar';
+
+  @override
+  String get wishlistAlertsEmptyTitle => 'Henüz uyarı yok';
+
+  @override
+  String get wishlistAlertsEmptyMessage =>
+      'Ürün sayfasında “Bana haber ver” seç.';
+
+  @override
+  String get wishlistAlertsPriceDrop => 'Fiyat düşünce';
+
+  @override
+  String get wishlistAlertsBackInStock => 'Stoğa girince';
+
+  @override
+  String wishlistAlertsNotified(String date) {
+    return 'Haber verildi: $date';
+  }
+
+  @override
+  String get wishlistAlertsWaiting => 'Bekleniyor';
 }

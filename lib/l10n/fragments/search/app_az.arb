@@ -1,0 +1,51 @@
+{
+  "@@locale": "az",
+  "searchHint": "Axtar: hudi, tişört, dizayn…",
+  "searchClearA11y": "Axtarışı təmizlə",
+  "searchRecentTitle": "Son axtarışlar",
+  "searchBestsellersTitle": "Ən çox satılanlar",
+  "searchFor": "“{query}” üçün axtar",
+  "@searchFor": {
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchNoResultsTitle": "“{query}” üçün nəticə yoxdur",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchNoResultsMessage": "Yazılışı yoxlayın və ya daha qısa söz yazın.",
+  "searchMayLikeTitle": "Bəyənə bilərsiniz",
+  "searchResultsCount": "“{query}” üçün {count, plural, =1{1 nəticə} other{{count} nəticə}}",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      },
+      "query": {
+        "type": "String",
+        "description": "Placeholder query"
+      }
+    }
+  },
+  "searchFillA11y": "“{text}” axtarış sahəsinə yaz",
+  "@searchFillA11y": {
+    "placeholders": {
+      "text": {
+        "type": "String",
+        "description": "Placeholder text"
+      }
+    }
+  },
+  "searchDesignYourOwnTitle": "Özünüz dizayn edin",
+  "searchDesignYourOwnBody": "Studio-da modeli seçin, mətn və şəkil əlavə edin."
+}

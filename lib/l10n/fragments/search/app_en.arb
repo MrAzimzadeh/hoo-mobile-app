@@ -1,0 +1,46 @@
+{
+  "@@locale": "en",
+  "searchHint": "Search hoodies, tees, designs…",
+  "searchClearA11y": "Clear search",
+  "searchRecentTitle": "Recent searches",
+  "searchBestsellersTitle": "Bestsellers",
+  "searchFor": "Search for “{query}”",
+  "@searchFor": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsTitle": "No results for “{query}”",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsMessage": "Check the spelling or try a shorter word.",
+  "searchMayLikeTitle": "You may like",
+  "searchResultsCount": "{count, plural, =1{1 result} other{{count} results}} for “{query}”",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchFillA11y": "Fill search with “{text}”",
+  "@searchFillA11y": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "searchDesignYourOwnTitle": "Design your own",
+  "searchDesignYourOwnBody": "Pick a garment in the Studio and add your text and art."
+}

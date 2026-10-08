@@ -1,0 +1,38 @@
+{
+  "@@locale": "az",
+  "wishlistTitle": "Sevimlilər",
+  "wishlistRemoved": "Sevimlilərdən silindi",
+  "wishlistUndo": "Geri al",
+  "wishlistMovedToBag": "Səbətə əlavə olundu",
+  "wishlistMoveToBag": "Səbətə at",
+  "wishlistSoldOut": "Bitib",
+  "wishlistEmptyTitle": "Sevimlilər boşdur",
+  "wishlistEmptyMessage": "Ürək işarəsinə toxunaraq bəyəndiyiniz məhsulları saxlayın.",
+  "wishlistEmptyCta": "Alış-verişə başla",
+  "wishlistChooseSize": "Ölçü seçin",
+  "wishlistSharedTitle": "{name} adlı istifadəçinin siyahısı",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "wishlistSharedEmpty": "Bu siyahı boşdur",
+  "wishlistAlertsTitle": "Xəbərdarlıqlar",
+  "wishlistAlertsEmptyTitle": "Xəbərdarlıq yoxdur",
+  "wishlistAlertsEmptyMessage": "Məhsul səhifəsində “Mənə xəbər ver” seçin.",
+  "wishlistAlertsPriceDrop": "Qiymət düşəndə",
+  "wishlistAlertsBackInStock": "Stoka düşəndə",
+  "wishlistAlertsNotified": "Xəbər verildi: {date}",
+  "@wishlistAlertsNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "description": "Placeholder date"
+      }
+    }
+  },
+  "wishlistAlertsWaiting": "Gözlənilir"
+}

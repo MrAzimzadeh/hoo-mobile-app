@@ -1375,4 +1375,67 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get searchDesignYourOwnBody =>
       'Выберите модель в Студии и добавьте текст и рисунок.';
+
+  @override
+  String get wishlistTitle => 'Избранное';
+
+  @override
+  String get wishlistRemoved => 'Удалено из избранного';
+
+  @override
+  String get wishlistUndo => 'Отменить';
+
+  @override
+  String get wishlistMovedToBag => 'Добавлено в корзину';
+
+  @override
+  String get wishlistMoveToBag => 'В корзину';
+
+  @override
+  String get wishlistSoldOut => 'Нет в наличии';
+
+  @override
+  String get wishlistEmptyTitle => 'В избранном пока пусто';
+
+  @override
+  String get wishlistEmptyMessage =>
+      'Нажмите на сердечко, чтобы сохранить понравившееся.';
+
+  @override
+  String get wishlistEmptyCta => 'Начать покупки';
+
+  @override
+  String get wishlistChooseSize => 'Выберите размер';
+
+  @override
+  String wishlistSharedTitle(String name) {
+    return 'Избранное: $name';
+  }
+
+  @override
+  String get wishlistSharedEmpty => 'Этот список пуст';
+
+  @override
+  String get wishlistAlertsTitle => 'Уведомления';
+
+  @override
+  String get wishlistAlertsEmptyTitle => 'Пока нет уведомлений';
+
+  @override
+  String get wishlistAlertsEmptyMessage =>
+      'Выберите «Сообщить мне» на странице товара.';
+
+  @override
+  String get wishlistAlertsPriceDrop => 'При снижении цены';
+
+  @override
+  String get wishlistAlertsBackInStock => 'Когда появится в наличии';
+
+  @override
+  String wishlistAlertsNotified(String date) {
+    return 'Уведомили: $date';
+  }
+
+  @override
+  String get wishlistAlertsWaiting => 'Ожидание';
 }

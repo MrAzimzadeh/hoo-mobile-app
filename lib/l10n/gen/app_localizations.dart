@@ -2537,6 +2537,120 @@ abstract class AppLocalizations {
   /// In az, this message translates to:
   /// **'Studio-da modeli seçin, mətn və şəkil əlavə edin.'**
   String get searchDesignYourOwnBody;
+
+  /// No description provided for @wishlistTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevimlilər'**
+  String get wishlistTitle;
+
+  /// No description provided for @wishlistRemoved.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevimlilərdən silindi'**
+  String get wishlistRemoved;
+
+  /// No description provided for @wishlistUndo.
+  ///
+  /// In az, this message translates to:
+  /// **'Geri al'**
+  String get wishlistUndo;
+
+  /// No description provided for @wishlistMovedToBag.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətə əlavə olundu'**
+  String get wishlistMovedToBag;
+
+  /// No description provided for @wishlistMoveToBag.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətə at'**
+  String get wishlistMoveToBag;
+
+  /// No description provided for @wishlistSoldOut.
+  ///
+  /// In az, this message translates to:
+  /// **'Bitib'**
+  String get wishlistSoldOut;
+
+  /// No description provided for @wishlistEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sevimlilər boşdur'**
+  String get wishlistEmptyTitle;
+
+  /// No description provided for @wishlistEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Ürək işarəsinə toxunaraq bəyəndiyiniz məhsulları saxlayın.'**
+  String get wishlistEmptyMessage;
+
+  /// No description provided for @wishlistEmptyCta.
+  ///
+  /// In az, this message translates to:
+  /// **'Alış-verişə başla'**
+  String get wishlistEmptyCta;
+
+  /// No description provided for @wishlistChooseSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü seçin'**
+  String get wishlistChooseSize;
+
+  /// No description provided for @wishlistSharedTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'{name} adlı istifadəçinin siyahısı'**
+  String wishlistSharedTitle(String name);
+
+  /// No description provided for @wishlistSharedEmpty.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu siyahı boşdur'**
+  String get wishlistSharedEmpty;
+
+  /// No description provided for @wishlistAlertsTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Xəbərdarlıqlar'**
+  String get wishlistAlertsTitle;
+
+  /// No description provided for @wishlistAlertsEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Xəbərdarlıq yoxdur'**
+  String get wishlistAlertsEmptyTitle;
+
+  /// No description provided for @wishlistAlertsEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Məhsul səhifəsində “Mənə xəbər ver” seçin.'**
+  String get wishlistAlertsEmptyMessage;
+
+  /// No description provided for @wishlistAlertsPriceDrop.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət düşəndə'**
+  String get wishlistAlertsPriceDrop;
+
+  /// No description provided for @wishlistAlertsBackInStock.
+  ///
+  /// In az, this message translates to:
+  /// **'Stoka düşəndə'**
+  String get wishlistAlertsBackInStock;
+
+  /// No description provided for @wishlistAlertsNotified.
+  ///
+  /// In az, this message translates to:
+  /// **'Xəbər verildi: {date}'**
+  String wishlistAlertsNotified(String date);
+
+  /// No description provided for @wishlistAlertsWaiting.
+  ///
+  /// In az, this message translates to:
+  /// **'Gözlənilir'**
+  String get wishlistAlertsWaiting;
 }
 
 class _AppLocalizationsDelegate

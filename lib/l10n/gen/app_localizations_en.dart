@@ -1371,4 +1371,67 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get searchDesignYourOwnBody =>
       'Pick a garment in the Studio and add your text and art.';
+
+  @override
+  String get wishlistTitle => 'Wishlist';
+
+  @override
+  String get wishlistRemoved => 'Removed from wishlist';
+
+  @override
+  String get wishlistUndo => 'Undo';
+
+  @override
+  String get wishlistMovedToBag => 'Added to your bag';
+
+  @override
+  String get wishlistMoveToBag => 'Move to bag';
+
+  @override
+  String get wishlistSoldOut => 'Sold out';
+
+  @override
+  String get wishlistEmptyTitle => 'Your wishlist is empty';
+
+  @override
+  String get wishlistEmptyMessage =>
+      'Tap the heart on pieces you love to save them here.';
+
+  @override
+  String get wishlistEmptyCta => 'Start shopping';
+
+  @override
+  String get wishlistChooseSize => 'Choose a size';
+
+  @override
+  String wishlistSharedTitle(String name) {
+    return '$name\'s wishlist';
+  }
+
+  @override
+  String get wishlistSharedEmpty => 'This wishlist is empty';
+
+  @override
+  String get wishlistAlertsTitle => 'Alerts';
+
+  @override
+  String get wishlistAlertsEmptyTitle => 'No alerts yet';
+
+  @override
+  String get wishlistAlertsEmptyMessage =>
+      'Choose “Notify me” on a product page.';
+
+  @override
+  String get wishlistAlertsPriceDrop => 'When the price drops';
+
+  @override
+  String get wishlistAlertsBackInStock => 'When back in stock';
+
+  @override
+  String wishlistAlertsNotified(String date) {
+    return 'Notified on $date';
+  }
+
+  @override
+  String get wishlistAlertsWaiting => 'Waiting';
 }

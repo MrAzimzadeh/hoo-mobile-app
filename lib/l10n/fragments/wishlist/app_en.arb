@@ -1,0 +1,36 @@
+{
+  "@@locale": "en",
+  "wishlistTitle": "Wishlist",
+  "wishlistRemoved": "Removed from wishlist",
+  "wishlistUndo": "Undo",
+  "wishlistMovedToBag": "Added to your bag",
+  "wishlistMoveToBag": "Move to bag",
+  "wishlistSoldOut": "Sold out",
+  "wishlistEmptyTitle": "Your wishlist is empty",
+  "wishlistEmptyMessage": "Tap the heart on pieces you love to save them here.",
+  "wishlistEmptyCta": "Start shopping",
+  "wishlistChooseSize": "Choose a size",
+  "wishlistSharedTitle": "{name}'s wishlist",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistSharedEmpty": "This wishlist is empty",
+  "wishlistAlertsTitle": "Alerts",
+  "wishlistAlertsEmptyTitle": "No alerts yet",
+  "wishlistAlertsEmptyMessage": "Choose “Notify me” on a product page.",
+  "wishlistAlertsPriceDrop": "When the price drops",
+  "wishlistAlertsBackInStock": "When back in stock",
+  "wishlistAlertsNotified": "Notified on {date}",
+  "@wishlistAlertsNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistAlertsWaiting": "Waiting"
+}

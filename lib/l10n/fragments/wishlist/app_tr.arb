@@ -1,0 +1,36 @@
+{
+  "@@locale": "tr",
+  "wishlistTitle": "Favoriler",
+  "wishlistRemoved": "Favorilerden çıkarıldı",
+  "wishlistUndo": "Geri al",
+  "wishlistMovedToBag": "Sepete eklendi",
+  "wishlistMoveToBag": "Sepete taşı",
+  "wishlistSoldOut": "Tükendi",
+  "wishlistEmptyTitle": "Favori listen boş",
+  "wishlistEmptyMessage": "Beğendiğin ürünleri kalp simgesiyle buraya kaydet.",
+  "wishlistEmptyCta": "Alışverişe başla",
+  "wishlistChooseSize": "Beden seç",
+  "wishlistSharedTitle": "{name} kişisinin listesi",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistSharedEmpty": "Bu liste boş",
+  "wishlistAlertsTitle": "Uyarılar",
+  "wishlistAlertsEmptyTitle": "Henüz uyarı yok",
+  "wishlistAlertsEmptyMessage": "Ürün sayfasında “Bana haber ver” seç.",
+  "wishlistAlertsPriceDrop": "Fiyat düşünce",
+  "wishlistAlertsBackInStock": "Stoğa girince",
+  "wishlistAlertsNotified": "Haber verildi: {date}",
+  "@wishlistAlertsNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistAlertsWaiting": "Bekleniyor"
+}

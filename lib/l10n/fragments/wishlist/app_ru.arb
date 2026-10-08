@@ -1,0 +1,36 @@
+{
+  "@@locale": "ru",
+  "wishlistTitle": "Избранное",
+  "wishlistRemoved": "Удалено из избранного",
+  "wishlistUndo": "Отменить",
+  "wishlistMovedToBag": "Добавлено в корзину",
+  "wishlistMoveToBag": "В корзину",
+  "wishlistSoldOut": "Нет в наличии",
+  "wishlistEmptyTitle": "В избранном пока пусто",
+  "wishlistEmptyMessage": "Нажмите на сердечко, чтобы сохранить понравившееся.",
+  "wishlistEmptyCta": "Начать покупки",
+  "wishlistChooseSize": "Выберите размер",
+  "wishlistSharedTitle": "Избранное: {name}",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistSharedEmpty": "Этот список пуст",
+  "wishlistAlertsTitle": "Уведомления",
+  "wishlistAlertsEmptyTitle": "Пока нет уведомлений",
+  "wishlistAlertsEmptyMessage": "Выберите «Сообщить мне» на странице товара.",
+  "wishlistAlertsPriceDrop": "При снижении цены",
+  "wishlistAlertsBackInStock": "Когда появится в наличии",
+  "wishlistAlertsNotified": "Уведомили: {date}",
+  "@wishlistAlertsNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistAlertsWaiting": "Ожидание"
+}

@@ -1,0 +1,46 @@
+{
+  "@@locale": "tr",
+  "searchHint": "Ara: hoodie, tişört, tasarım…",
+  "searchClearA11y": "Aramayı temizle",
+  "searchRecentTitle": "Son aramalar",
+  "searchBestsellersTitle": "Çok satanlar",
+  "searchFor": "“{query}” için ara",
+  "@searchFor": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsTitle": "“{query}” için sonuç yok",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsMessage": "Yazımı kontrol edin veya daha kısa bir sözcük deneyin.",
+  "searchMayLikeTitle": "Hoşunuza gidebilir",
+  "searchResultsCount": "“{query}” için {count, plural, =1{1 sonuç} other{{count} sonuç}}",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchFillA11y": "Aramaya “{text}” yaz",
+  "@searchFillA11y": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "searchDesignYourOwnTitle": "Kendi tasarımını yap",
+  "searchDesignYourOwnBody": "Studio'da modeli seç, yazı ve görsel ekle."
+}

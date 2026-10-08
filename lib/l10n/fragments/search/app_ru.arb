@@ -1,0 +1,46 @@
+{
+  "@@locale": "ru",
+  "searchHint": "Поиск: худи, футболки, дизайны…",
+  "searchClearA11y": "Очистить поиск",
+  "searchRecentTitle": "Недавние запросы",
+  "searchBestsellersTitle": "Бестселлеры",
+  "searchFor": "Искать «{query}»",
+  "@searchFor": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsTitle": "Ничего не найдено по «{query}»",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsMessage": "Проверьте написание или попробуйте короче.",
+  "searchMayLikeTitle": "Вам может понравиться",
+  "searchResultsCount": "{count, plural, =1{1 результат} few{{count} результата} many{{count} результатов} other{{count} результата}} по «{query}»",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchFillA11y": "Подставить «{text}» в поиск",
+  "@searchFillA11y": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "searchDesignYourOwnTitle": "Создайте свой дизайн",
+  "searchDesignYourOwnBody": "Выберите модель в Студии и добавьте текст и рисунок."
+}

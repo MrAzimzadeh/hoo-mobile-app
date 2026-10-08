@@ -1366,4 +1366,67 @@ class AppLocalizationsAz extends AppLocalizations {
   @override
   String get searchDesignYourOwnBody =>
       'Studio-da modeli seçin, mətn və şəkil əlavə edin.';
+
+  @override
+  String get wishlistTitle => 'Sevimlilər';
+
+  @override
+  String get wishlistRemoved => 'Sevimlilərdən silindi';
+
+  @override
+  String get wishlistUndo => 'Geri al';
+
+  @override
+  String get wishlistMovedToBag => 'Səbətə əlavə olundu';
+
+  @override
+  String get wishlistMoveToBag => 'Səbətə at';
+
+  @override
+  String get wishlistSoldOut => 'Bitib';
+
+  @override
+  String get wishlistEmptyTitle => 'Sevimlilər boşdur';
+
+  @override
+  String get wishlistEmptyMessage =>
+      'Ürək işarəsinə toxunaraq bəyəndiyiniz məhsulları saxlayın.';
+
+  @override
+  String get wishlistEmptyCta => 'Alış-verişə başla';
+
+  @override
+  String get wishlistChooseSize => 'Ölçü seçin';
+
+  @override
+  String wishlistSharedTitle(String name) {
+    return '$name adlı istifadəçinin siyahısı';
+  }
+
+  @override
+  String get wishlistSharedEmpty => 'Bu siyahı boşdur';
+
+  @override
+  String get wishlistAlertsTitle => 'Xəbərdarlıqlar';
+
+  @override
+  String get wishlistAlertsEmptyTitle => 'Xəbərdarlıq yoxdur';
+
+  @override
+  String get wishlistAlertsEmptyMessage =>
+      'Məhsul səhifəsində “Mənə xəbər ver” seçin.';
+
+  @override
+  String get wishlistAlertsPriceDrop => 'Qiymət düşəndə';
+
+  @override
+  String get wishlistAlertsBackInStock => 'Stoka düşəndə';
+
+  @override
+  String wishlistAlertsNotified(String date) {
+    return 'Xəbər verildi: $date';
+  }
+
+  @override
+  String get wishlistAlertsWaiting => 'Gözlənilir';
 }
