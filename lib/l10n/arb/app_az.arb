@@ -1,0 +1,259 @@
+{
+  "@@locale": "az",
+  "appName": "HOO",
+  "navHome": "Əsas",
+  "navShop": "Mağaza",
+  "navStudio": "Studio",
+  "navBag": "Səbət",
+  "navProfile": "Profil",
+  "commonRetry": "Yenidən cəhd et",
+  "commonSeeAll": "Hamısına bax",
+  "commonCancel": "Ləğv et",
+  "commonSave": "Yadda saxla",
+  "commonSaved": "Saxlanıldı",
+  "commonSaving": "Saxlanılır…",
+  "commonDone": "Hazırdır",
+  "commonClose": "Bağla",
+  "commonContinue": "Davam et",
+  "commonBack": "Geri",
+  "commonNext": "Növbəti",
+  "commonApply": "Tətbiq et",
+  "commonClear": "Təmizlə",
+  "commonClearAll": "Hamısını təmizlə",
+  "commonRemove": "Sil",
+  "commonEdit": "Redaktə et",
+  "commonDelete": "Sil",
+  "commonShare": "Paylaş",
+  "commonConfirm": "Təsdiqlə",
+  "commonYes": "Bəli",
+  "commonNo": "Xeyr",
+  "commonOk": "Oldu",
+  "commonOptional": "istəyə bağlı",
+  "commonSearch": "Axtar",
+  "commonFilter": "Filtr",
+  "commonSort": "Sırala",
+  "commonShowMore": "Daha çox",
+  "commonShowLess": "Daha az",
+  "commonCopy": "Kopyala",
+  "commonCopied": "Kopyalandı",
+  "commonSignIn": "Daxil ol",
+  "commonSignOut": "Çıxış",
+  "commonCreateAccount": "Hesab yarat",
+  "commonContinueAsGuest": "Qonaq kimi davam et",
+  "commonLearnMore": "Ətraflı",
+  "commonTotal": "Cəmi",
+  "commonFree": "Pulsuz",
+  "commonDays": "{min}–{max} gün",
+  "@commonDays": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "commonPieces": "{count} ədəd",
+  "@commonPieces": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorGeneric": "Nəsə alınmadı. Bir az sonra yenidən cəhd edin.",
+  "errorNetwork": "İnternet bağlantısı yoxdur. Şəbəkəni yoxlayın.",
+  "errorNotFound": "Tapılmadı",
+  "errorTooManyRequests": "Çox cəhd edildi. {seconds} saniyə sonra yenidən yoxlayın.",
+  "@errorTooManyRequests": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "errorExternal": "Xidmət müvəqqəti əlçatan deyil. Bir az sonra yoxlayın.",
+  "errorConflict": "Məlumat yeniləndi. Yeni vəziyyəti göstəririk.",
+  "errorSessionExpired": "Sessiyanın vaxtı bitdi. Yenidən daxil olun.",
+  "fieldRequired": "Bu sahə məcburidir",
+  "fieldInvalidEmail": "E-poçt ünvanı düzgün deyil",
+  "fieldInvalidPhone": "Nömrə +994 XX XXX XX XX formatında olmalıdır",
+  "fieldPasswordRule": "Ən azı 8 simvol, bir rəqəm və bir xüsusi simvol",
+  "stateEmptyTitle": "Burada hələ heç nə yoxdur",
+  "stateOffline": "Oflayn rejim — son saxlanılan məlumat göstərilir",
+  "stateLoading": "Yüklənir…",
+  "badgeNew": "YENİ",
+  "badgeNewDrop": "YENİ DROP",
+  "badgeBestseller": "BESTSELLER",
+  "badgeSale": "ENDİRİM",
+  "discountPercent": "-{percent}%",
+  "@discountPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "a11yAddToWishlist": "Bəyənilənlərə əlavə et",
+  "a11yRemoveFromWishlist": "Bəyənilənlərdən çıxar",
+  "a11yIncrease": "Artır",
+  "a11yDecrease": "Azalt",
+  "a11yQuantity": "Say: {count}",
+  "@a11yQuantity": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "a11yColor": "Rəng: {name}",
+  "@a11yColor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "a11ySelected": "seçilib",
+  "a11yUnavailable": "mövcud deyil",
+  "a11yRating": "Reytinq: 5-dən {rating}",
+  "@a11yRating": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "a11yClose": "Bağla",
+  "a11yBack": "Geri",
+  "a11yBag": "Səbət, {count} məhsul",
+  "@a11yBag": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "a11yShowPassword": "Şifrəni göstər",
+  "a11yHidePassword": "Şifrəni gizlət",
+  "a11yLogo": "HOO",
+  "stepOf": "Addım {current} / {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "summaryTotal": "Cəmi",
+  "summarySubtotal": "Ara cəm",
+  "summaryDiscount": "Endirim",
+  "summaryDelivery": "Çatdırılma",
+  "summaryGiftPackaging": "Hədiyyə qablaşdırması",
+  "summaryGreetingCard": "Təbrik kartı",
+  "summaryVatIncluded": "ƏDV daxildir: {amount}",
+  "@summaryVatIncluded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "summaryShowBreakdown": "Təfərrüatı göstər",
+  "summaryUpdating": "Qiymət yenilənir",
+  "authGateTitle": "Davam etmək üçün daxil olun",
+  "authGateBody": "Bəyənilənlər, rəylər, ünvanlar və dizaynlarınız hesabınızda saxlanılır.",
+  "orderStatusNew": "Yeni",
+  "orderStatusPaid": "Ödənilib",
+  "orderStatusAwaitingApproval": "Dizayn təsdiqi gözlənilir",
+  "orderStatusInProduction": "İstehsalda",
+  "orderStatusPacked": "Qablaşdırılıb",
+  "orderStatusOutForDelivery": "Yoldadır",
+  "orderStatusReadyForPickup": "Götürməyə hazırdır",
+  "orderStatusDelivered": "Çatdırılıb",
+  "orderStatusCancelled": "Ləğv edilib",
+  "orderStatusReturnRequested": "Qaytarma istənilib",
+  "orderStatusReturned": "Qaytarılıb",
+  "orderStatusRefunded": "Pul qaytarılıb",
+  "designStatusDraft": "Qaralama",
+  "designStatusSubmitted": "Göndərilib",
+  "designStatusChangesRequested": "Dəyişiklik istənilib",
+  "designStatusApproved": "Təsdiqlənib",
+  "designStatusInProduction": "İstehsalda",
+  "designStatusReady": "Hazırdır",
+  "designStatusCancelled": "Ləğv edilib",
+  "paymentStatusPending": "Gözləyir",
+  "paymentStatusCaptured": "Ödənilib",
+  "paymentStatusFailed": "Uğursuz",
+  "paymentStatusCancelled": "Ləğv edilib",
+  "paymentStatusRefunded": "Qaytarılıb",
+  "paymentStatusPartiallyRefunded": "Qismən qaytarılıb",
+  "paymentMethodApplePay": "Apple Pay",
+  "paymentMethodGooglePay": "Google Pay",
+  "paymentMethodCard": "Bank kartı",
+  "paymentMethodSavedCard": "Saxlanılmış kart",
+  "paymentMethodCashOnDelivery": "Qapıda nağd",
+  "paymentMethodCardOnDelivery": "Qapıda kartla",
+  "paymentMethodInvoice": "Hesab-faktura",
+  "deliveryKindCourier": "Kuryer",
+  "deliveryKindPost": "Poçt",
+  "deliveryKindPickup": "Mağazadan götür",
+  "returnStatusRequested": "Sorğu göndərilib",
+  "returnStatusApproved": "Təsdiqlənib",
+  "returnStatusRejected": "Rədd edilib",
+  "returnStatusReceived": "Qəbul edilib",
+  "returnStatusRefunded": "Pul qaytarılıb",
+  "returnStatusExchanged": "Dəyişdirilib",
+  "returnKindReturn": "Qaytarma",
+  "returnKindExchange": "Dəyişmə",
+  "occasionBirthday": "Ad günü",
+  "occasionAnniversary": "İldönümü",
+  "occasionNovruz": "Novruz",
+  "occasionNewYear": "Yeni il",
+  "occasionJustBecause": "Səbəbsiz",
+  "fitOversized": "Oversized",
+  "fitBoxy": "Boxy",
+  "fitRegular": "Regular",
+  "fitFitted": "Dar kəsim",
+  "fitCropped": "Qısa",
+  "productTypeHoodie": "Hudi",
+  "productTypeZipHoodie": "Zəncirli hudi",
+  "productTypeTShirt": "Futbolka",
+  "productTypeSweatshirt": "Svitşot",
+  "productTypeSweatpants": "İdman şalvarı",
+  "productTypeShorts": "Şort",
+  "colorFamilyBlack": "Qara",
+  "colorFamilyForest": "Meşə yaşılı",
+  "colorFamilyCream": "Krem",
+  "colorFamilyWhite": "Ağ",
+  "colorFamilyGrey": "Boz",
+  "colorFamilySand": "Qum",
+  "colorFamilyOlive": "Zeytun",
+  "colorFamilyRed": "Qırmızı",
+  "styleTagMinimal": "Minimal",
+  "styleTagStreetwear": "Streetwear",
+  "styleTagGraphicPrints": "Qrafik çaplar",
+  "styleTagMonochrome": "Monoxrom",
+  "styleTagSport": "İdman",
+  "styleTagVintage": "Vintaj",
+  "notificationTopicOrders": "Sifarişlər",
+  "notificationTopicDelivery": "Çatdırılma",
+  "notificationTopicAlerts": "Xəbərdarlıqlar",
+  "notificationTopicMarketing": "Yeniliklər və təkliflər",
+  "notificationChannelEmail": "E-poçt",
+  "notificationChannelSms": "SMS",
+  "notificationChannelWhatsApp": "WhatsApp",
+  "notificationChannelPush": "Push",
+  "stockStateInStock": "Anbarda",
+  "stockStateLowStock": "Az qalıb",
+  "stockStatePreorder": "Ön sifariş",
+  "stockStateOutOfStock": "Bitib",
+  "stockStateMadeToOrder": "Sifarişlə hazırlanır",
+  "stockStateUnavailable": "Mövcud deyil",
+  "dsTitle": "Dizayn sistemi",
+  "dsLightDark": "İşıqlı / Qaranlıq"
+}

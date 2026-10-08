@@ -1,20 +1,5 @@
-import 'package:flutter/material.dart';
+import 'app/bootstrap/bootstrap.dart';
+import 'core/config/env.dart';
 
-void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
-}
+/// Default entrypoint = dev flavor. Use `main_staging.dart` / `main_prod.dart` for release builds.
+Future<void> main() => bootstrap(Flavor.dev);
