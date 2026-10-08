@@ -1,0 +1,141 @@
+{
+  "@@locale": "az",
+  "checkoutTitle": "Sifarişin rəsmiləşdirilməsi",
+  "checkoutContactTitle": "Əlaqə",
+  "checkoutContactSubtitle": "Sifariş barədə sizə bu nömrədən zəng və ya mesaj edəcəyik.",
+  "checkoutFullName": "Ad və soyad",
+  "checkoutPhone": "Telefon",
+  "checkoutEmail": "E-poçt",
+  "checkoutEmailHelper": "Qəbz bu ünvana göndəriləcək",
+  "checkoutGiftTitle": "Hədiyyə",
+  "checkoutGiftToggle": "Bu bir hədiyyədir",
+  "checkoutGiftToggleSubtitle": "Qablaşdırma, təbrik kartı və qiymətləri gizlətmə.",
+  "checkoutNoGift": "Hədiyyə deyil",
+  "checkoutGiftFor": "{name} üçün hədiyyə",
+  "@checkoutGiftFor": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Placeholder name"
+      }
+    }
+  },
+  "checkoutRecipientName": "Alıcının adı",
+  "checkoutRecipientPhone": "Alıcının telefonu",
+  "checkoutOccasion": "Səbəb",
+  "checkoutSurprise": "Sürpriz",
+  "checkoutSurpriseHint": "Alıcıya sifariş barədə məlumat getməsin.",
+  "checkoutHidePrices": "Qiymətləri gizlət",
+  "checkoutPackaging": "Qablaşdırma",
+  "checkoutLowStock": "Az qalıb",
+  "checkoutGreetingCard": "Təbrik kartı",
+  "checkoutCardMessage": "Kart mətni",
+  "checkoutMessageCounter": "{count} / {max}",
+  "@checkoutMessageCounter": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      },
+      "max": {
+        "type": "int",
+        "description": "Placeholder max"
+      }
+    }
+  },
+  "checkoutFromName": "İmza",
+  "checkoutDeliveryTitle": "Çatdırılma",
+  "checkoutDeliveryGiftNote": "Hədiyyədə ünvan alıcınındır.",
+  "checkoutEtaDays": "{days, plural, =1{1 gün} other{{days} gün}}",
+  "@checkoutEtaDays": {
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Placeholder days"
+      }
+    }
+  },
+  "checkoutEtaRange": "{min}–{max} gün",
+  "@checkoutEtaRange": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "description": "Placeholder min"
+      },
+      "max": {
+        "type": "int",
+        "description": "Placeholder max"
+      }
+    }
+  },
+  "checkoutReadyIn": "{hours} saata hazır olur",
+  "@checkoutReadyIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "description": "Placeholder hours"
+      }
+    }
+  },
+  "checkoutAddressTitle": "Çatdırılma ünvanı",
+  "checkoutNewAddress": "Yeni ünvan",
+  "checkoutCity": "Şəhər",
+  "checkoutDistrict": "Rayon",
+  "checkoutStreet": "Küçə və ev",
+  "checkoutApartment": "Mənzil",
+  "checkoutCourierNote": "Kuryer üçün qeyd",
+  "checkoutSlotTitle": "Çatdırılma vaxtı",
+  "checkoutSlotSubtitle": "Sizə uyğun gün və aralığı seçin.",
+  "checkoutSlotsLeft": "{count} yer qalıb",
+  "@checkoutSlotsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "checkoutSlotFull": "Dolub",
+  "checkoutNoSlots": "Hazırda boş vaxt yoxdur",
+  "checkoutPaymentTitle": "Ödəniş",
+  "checkoutReviewTitle": "Yoxlama",
+  "checkoutAcceptTerms": "İstifadə şərtləri, Məxfilik və Qaytarma siyasəti ilə razıyam",
+  "checkoutImageRights": "Yüklədiyim şəkillərin hüquqlarının mənə məxsus olduğunu təsdiq edirəm",
+  "checkoutSaveCard": "Kartı növbəti alış üçün yadda saxla",
+  "checkoutPayNow": "İndi ödə",
+  "checkoutPlaceOrder": "Sifarişi təsdiqlə",
+  "checkoutPlacing": "Sifarişiniz hazırlanır…",
+  "checkoutPlacingHint": "Bu bir neçə saniyə çəkə bilər.",
+  "checkoutSessionRefreshed": "Sessiya yeniləndi, seçimləriniz saxlanıldı.",
+  "checkoutPaymentWaitingTitle": "Ödəniş yoxlanılır",
+  "checkoutPaymentWaitingBody": "{number} sifarişi üçün ödəniş səhifəsini tamamlayın. Nəticəni avtomatik yoxlayırıq.",
+  "@checkoutPaymentWaitingBody": {
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "description": "Placeholder number"
+      }
+    }
+  },
+  "checkoutPaymentStillProcessing": "Ödəniş hələ təsdiqlənməyib. Bir az sonra yoxlayın.",
+  "checkoutPaymentCheckNow": "İndi yoxla",
+  "checkoutPaymentReopen": "Ödəniş səhifəsini aç",
+  "checkoutPaymentFailedTitle": "Ödəniş alınmadı",
+  "checkoutPaymentFailedBody": "Kartdan vəsait çıxılmayıb. Yenidən cəhd edə bilərsiniz.",
+  "checkoutPaymentTryAgain": "Yenidən cəhd et",
+  "checkoutPayOnDelivery": "Qapıda ödə",
+  "checkoutViewOrder": "Sifarişə bax",
+  "checkoutConfirmedTitle": "Təşəkkür edirik!",
+  "checkoutConfirmedNumber": "Sifariş № {number}",
+  "@checkoutConfirmedNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "description": "Placeholder number"
+      }
+    }
+  },
+  "checkoutConfirmedBody": "Sifarişiniz qəbul olundu. Statusu sifariş səhifəsində izləyə bilərsiniz.",
+  "checkoutGiftReceipt": "Hədiyyə qəbzi kodu",
+  "checkoutGiftReceiptHint": "Alıcı bu kodla dəyişdirmə edə bilər."
+}

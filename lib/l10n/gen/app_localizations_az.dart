@@ -1105,6 +1105,234 @@ class AppLocalizationsAz extends AppLocalizations {
       'Təşəkkürlər! Rəyiniz yoxlanışa göndərildi.';
 
   @override
+  String get checkoutTitle => 'Sifarişin rəsmiləşdirilməsi';
+
+  @override
+  String get checkoutContactTitle => 'Əlaqə';
+
+  @override
+  String get checkoutContactSubtitle =>
+      'Sifariş barədə sizə bu nömrədən zəng və ya mesaj edəcəyik.';
+
+  @override
+  String get checkoutFullName => 'Ad və soyad';
+
+  @override
+  String get checkoutPhone => 'Telefon';
+
+  @override
+  String get checkoutEmail => 'E-poçt';
+
+  @override
+  String get checkoutEmailHelper => 'Qəbz bu ünvana göndəriləcək';
+
+  @override
+  String get checkoutGiftTitle => 'Hədiyyə';
+
+  @override
+  String get checkoutGiftToggle => 'Bu bir hədiyyədir';
+
+  @override
+  String get checkoutGiftToggleSubtitle =>
+      'Qablaşdırma, təbrik kartı və qiymətləri gizlətmə.';
+
+  @override
+  String get checkoutNoGift => 'Hədiyyə deyil';
+
+  @override
+  String checkoutGiftFor(String name) {
+    return '$name üçün hədiyyə';
+  }
+
+  @override
+  String get checkoutRecipientName => 'Alıcının adı';
+
+  @override
+  String get checkoutRecipientPhone => 'Alıcının telefonu';
+
+  @override
+  String get checkoutOccasion => 'Səbəb';
+
+  @override
+  String get checkoutSurprise => 'Sürpriz';
+
+  @override
+  String get checkoutSurpriseHint => 'Alıcıya sifariş barədə məlumat getməsin.';
+
+  @override
+  String get checkoutHidePrices => 'Qiymətləri gizlət';
+
+  @override
+  String get checkoutPackaging => 'Qablaşdırma';
+
+  @override
+  String get checkoutLowStock => 'Az qalıb';
+
+  @override
+  String get checkoutGreetingCard => 'Təbrik kartı';
+
+  @override
+  String get checkoutCardMessage => 'Kart mətni';
+
+  @override
+  String checkoutMessageCounter(int count, int max) {
+    return '$count / $max';
+  }
+
+  @override
+  String get checkoutFromName => 'İmza';
+
+  @override
+  String get checkoutDeliveryTitle => 'Çatdırılma';
+
+  @override
+  String get checkoutDeliveryGiftNote => 'Hədiyyədə ünvan alıcınındır.';
+
+  @override
+  String checkoutEtaDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days gün',
+      one: '1 gün',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String checkoutEtaRange(int min, int max) {
+    return '$min–$max gün';
+  }
+
+  @override
+  String checkoutReadyIn(int hours) {
+    return '$hours saata hazır olur';
+  }
+
+  @override
+  String get checkoutAddressTitle => 'Çatdırılma ünvanı';
+
+  @override
+  String get checkoutNewAddress => 'Yeni ünvan';
+
+  @override
+  String get checkoutCity => 'Şəhər';
+
+  @override
+  String get checkoutDistrict => 'Rayon';
+
+  @override
+  String get checkoutStreet => 'Küçə və ev';
+
+  @override
+  String get checkoutApartment => 'Mənzil';
+
+  @override
+  String get checkoutCourierNote => 'Kuryer üçün qeyd';
+
+  @override
+  String get checkoutSlotTitle => 'Çatdırılma vaxtı';
+
+  @override
+  String get checkoutSlotSubtitle => 'Sizə uyğun gün və aralığı seçin.';
+
+  @override
+  String checkoutSlotsLeft(int count) {
+    return '$count yer qalıb';
+  }
+
+  @override
+  String get checkoutSlotFull => 'Dolub';
+
+  @override
+  String get checkoutNoSlots => 'Hazırda boş vaxt yoxdur';
+
+  @override
+  String get checkoutPaymentTitle => 'Ödəniş';
+
+  @override
+  String get checkoutReviewTitle => 'Yoxlama';
+
+  @override
+  String get checkoutAcceptTerms =>
+      'İstifadə şərtləri, Məxfilik və Qaytarma siyasəti ilə razıyam';
+
+  @override
+  String get checkoutImageRights =>
+      'Yüklədiyim şəkillərin hüquqlarının mənə məxsus olduğunu təsdiq edirəm';
+
+  @override
+  String get checkoutSaveCard => 'Kartı növbəti alış üçün yadda saxla';
+
+  @override
+  String get checkoutPayNow => 'İndi ödə';
+
+  @override
+  String get checkoutPlaceOrder => 'Sifarişi təsdiqlə';
+
+  @override
+  String get checkoutPlacing => 'Sifarişiniz hazırlanır…';
+
+  @override
+  String get checkoutPlacingHint => 'Bu bir neçə saniyə çəkə bilər.';
+
+  @override
+  String get checkoutSessionRefreshed =>
+      'Sessiya yeniləndi, seçimləriniz saxlanıldı.';
+
+  @override
+  String get checkoutPaymentWaitingTitle => 'Ödəniş yoxlanılır';
+
+  @override
+  String checkoutPaymentWaitingBody(String number) {
+    return '$number sifarişi üçün ödəniş səhifəsini tamamlayın. Nəticəni avtomatik yoxlayırıq.';
+  }
+
+  @override
+  String get checkoutPaymentStillProcessing =>
+      'Ödəniş hələ təsdiqlənməyib. Bir az sonra yoxlayın.';
+
+  @override
+  String get checkoutPaymentCheckNow => 'İndi yoxla';
+
+  @override
+  String get checkoutPaymentReopen => 'Ödəniş səhifəsini aç';
+
+  @override
+  String get checkoutPaymentFailedTitle => 'Ödəniş alınmadı';
+
+  @override
+  String get checkoutPaymentFailedBody =>
+      'Kartdan vəsait çıxılmayıb. Yenidən cəhd edə bilərsiniz.';
+
+  @override
+  String get checkoutPaymentTryAgain => 'Yenidən cəhd et';
+
+  @override
+  String get checkoutPayOnDelivery => 'Qapıda ödə';
+
+  @override
+  String get checkoutViewOrder => 'Sifarişə bax';
+
+  @override
+  String get checkoutConfirmedTitle => 'Təşəkkür edirik!';
+
+  @override
+  String checkoutConfirmedNumber(String number) {
+    return 'Sifariş № $number';
+  }
+
+  @override
+  String get checkoutConfirmedBody =>
+      'Sifarişiniz qəbul olundu. Statusu sifariş səhifəsində izləyə bilərsiniz.';
+
+  @override
+  String get checkoutGiftReceipt => 'Hədiyyə qəbzi kodu';
+
+  @override
+  String get checkoutGiftReceiptHint => 'Alıcı bu kodla dəyişdirmə edə bilər.';
+
+  @override
   String get homeHeroTitle => 'Yeni kolleksiya yoldadır';
 
   @override

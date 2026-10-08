@@ -1110,6 +1110,237 @@ class AppLocalizationsEn extends AppLocalizations {
       'Thank you! Your review is waiting for moderation.';
 
   @override
+  String get checkoutTitle => 'Checkout';
+
+  @override
+  String get checkoutContactTitle => 'Contact';
+
+  @override
+  String get checkoutContactSubtitle =>
+      'We will use this to reach you about your order.';
+
+  @override
+  String get checkoutFullName => 'Full name';
+
+  @override
+  String get checkoutPhone => 'Phone';
+
+  @override
+  String get checkoutEmail => 'Email';
+
+  @override
+  String get checkoutEmailHelper => 'Your receipt is sent here';
+
+  @override
+  String get checkoutGiftTitle => 'Gift';
+
+  @override
+  String get checkoutGiftToggle => 'This is a gift';
+
+  @override
+  String get checkoutGiftToggleSubtitle =>
+      'Wrapping, a greeting card and hidden prices.';
+
+  @override
+  String get checkoutNoGift => 'Not a gift';
+
+  @override
+  String checkoutGiftFor(String name) {
+    return 'Gift for $name';
+  }
+
+  @override
+  String get checkoutRecipientName => 'Recipient name';
+
+  @override
+  String get checkoutRecipientPhone => 'Recipient phone';
+
+  @override
+  String get checkoutOccasion => 'Occasion';
+
+  @override
+  String get checkoutSurprise => 'Keep it a surprise';
+
+  @override
+  String get checkoutSurpriseHint =>
+      'Do not tell the recipient about the order.';
+
+  @override
+  String get checkoutHidePrices => 'Hide prices';
+
+  @override
+  String get checkoutPackaging => 'Packaging';
+
+  @override
+  String get checkoutLowStock => 'Few left';
+
+  @override
+  String get checkoutGreetingCard => 'Greeting card';
+
+  @override
+  String get checkoutCardMessage => 'Card message';
+
+  @override
+  String checkoutMessageCounter(int count, int max) {
+    return '$count / $max';
+  }
+
+  @override
+  String get checkoutFromName => 'Signed by';
+
+  @override
+  String get checkoutDeliveryTitle => 'Delivery';
+
+  @override
+  String get checkoutDeliveryGiftNote =>
+      'For a gift, enter the recipient\'s address.';
+
+  @override
+  String checkoutEtaDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '1 day',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String checkoutEtaRange(int min, int max) {
+    return '$min–$max days';
+  }
+
+  @override
+  String checkoutReadyIn(int hours) {
+    return 'Ready in $hours h';
+  }
+
+  @override
+  String get checkoutAddressTitle => 'Delivery address';
+
+  @override
+  String get checkoutNewAddress => 'New address';
+
+  @override
+  String get checkoutCity => 'City';
+
+  @override
+  String get checkoutDistrict => 'District';
+
+  @override
+  String get checkoutStreet => 'Street and number';
+
+  @override
+  String get checkoutApartment => 'Apartment';
+
+  @override
+  String get checkoutCourierNote => 'Note for the courier';
+
+  @override
+  String get checkoutSlotTitle => 'Delivery time';
+
+  @override
+  String get checkoutSlotSubtitle => 'Pick the day and window that suits you.';
+
+  @override
+  String checkoutSlotsLeft(int count) {
+    return '$count left';
+  }
+
+  @override
+  String get checkoutSlotFull => 'Full';
+
+  @override
+  String get checkoutNoSlots => 'No delivery slots available right now';
+
+  @override
+  String get checkoutPaymentTitle => 'Payment';
+
+  @override
+  String get checkoutReviewTitle => 'Review';
+
+  @override
+  String get checkoutAcceptTerms =>
+      'I accept the Terms, Privacy and Returns policy';
+
+  @override
+  String get checkoutImageRights =>
+      'I confirm I have the rights to the images I uploaded';
+
+  @override
+  String get checkoutSaveCard => 'Save this card for next time';
+
+  @override
+  String get checkoutPayNow => 'Pay now';
+
+  @override
+  String get checkoutPlaceOrder => 'Place order';
+
+  @override
+  String get checkoutPlacing => 'Placing your order…';
+
+  @override
+  String get checkoutPlacingHint => 'This can take a few seconds.';
+
+  @override
+  String get checkoutSessionRefreshed =>
+      'Your session was refreshed; your choices are kept.';
+
+  @override
+  String get checkoutPaymentWaitingTitle => 'Confirming your payment';
+
+  @override
+  String checkoutPaymentWaitingBody(String number) {
+    return 'Finish paying for order $number. We check the result automatically.';
+  }
+
+  @override
+  String get checkoutPaymentStillProcessing =>
+      'The payment is not confirmed yet. Check again in a moment.';
+
+  @override
+  String get checkoutPaymentCheckNow => 'Check now';
+
+  @override
+  String get checkoutPaymentReopen => 'Reopen payment page';
+
+  @override
+  String get checkoutPaymentFailedTitle => 'Payment did not go through';
+
+  @override
+  String get checkoutPaymentFailedBody =>
+      'You were not charged. You can try again.';
+
+  @override
+  String get checkoutPaymentTryAgain => 'Try again';
+
+  @override
+  String get checkoutPayOnDelivery => 'Pay on delivery';
+
+  @override
+  String get checkoutViewOrder => 'View order';
+
+  @override
+  String get checkoutConfirmedTitle => 'Thank you!';
+
+  @override
+  String checkoutConfirmedNumber(String number) {
+    return 'Order $number';
+  }
+
+  @override
+  String get checkoutConfirmedBody =>
+      'Your order is in. Follow every step on the order page.';
+
+  @override
+  String get checkoutGiftReceipt => 'Gift receipt code';
+
+  @override
+  String get checkoutGiftReceiptHint =>
+      'The recipient can use it to exchange the gift.';
+
+  @override
   String get homeHeroTitle => 'The new drop is here';
 
   @override

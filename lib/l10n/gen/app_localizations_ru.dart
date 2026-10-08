@@ -1110,6 +1110,236 @@ class AppLocalizationsRu extends AppLocalizations {
       'Спасибо! Ваш отзыв отправлен на модерацию.';
 
   @override
+  String get checkoutTitle => 'Оформление заказа';
+
+  @override
+  String get checkoutContactTitle => 'Контакт';
+
+  @override
+  String get checkoutContactSubtitle => 'Мы свяжемся с вами по этим данным.';
+
+  @override
+  String get checkoutFullName => 'Имя и фамилия';
+
+  @override
+  String get checkoutPhone => 'Телефон';
+
+  @override
+  String get checkoutEmail => 'Почта';
+
+  @override
+  String get checkoutEmailHelper => 'Чек будет отправлен сюда';
+
+  @override
+  String get checkoutGiftTitle => 'Подарок';
+
+  @override
+  String get checkoutGiftToggle => 'Это подарок';
+
+  @override
+  String get checkoutGiftToggleSubtitle => 'Упаковка, открытка и скрытые цены.';
+
+  @override
+  String get checkoutNoGift => 'Не подарок';
+
+  @override
+  String checkoutGiftFor(String name) {
+    return 'Подарок для $name';
+  }
+
+  @override
+  String get checkoutRecipientName => 'Имя получателя';
+
+  @override
+  String get checkoutRecipientPhone => 'Телефон получателя';
+
+  @override
+  String get checkoutOccasion => 'Повод';
+
+  @override
+  String get checkoutSurprise => 'Сюрприз';
+
+  @override
+  String get checkoutSurpriseHint => 'Не сообщать получателю о заказе.';
+
+  @override
+  String get checkoutHidePrices => 'Скрыть цены';
+
+  @override
+  String get checkoutPackaging => 'Упаковка';
+
+  @override
+  String get checkoutLowStock => 'Осталось мало';
+
+  @override
+  String get checkoutGreetingCard => 'Открытка';
+
+  @override
+  String get checkoutCardMessage => 'Текст открытки';
+
+  @override
+  String checkoutMessageCounter(int count, int max) {
+    return '$count / $max';
+  }
+
+  @override
+  String get checkoutFromName => 'Подпись';
+
+  @override
+  String get checkoutDeliveryTitle => 'Доставка';
+
+  @override
+  String get checkoutDeliveryGiftNote =>
+      'Для подарка укажите адрес получателя.';
+
+  @override
+  String checkoutEtaDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days дня',
+      many: '$days дней',
+      few: '$days дня',
+      one: '1 день',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String checkoutEtaRange(int min, int max) {
+    return '$min–$max дн.';
+  }
+
+  @override
+  String checkoutReadyIn(int hours) {
+    return 'Будет готов через $hours ч';
+  }
+
+  @override
+  String get checkoutAddressTitle => 'Адрес доставки';
+
+  @override
+  String get checkoutNewAddress => 'Новый адрес';
+
+  @override
+  String get checkoutCity => 'Город';
+
+  @override
+  String get checkoutDistrict => 'Район';
+
+  @override
+  String get checkoutStreet => 'Улица и дом';
+
+  @override
+  String get checkoutApartment => 'Квартира';
+
+  @override
+  String get checkoutCourierNote => 'Заметка для курьера';
+
+  @override
+  String get checkoutSlotTitle => 'Время доставки';
+
+  @override
+  String get checkoutSlotSubtitle => 'Выберите удобные день и время.';
+
+  @override
+  String checkoutSlotsLeft(int count) {
+    return 'Осталось мест: $count';
+  }
+
+  @override
+  String get checkoutSlotFull => 'Заполнено';
+
+  @override
+  String get checkoutNoSlots => 'Свободных окон доставки нет';
+
+  @override
+  String get checkoutPaymentTitle => 'Оплата';
+
+  @override
+  String get checkoutReviewTitle => 'Проверка';
+
+  @override
+  String get checkoutAcceptTerms =>
+      'Принимаю Условия, Политику конфиденциальности и возврата';
+
+  @override
+  String get checkoutImageRights =>
+      'Подтверждаю, что у меня есть права на загруженные изображения';
+
+  @override
+  String get checkoutSaveCard => 'Сохранить карту для следующих покупок';
+
+  @override
+  String get checkoutPayNow => 'Оплатить';
+
+  @override
+  String get checkoutPlaceOrder => 'Подтвердить заказ';
+
+  @override
+  String get checkoutPlacing => 'Оформляем заказ…';
+
+  @override
+  String get checkoutPlacingHint => 'Это займёт несколько секунд.';
+
+  @override
+  String get checkoutSessionRefreshed =>
+      'Сессия обновлена, ваш выбор сохранён.';
+
+  @override
+  String get checkoutPaymentWaitingTitle => 'Проверяем оплату';
+
+  @override
+  String checkoutPaymentWaitingBody(String number) {
+    return 'Завершите оплату заказа $number. Результат проверяется автоматически.';
+  }
+
+  @override
+  String get checkoutPaymentStillProcessing =>
+      'Оплата ещё не подтверждена. Проверьте чуть позже.';
+
+  @override
+  String get checkoutPaymentCheckNow => 'Проверить';
+
+  @override
+  String get checkoutPaymentReopen => 'Открыть страницу оплаты';
+
+  @override
+  String get checkoutPaymentFailedTitle => 'Оплата не прошла';
+
+  @override
+  String get checkoutPaymentFailedBody =>
+      'Деньги не списаны. Попробуйте ещё раз.';
+
+  @override
+  String get checkoutPaymentTryAgain => 'Попробовать снова';
+
+  @override
+  String get checkoutPayOnDelivery => 'Оплатить при получении';
+
+  @override
+  String get checkoutViewOrder => 'Посмотреть заказ';
+
+  @override
+  String get checkoutConfirmedTitle => 'Спасибо!';
+
+  @override
+  String checkoutConfirmedNumber(String number) {
+    return 'Заказ № $number';
+  }
+
+  @override
+  String get checkoutConfirmedBody =>
+      'Заказ принят. Следите за статусом на странице заказа.';
+
+  @override
+  String get checkoutGiftReceipt => 'Код подарочного чека';
+
+  @override
+  String get checkoutGiftReceiptHint =>
+      'По этому коду получатель может обменять подарок.';
+
+  @override
   String get homeHeroTitle => 'Новый дроп уже здесь';
 
   @override

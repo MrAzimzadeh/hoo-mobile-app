@@ -2112,6 +2112,402 @@ abstract class AppLocalizations {
   /// **'Təşəkkürlər! Rəyiniz yoxlanışa göndərildi.'**
   String get catalogReviewThanks;
 
+  /// No description provided for @checkoutTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişin rəsmiləşdirilməsi'**
+  String get checkoutTitle;
+
+  /// No description provided for @checkoutContactTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Əlaqə'**
+  String get checkoutContactTitle;
+
+  /// No description provided for @checkoutContactSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş barədə sizə bu nömrədən zəng və ya mesaj edəcəyik.'**
+  String get checkoutContactSubtitle;
+
+  /// No description provided for @checkoutFullName.
+  ///
+  /// In az, this message translates to:
+  /// **'Ad və soyad'**
+  String get checkoutFullName;
+
+  /// No description provided for @checkoutPhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Telefon'**
+  String get checkoutPhone;
+
+  /// No description provided for @checkoutEmail.
+  ///
+  /// In az, this message translates to:
+  /// **'E-poçt'**
+  String get checkoutEmail;
+
+  /// No description provided for @checkoutEmailHelper.
+  ///
+  /// In az, this message translates to:
+  /// **'Qəbz bu ünvana göndəriləcək'**
+  String get checkoutEmailHelper;
+
+  /// No description provided for @checkoutGiftTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyə'**
+  String get checkoutGiftTitle;
+
+  /// No description provided for @checkoutGiftToggle.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu bir hədiyyədir'**
+  String get checkoutGiftToggle;
+
+  /// No description provided for @checkoutGiftToggleSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Qablaşdırma, təbrik kartı və qiymətləri gizlətmə.'**
+  String get checkoutGiftToggleSubtitle;
+
+  /// No description provided for @checkoutNoGift.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyə deyil'**
+  String get checkoutNoGift;
+
+  /// No description provided for @checkoutGiftFor.
+  ///
+  /// In az, this message translates to:
+  /// **'{name} üçün hədiyyə'**
+  String checkoutGiftFor(String name);
+
+  /// No description provided for @checkoutRecipientName.
+  ///
+  /// In az, this message translates to:
+  /// **'Alıcının adı'**
+  String get checkoutRecipientName;
+
+  /// No description provided for @checkoutRecipientPhone.
+  ///
+  /// In az, this message translates to:
+  /// **'Alıcının telefonu'**
+  String get checkoutRecipientPhone;
+
+  /// No description provided for @checkoutOccasion.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbəb'**
+  String get checkoutOccasion;
+
+  /// No description provided for @checkoutSurprise.
+  ///
+  /// In az, this message translates to:
+  /// **'Sürpriz'**
+  String get checkoutSurprise;
+
+  /// No description provided for @checkoutSurpriseHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Alıcıya sifariş barədə məlumat getməsin.'**
+  String get checkoutSurpriseHint;
+
+  /// No description provided for @checkoutHidePrices.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymətləri gizlət'**
+  String get checkoutHidePrices;
+
+  /// No description provided for @checkoutPackaging.
+  ///
+  /// In az, this message translates to:
+  /// **'Qablaşdırma'**
+  String get checkoutPackaging;
+
+  /// No description provided for @checkoutLowStock.
+  ///
+  /// In az, this message translates to:
+  /// **'Az qalıb'**
+  String get checkoutLowStock;
+
+  /// No description provided for @checkoutGreetingCard.
+  ///
+  /// In az, this message translates to:
+  /// **'Təbrik kartı'**
+  String get checkoutGreetingCard;
+
+  /// No description provided for @checkoutCardMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Kart mətni'**
+  String get checkoutCardMessage;
+
+  /// No description provided for @checkoutMessageCounter.
+  ///
+  /// In az, this message translates to:
+  /// **'{count} / {max}'**
+  String checkoutMessageCounter(int count, int max);
+
+  /// No description provided for @checkoutFromName.
+  ///
+  /// In az, this message translates to:
+  /// **'İmza'**
+  String get checkoutFromName;
+
+  /// No description provided for @checkoutDeliveryTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma'**
+  String get checkoutDeliveryTitle;
+
+  /// No description provided for @checkoutDeliveryGiftNote.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyədə ünvan alıcınındır.'**
+  String get checkoutDeliveryGiftNote;
+
+  /// No description provided for @checkoutEtaDays.
+  ///
+  /// In az, this message translates to:
+  /// **'{days, plural, =1{1 gün} other{{days} gün}}'**
+  String checkoutEtaDays(int days);
+
+  /// No description provided for @checkoutEtaRange.
+  ///
+  /// In az, this message translates to:
+  /// **'{min}–{max} gün'**
+  String checkoutEtaRange(int min, int max);
+
+  /// No description provided for @checkoutReadyIn.
+  ///
+  /// In az, this message translates to:
+  /// **'{hours} saata hazır olur'**
+  String checkoutReadyIn(int hours);
+
+  /// No description provided for @checkoutAddressTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma ünvanı'**
+  String get checkoutAddressTitle;
+
+  /// No description provided for @checkoutNewAddress.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni ünvan'**
+  String get checkoutNewAddress;
+
+  /// No description provided for @checkoutCity.
+  ///
+  /// In az, this message translates to:
+  /// **'Şəhər'**
+  String get checkoutCity;
+
+  /// No description provided for @checkoutDistrict.
+  ///
+  /// In az, this message translates to:
+  /// **'Rayon'**
+  String get checkoutDistrict;
+
+  /// No description provided for @checkoutStreet.
+  ///
+  /// In az, this message translates to:
+  /// **'Küçə və ev'**
+  String get checkoutStreet;
+
+  /// No description provided for @checkoutApartment.
+  ///
+  /// In az, this message translates to:
+  /// **'Mənzil'**
+  String get checkoutApartment;
+
+  /// No description provided for @checkoutCourierNote.
+  ///
+  /// In az, this message translates to:
+  /// **'Kuryer üçün qeyd'**
+  String get checkoutCourierNote;
+
+  /// No description provided for @checkoutSlotTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Çatdırılma vaxtı'**
+  String get checkoutSlotTitle;
+
+  /// No description provided for @checkoutSlotSubtitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Sizə uyğun gün və aralığı seçin.'**
+  String get checkoutSlotSubtitle;
+
+  /// No description provided for @checkoutSlotsLeft.
+  ///
+  /// In az, this message translates to:
+  /// **'{count} yer qalıb'**
+  String checkoutSlotsLeft(int count);
+
+  /// No description provided for @checkoutSlotFull.
+  ///
+  /// In az, this message translates to:
+  /// **'Dolub'**
+  String get checkoutSlotFull;
+
+  /// No description provided for @checkoutNoSlots.
+  ///
+  /// In az, this message translates to:
+  /// **'Hazırda boş vaxt yoxdur'**
+  String get checkoutNoSlots;
+
+  /// No description provided for @checkoutPaymentTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş'**
+  String get checkoutPaymentTitle;
+
+  /// No description provided for @checkoutReviewTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Yoxlama'**
+  String get checkoutReviewTitle;
+
+  /// No description provided for @checkoutAcceptTerms.
+  ///
+  /// In az, this message translates to:
+  /// **'İstifadə şərtləri, Məxfilik və Qaytarma siyasəti ilə razıyam'**
+  String get checkoutAcceptTerms;
+
+  /// No description provided for @checkoutImageRights.
+  ///
+  /// In az, this message translates to:
+  /// **'Yüklədiyim şəkillərin hüquqlarının mənə məxsus olduğunu təsdiq edirəm'**
+  String get checkoutImageRights;
+
+  /// No description provided for @checkoutSaveCard.
+  ///
+  /// In az, this message translates to:
+  /// **'Kartı növbəti alış üçün yadda saxla'**
+  String get checkoutSaveCard;
+
+  /// No description provided for @checkoutPayNow.
+  ///
+  /// In az, this message translates to:
+  /// **'İndi ödə'**
+  String get checkoutPayNow;
+
+  /// No description provided for @checkoutPlaceOrder.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişi təsdiqlə'**
+  String get checkoutPlaceOrder;
+
+  /// No description provided for @checkoutPlacing.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişiniz hazırlanır…'**
+  String get checkoutPlacing;
+
+  /// No description provided for @checkoutPlacingHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu bir neçə saniyə çəkə bilər.'**
+  String get checkoutPlacingHint;
+
+  /// No description provided for @checkoutSessionRefreshed.
+  ///
+  /// In az, this message translates to:
+  /// **'Sessiya yeniləndi, seçimləriniz saxlanıldı.'**
+  String get checkoutSessionRefreshed;
+
+  /// No description provided for @checkoutPaymentWaitingTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş yoxlanılır'**
+  String get checkoutPaymentWaitingTitle;
+
+  /// No description provided for @checkoutPaymentWaitingBody.
+  ///
+  /// In az, this message translates to:
+  /// **'{number} sifarişi üçün ödəniş səhifəsini tamamlayın. Nəticəni avtomatik yoxlayırıq.'**
+  String checkoutPaymentWaitingBody(String number);
+
+  /// No description provided for @checkoutPaymentStillProcessing.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş hələ təsdiqlənməyib. Bir az sonra yoxlayın.'**
+  String get checkoutPaymentStillProcessing;
+
+  /// No description provided for @checkoutPaymentCheckNow.
+  ///
+  /// In az, this message translates to:
+  /// **'İndi yoxla'**
+  String get checkoutPaymentCheckNow;
+
+  /// No description provided for @checkoutPaymentReopen.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş səhifəsini aç'**
+  String get checkoutPaymentReopen;
+
+  /// No description provided for @checkoutPaymentFailedTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Ödəniş alınmadı'**
+  String get checkoutPaymentFailedTitle;
+
+  /// No description provided for @checkoutPaymentFailedBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Kartdan vəsait çıxılmayıb. Yenidən cəhd edə bilərsiniz.'**
+  String get checkoutPaymentFailedBody;
+
+  /// No description provided for @checkoutPaymentTryAgain.
+  ///
+  /// In az, this message translates to:
+  /// **'Yenidən cəhd et'**
+  String get checkoutPaymentTryAgain;
+
+  /// No description provided for @checkoutPayOnDelivery.
+  ///
+  /// In az, this message translates to:
+  /// **'Qapıda ödə'**
+  String get checkoutPayOnDelivery;
+
+  /// No description provided for @checkoutViewOrder.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişə bax'**
+  String get checkoutViewOrder;
+
+  /// No description provided for @checkoutConfirmedTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Təşəkkür edirik!'**
+  String get checkoutConfirmedTitle;
+
+  /// No description provided for @checkoutConfirmedNumber.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifariş № {number}'**
+  String checkoutConfirmedNumber(String number);
+
+  /// No description provided for @checkoutConfirmedBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişiniz qəbul olundu. Statusu sifariş səhifəsində izləyə bilərsiniz.'**
+  String get checkoutConfirmedBody;
+
+  /// No description provided for @checkoutGiftReceipt.
+  ///
+  /// In az, this message translates to:
+  /// **'Hədiyyə qəbzi kodu'**
+  String get checkoutGiftReceipt;
+
+  /// No description provided for @checkoutGiftReceiptHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Alıcı bu kodla dəyişdirmə edə bilər.'**
+  String get checkoutGiftReceiptHint;
+
   /// No description provided for @homeHeroTitle.
   ///
   /// In az, this message translates to:
