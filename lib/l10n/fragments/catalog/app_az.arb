@@ -1,0 +1,130 @@
+{
+  "@@locale": "az",
+  "catalogSortNewest": "Ən yenilər",
+  "catalogSortPriceAsc": "Qiymət: aşağıdan yuxarı",
+  "catalogSortPriceDesc": "Qiymət: yuxarıdan aşağı",
+  "catalogSortPopular": "Populyar",
+  "catalogFilterTitle": "Filtr və sıralama",
+  "catalogFilterSort": "Sıralama",
+  "catalogFilterCategory": "Kateqoriya",
+  "catalogFilterCollection": "Kolleksiya",
+  "catalogFilterSize": "Ölçü",
+  "catalogFilterColor": "Rəng",
+  "catalogFilterFit": "Kəsim",
+  "catalogFilterPrice": "Qiymət",
+  "catalogFilterAvailability": "Mövcudluq",
+  "catalogFilterInStockOnly": "Yalnız stokda olanlar",
+  "catalogTabAll": "Hamısı",
+  "catalogTabNew": "Yeni",
+  "catalogTabSale": "Endirim",
+  "catalogEmptyTitle": "Məhsul tapılmadı",
+  "catalogEmptyMessage": "Filtrləri dəyişin və ya təmizləyin.",
+  "catalogResultCount": "{count, plural, =1{1 məhsul} other{{count} məhsul}}",
+  "@catalogResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "catalogGallery3d": "3D",
+  "catalogGalleryPhotos": "Şəkillər",
+  "catalogColor": "Rəng",
+  "catalogSize": "Ölçü",
+  "catalogSizeGuide": "Ölçü cədvəli",
+  "catalogSizeLabel": "Ölçü",
+  "catalogChest": "Sinə",
+  "catalogLength": "Uzunluq",
+  "catalogSleeve": "Qol",
+  "catalogUnitCm": "sm",
+  "catalogUnitIn": "düym",
+  "catalogSizeUnavailable": "Bu ölçü hazırda mövcud deyil",
+  "catalogOnlyLeft": "{size} ölçüsündən cəmi {count} ədəd qalıb",
+  "@catalogOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      },
+      "size": {
+        "type": "String",
+        "description": "Placeholder size"
+      }
+    }
+  },
+  "catalogPreorderNote": "Sifarişlə hazırlanır, çatdırılma bir qədər gec ola bilər.",
+  "catalogRecommendedSize": "Sizə {size} ölçüsünü tövsiyə edirik",
+  "@catalogRecommendedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String",
+        "description": "Placeholder size"
+      }
+    }
+  },
+  "catalogColorSoldOut": "Bu rəng hazırda bitib.",
+  "catalogSizeSoldOutHint": "Bəzi ölçülər bitib. Stoka düşəndə xəbər verək.",
+  "catalogNotifyMe": "Mənə xəbər ver",
+  "catalogPriceDropAlert": "Qiymət düşəndə xəbər ver",
+  "catalogPriceDropAlertSet": "Qiymət düşəndə sizə xəbər verəcəyik.",
+  "catalogBackInStockAlertSet": "Stoka düşəndə sizə xəbər verəcəyik.",
+  "catalogAlertSignIn": "Xəbərdarlıq üçün hesabınıza daxil olun.",
+  "catalogDeliveryPromise": "{hours} saat {minutes} dəq ərzində sifariş edin — {date} çatdırılsın",
+  "@catalogDeliveryPromise": {
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "description": "Placeholder hours"
+      },
+      "minutes": {
+        "type": "int",
+        "description": "Placeholder minutes"
+      },
+      "date": {
+        "type": "String",
+        "description": "Placeholder date"
+      }
+    }
+  },
+  "catalogCustomize": "Bunu özünüz dizayn edin",
+  "catalogDescription": "Təsvir",
+  "catalogSizeAndFit": "Ölçü və kəsim",
+  "catalogFabricAndCare": "Parça və qulluq",
+  "catalogReviews": "Rəylər",
+  "catalogReviewsCount": "{count, plural, =1{1 rəy} other{{count} rəy}}",
+  "@catalogReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Placeholder count"
+      }
+    }
+  },
+  "catalogCompleteTheLook": "Görünüşü tamamla",
+  "catalogYouMayAlsoLike": "Sizə maraqlı ola bilər",
+  "catalogAddToBag": "Səbətə at",
+  "catalogSelectSize": "Ölçü seçin",
+  "catalogSoldOut": "Bitib",
+  "catalogPreorder": "Əvvəlcədən sifariş et",
+  "catalogWriteReview": "Rəy yaz",
+  "catalogReviewSignIn": "Rəy yazmaq üçün daxil olun.",
+  "catalogNoReviewsTitle": "Hələ rəy yoxdur",
+  "catalogNoReviewsMessage": "Sifarişiniz çatdırıldıqdan sonra ilk rəyi siz yaza bilərsiniz.",
+  "catalogYourRating": "Qiymətiniz",
+  "catalogRatingRequired": "Qiymət seçin",
+  "catalogReviewTitle": "Başlıq",
+  "catalogReviewBody": "Rəyiniz",
+  "catalogReviewBodyShort": "Ən azı {min} simvol yazın",
+  "@catalogReviewBodyShort": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "description": "Placeholder min"
+      }
+    }
+  },
+  "catalogReviewModeration": "Rəylər yoxlanıldıqdan sonra dərc olunur.",
+  "catalogReviewSubmit": "Göndər",
+  "catalogReviewThanks": "Təşəkkürlər! Rəyiniz yoxlanışa göndərildi."
+}

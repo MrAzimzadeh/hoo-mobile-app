@@ -919,6 +919,234 @@ class AppLocalizationsRu extends AppLocalizations {
   String get catalogFilterInStockOnly => 'Только в наличии';
 
   @override
+  String get catalogTabAll => 'Все';
+
+  @override
+  String get catalogTabNew => 'Новинки';
+
+  @override
+  String get catalogTabSale => 'Скидки';
+
+  @override
+  String get catalogEmptyTitle => 'Товары не найдены';
+
+  @override
+  String get catalogEmptyMessage => 'Измените или сбросьте фильтры.';
+
+  @override
+  String catalogResultCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count товара',
+      many: '$count товаров',
+      few: '$count товара',
+      one: '1 товар',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogGallery3d => '3D';
+
+  @override
+  String get catalogGalleryPhotos => 'Фото';
+
+  @override
+  String get catalogColor => 'Цвет';
+
+  @override
+  String get catalogSize => 'Размер';
+
+  @override
+  String get catalogSizeGuide => 'Таблица размеров';
+
+  @override
+  String get catalogSizeLabel => 'Размер';
+
+  @override
+  String get catalogChest => 'Грудь';
+
+  @override
+  String get catalogLength => 'Длина';
+
+  @override
+  String get catalogSleeve => 'Рукав';
+
+  @override
+  String get catalogUnitCm => 'см';
+
+  @override
+  String get catalogUnitIn => 'дюйм';
+
+  @override
+  String get catalogSizeUnavailable => 'Этого размера сейчас нет';
+
+  @override
+  String catalogOnlyLeft(int count, String size) {
+    return 'Осталось всего $count в размере $size';
+  }
+
+  @override
+  String get catalogPreorderNote =>
+      'Предзаказ: доставка может занять больше времени.';
+
+  @override
+  String catalogRecommendedSize(String size) {
+    return 'Мы рекомендуем размер $size';
+  }
+
+  @override
+  String get catalogColorSoldOut => 'Этот цвет закончился.';
+
+  @override
+  String get catalogSizeSoldOutHint =>
+      'Некоторых размеров нет. Сообщим, когда появятся.';
+
+  @override
+  String get catalogNotifyMe => 'Сообщить мне';
+
+  @override
+  String get catalogPriceDropAlert => 'Сообщить о снижении цены';
+
+  @override
+  String get catalogPriceDropAlertSet => 'Мы сообщим, когда цена снизится.';
+
+  @override
+  String get catalogBackInStockAlertSet => 'Мы сообщим, когда товар появится.';
+
+  @override
+  String get catalogAlertSignIn => 'Войдите, чтобы настроить уведомления.';
+
+  @override
+  String catalogDeliveryPromise(int hours, int minutes, String date) {
+    return 'Закажите в течение $hours ч $minutes мин — доставим $date';
+  }
+
+  @override
+  String get catalogCustomize => 'Создать свой дизайн';
+
+  @override
+  String get catalogDescription => 'Описание';
+
+  @override
+  String get catalogSizeAndFit => 'Размер и крой';
+
+  @override
+  String get catalogFabricAndCare => 'Ткань и уход';
+
+  @override
+  String get catalogReviews => 'Отзывы';
+
+  @override
+  String catalogReviewsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count отзыва',
+      many: '$count отзывов',
+      few: '$count отзыва',
+      one: '1 отзыв',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogCompleteTheLook => 'Дополните образ';
+
+  @override
+  String get catalogYouMayAlsoLike => 'Вам может понравиться';
+
+  @override
+  String get catalogAddToBag => 'В корзину';
+
+  @override
+  String get catalogSelectSize => 'Выберите размер';
+
+  @override
+  String get catalogSoldOut => 'Нет в наличии';
+
+  @override
+  String get catalogPreorder => 'Предзаказ';
+
+  @override
+  String get catalogWriteReview => 'Написать отзыв';
+
+  @override
+  String get catalogReviewSignIn => 'Войдите, чтобы написать отзыв.';
+
+  @override
+  String get catalogNoReviewsTitle => 'Пока нет отзывов';
+
+  @override
+  String get catalogNoReviewsMessage =>
+      'После доставки заказа вы сможете написать первый отзыв.';
+
+  @override
+  String get catalogYourRating => 'Ваша оценка';
+
+  @override
+  String get catalogRatingRequired => 'Выберите оценку';
+
+  @override
+  String get catalogReviewTitle => 'Заголовок';
+
+  @override
+  String get catalogReviewBody => 'Ваш отзыв';
+
+  @override
+  String catalogReviewBodyShort(int min) {
+    return 'Напишите не менее $min символов';
+  }
+
+  @override
+  String get catalogReviewModeration => 'Отзывы публикуются после модерации.';
+
+  @override
+  String get catalogReviewSubmit => 'Отправить отзыв';
+
+  @override
+  String get catalogReviewThanks =>
+      'Спасибо! Ваш отзыв отправлен на модерацию.';
+
+  @override
+  String get homeHeroTitle => 'Новый дроп уже здесь';
+
+  @override
+  String get homeHeroCta => 'Смотреть новинки';
+
+  @override
+  String get homeDesignTitle => 'Создайте свой дизайн';
+
+  @override
+  String get homeDesignBody =>
+      'Выберите модель, добавьте текст и рисунок, посмотрите в 3D.';
+
+  @override
+  String get homeNewArrivals => 'Новинки';
+
+  @override
+  String get homeCategories => 'Категории';
+
+  @override
+  String get homeCollections => 'Коллекции';
+
+  @override
+  String get homeShopTheLook => 'Купить образ';
+
+  @override
+  String get homeBestsellers => 'Бестселлеры';
+
+  @override
+  String get homeRecentlyViewed => 'Вы недавно смотрели';
+
+  @override
+  String get homeEmptyTitle => 'Скоро появятся новые товары';
+
+  @override
+  String get homeEmptyMessage => 'Загляните чуть позже.';
+
+  @override
   String get launchComingSoonEyebrow => 'Скоро';
 
   @override

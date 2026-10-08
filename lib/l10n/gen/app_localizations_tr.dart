@@ -913,6 +913,231 @@ class AppLocalizationsTr extends AppLocalizations {
   String get catalogFilterInStockOnly => 'Yalnızca stokta olanlar';
 
   @override
+  String get catalogTabAll => 'Tümü';
+
+  @override
+  String get catalogTabNew => 'Yeni';
+
+  @override
+  String get catalogTabSale => 'İndirim';
+
+  @override
+  String get catalogEmptyTitle => 'Ürün bulunamadı';
+
+  @override
+  String get catalogEmptyMessage => 'Filtreleri değiştir veya temizle.';
+
+  @override
+  String catalogResultCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count ürün',
+      one: '1 ürün',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogGallery3d => '3D';
+
+  @override
+  String get catalogGalleryPhotos => 'Fotoğraflar';
+
+  @override
+  String get catalogColor => 'Renk';
+
+  @override
+  String get catalogSize => 'Beden';
+
+  @override
+  String get catalogSizeGuide => 'Beden tablosu';
+
+  @override
+  String get catalogSizeLabel => 'Beden';
+
+  @override
+  String get catalogChest => 'Göğüs';
+
+  @override
+  String get catalogLength => 'Boy';
+
+  @override
+  String get catalogSleeve => 'Kol';
+
+  @override
+  String get catalogUnitCm => 'cm';
+
+  @override
+  String get catalogUnitIn => 'inç';
+
+  @override
+  String get catalogSizeUnavailable => 'Bu beden şu anda mevcut değil';
+
+  @override
+  String catalogOnlyLeft(int count, String size) {
+    return '$size bedeninde yalnızca $count adet kaldı';
+  }
+
+  @override
+  String get catalogPreorderNote =>
+      'Ön sipariş: teslimat biraz uzun sürebilir.';
+
+  @override
+  String catalogRecommendedSize(String size) {
+    return 'Sana $size bedenini öneriyoruz';
+  }
+
+  @override
+  String get catalogColorSoldOut => 'Bu renk şu anda tükendi.';
+
+  @override
+  String get catalogSizeSoldOutHint =>
+      'Bazı bedenler tükendi. Stoğa girince haber verelim.';
+
+  @override
+  String get catalogNotifyMe => 'Bana haber ver';
+
+  @override
+  String get catalogPriceDropAlert => 'Fiyat düşünce haber ver';
+
+  @override
+  String get catalogPriceDropAlertSet => 'Fiyat düşünce sana haber vereceğiz.';
+
+  @override
+  String get catalogBackInStockAlertSet =>
+      'Stoğa girince sana haber vereceğiz.';
+
+  @override
+  String get catalogAlertSignIn => 'Uyarı kurmak için giriş yap.';
+
+  @override
+  String catalogDeliveryPromise(int hours, int minutes, String date) {
+    return '$hours sa $minutes dk içinde sipariş ver — $date teslim edilsin';
+  }
+
+  @override
+  String get catalogCustomize => 'Bunu özelleştir';
+
+  @override
+  String get catalogDescription => 'Açıklama';
+
+  @override
+  String get catalogSizeAndFit => 'Beden ve kalıp';
+
+  @override
+  String get catalogFabricAndCare => 'Kumaş ve bakım';
+
+  @override
+  String get catalogReviews => 'Yorumlar';
+
+  @override
+  String catalogReviewsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count yorum',
+      one: '1 yorum',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogCompleteTheLook => 'Görünümü tamamla';
+
+  @override
+  String get catalogYouMayAlsoLike => 'Bunlar da hoşuna gidebilir';
+
+  @override
+  String get catalogAddToBag => 'Sepete ekle';
+
+  @override
+  String get catalogSelectSize => 'Beden seç';
+
+  @override
+  String get catalogSoldOut => 'Tükendi';
+
+  @override
+  String get catalogPreorder => 'Ön sipariş ver';
+
+  @override
+  String get catalogWriteReview => 'Yorum yaz';
+
+  @override
+  String get catalogReviewSignIn => 'Yorum yazmak için giriş yap.';
+
+  @override
+  String get catalogNoReviewsTitle => 'Henüz yorum yok';
+
+  @override
+  String get catalogNoReviewsMessage =>
+      'Siparişin teslim edilince ilk yorumu sen yazabilirsin.';
+
+  @override
+  String get catalogYourRating => 'Puanın';
+
+  @override
+  String get catalogRatingRequired => 'Bir puan seç';
+
+  @override
+  String get catalogReviewTitle => 'Başlık';
+
+  @override
+  String get catalogReviewBody => 'Yorumun';
+
+  @override
+  String catalogReviewBodyShort(int min) {
+    return 'En az $min karakter yaz';
+  }
+
+  @override
+  String get catalogReviewModeration =>
+      'Yorumlar moderasyondan sonra yayınlanır.';
+
+  @override
+  String get catalogReviewSubmit => 'Yorumu gönder';
+
+  @override
+  String get catalogReviewThanks =>
+      'Teşekkürler! Yorumun moderasyona gönderildi.';
+
+  @override
+  String get homeHeroTitle => 'Yeni koleksiyon geldi';
+
+  @override
+  String get homeHeroCta => 'Yeni gelenleri gör';
+
+  @override
+  String get homeDesignTitle => 'Kendi tasarımını yap';
+
+  @override
+  String get homeDesignBody => 'Modeli seç, yazı ve görsel ekle, 3D\'de gör.';
+
+  @override
+  String get homeNewArrivals => 'Yeni gelenler';
+
+  @override
+  String get homeCategories => 'Kategoriler';
+
+  @override
+  String get homeCollections => 'Koleksiyonlar';
+
+  @override
+  String get homeShopTheLook => 'Görünümü al';
+
+  @override
+  String get homeBestsellers => 'Çok satanlar';
+
+  @override
+  String get homeRecentlyViewed => 'Son baktıkların';
+
+  @override
+  String get homeEmptyTitle => 'Yeni ürünler çok yakında';
+
+  @override
+  String get homeEmptyMessage => 'Biraz sonra tekrar bak.';
+
+  @override
   String get launchComingSoonEyebrow => 'Çok yakında';
 
   @override

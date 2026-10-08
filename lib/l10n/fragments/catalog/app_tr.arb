@@ -1,0 +1,121 @@
+{
+  "@@locale": "tr",
+  "catalogSortNewest": "En yeni",
+  "catalogSortPriceAsc": "Fiyat: artan",
+  "catalogSortPriceDesc": "Fiyat: azalan",
+  "catalogSortPopular": "Popüler",
+  "catalogFilterTitle": "Filtre ve sıralama",
+  "catalogFilterSort": "Sıralama",
+  "catalogFilterCategory": "Kategori",
+  "catalogFilterCollection": "Koleksiyon",
+  "catalogFilterSize": "Beden",
+  "catalogFilterColor": "Renk",
+  "catalogFilterFit": "Kalıp",
+  "catalogFilterPrice": "Fiyat",
+  "catalogFilterAvailability": "Stok durumu",
+  "catalogFilterInStockOnly": "Yalnızca stokta olanlar",
+  "catalogTabAll": "Tümü",
+  "catalogTabNew": "Yeni",
+  "catalogTabSale": "İndirim",
+  "catalogEmptyTitle": "Ürün bulunamadı",
+  "catalogEmptyMessage": "Filtreleri değiştir veya temizle.",
+  "catalogResultCount": "{count, plural, =1{1 ürün} other{{count} ürün}}",
+  "@catalogResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogGallery3d": "3D",
+  "catalogGalleryPhotos": "Fotoğraflar",
+  "catalogColor": "Renk",
+  "catalogSize": "Beden",
+  "catalogSizeGuide": "Beden tablosu",
+  "catalogSizeLabel": "Beden",
+  "catalogChest": "Göğüs",
+  "catalogLength": "Boy",
+  "catalogSleeve": "Kol",
+  "catalogUnitCm": "cm",
+  "catalogUnitIn": "inç",
+  "catalogSizeUnavailable": "Bu beden şu anda mevcut değil",
+  "catalogOnlyLeft": "{size} bedeninde yalnızca {count} adet kaldı",
+  "@catalogOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogPreorderNote": "Ön sipariş: teslimat biraz uzun sürebilir.",
+  "catalogRecommendedSize": "Sana {size} bedenini öneriyoruz",
+  "@catalogRecommendedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogColorSoldOut": "Bu renk şu anda tükendi.",
+  "catalogSizeSoldOutHint": "Bazı bedenler tükendi. Stoğa girince haber verelim.",
+  "catalogNotifyMe": "Bana haber ver",
+  "catalogPriceDropAlert": "Fiyat düşünce haber ver",
+  "catalogPriceDropAlertSet": "Fiyat düşünce sana haber vereceğiz.",
+  "catalogBackInStockAlertSet": "Stoğa girince sana haber vereceğiz.",
+  "catalogAlertSignIn": "Uyarı kurmak için giriş yap.",
+  "catalogDeliveryPromise": "{hours} sa {minutes} dk içinde sipariş ver — {date} teslim edilsin",
+  "@catalogDeliveryPromise": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogCustomize": "Bunu özelleştir",
+  "catalogDescription": "Açıklama",
+  "catalogSizeAndFit": "Beden ve kalıp",
+  "catalogFabricAndCare": "Kumaş ve bakım",
+  "catalogReviews": "Yorumlar",
+  "catalogReviewsCount": "{count, plural, =1{1 yorum} other{{count} yorum}}",
+  "@catalogReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogCompleteTheLook": "Görünümü tamamla",
+  "catalogYouMayAlsoLike": "Bunlar da hoşuna gidebilir",
+  "catalogAddToBag": "Sepete ekle",
+  "catalogSelectSize": "Beden seç",
+  "catalogSoldOut": "Tükendi",
+  "catalogPreorder": "Ön sipariş ver",
+  "catalogWriteReview": "Yorum yaz",
+  "catalogReviewSignIn": "Yorum yazmak için giriş yap.",
+  "catalogNoReviewsTitle": "Henüz yorum yok",
+  "catalogNoReviewsMessage": "Siparişin teslim edilince ilk yorumu sen yazabilirsin.",
+  "catalogYourRating": "Puanın",
+  "catalogRatingRequired": "Bir puan seç",
+  "catalogReviewTitle": "Başlık",
+  "catalogReviewBody": "Yorumun",
+  "catalogReviewBodyShort": "En az {min} karakter yaz",
+  "@catalogReviewBodyShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogReviewModeration": "Yorumlar moderasyondan sonra yayınlanır.",
+  "catalogReviewSubmit": "Yorumu gönder",
+  "catalogReviewThanks": "Teşekkürler! Yorumun moderasyona gönderildi."
+}

@@ -1794,6 +1794,396 @@ abstract class AppLocalizations {
   /// **'Yalnız stokda olanlar'**
   String get catalogFilterInStockOnly;
 
+  /// No description provided for @catalogTabAll.
+  ///
+  /// In az, this message translates to:
+  /// **'Hamısı'**
+  String get catalogTabAll;
+
+  /// No description provided for @catalogTabNew.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni'**
+  String get catalogTabNew;
+
+  /// No description provided for @catalogTabSale.
+  ///
+  /// In az, this message translates to:
+  /// **'Endirim'**
+  String get catalogTabSale;
+
+  /// No description provided for @catalogEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Məhsul tapılmadı'**
+  String get catalogEmptyTitle;
+
+  /// No description provided for @catalogEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Filtrləri dəyişin və ya təmizləyin.'**
+  String get catalogEmptyMessage;
+
+  /// No description provided for @catalogResultCount.
+  ///
+  /// In az, this message translates to:
+  /// **'{count, plural, =1{1 məhsul} other{{count} məhsul}}'**
+  String catalogResultCount(int count);
+
+  /// No description provided for @catalogGallery3d.
+  ///
+  /// In az, this message translates to:
+  /// **'3D'**
+  String get catalogGallery3d;
+
+  /// No description provided for @catalogGalleryPhotos.
+  ///
+  /// In az, this message translates to:
+  /// **'Şəkillər'**
+  String get catalogGalleryPhotos;
+
+  /// No description provided for @catalogColor.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəng'**
+  String get catalogColor;
+
+  /// No description provided for @catalogSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü'**
+  String get catalogSize;
+
+  /// No description provided for @catalogSizeGuide.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü cədvəli'**
+  String get catalogSizeGuide;
+
+  /// No description provided for @catalogSizeLabel.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü'**
+  String get catalogSizeLabel;
+
+  /// No description provided for @catalogChest.
+  ///
+  /// In az, this message translates to:
+  /// **'Sinə'**
+  String get catalogChest;
+
+  /// No description provided for @catalogLength.
+  ///
+  /// In az, this message translates to:
+  /// **'Uzunluq'**
+  String get catalogLength;
+
+  /// No description provided for @catalogSleeve.
+  ///
+  /// In az, this message translates to:
+  /// **'Qol'**
+  String get catalogSleeve;
+
+  /// No description provided for @catalogUnitCm.
+  ///
+  /// In az, this message translates to:
+  /// **'sm'**
+  String get catalogUnitCm;
+
+  /// No description provided for @catalogUnitIn.
+  ///
+  /// In az, this message translates to:
+  /// **'düym'**
+  String get catalogUnitIn;
+
+  /// No description provided for @catalogSizeUnavailable.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu ölçü hazırda mövcud deyil'**
+  String get catalogSizeUnavailable;
+
+  /// No description provided for @catalogOnlyLeft.
+  ///
+  /// In az, this message translates to:
+  /// **'{size} ölçüsündən cəmi {count} ədəd qalıb'**
+  String catalogOnlyLeft(int count, String size);
+
+  /// No description provided for @catalogPreorderNote.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişlə hazırlanır, çatdırılma bir qədər gec ola bilər.'**
+  String get catalogPreorderNote;
+
+  /// No description provided for @catalogRecommendedSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Sizə {size} ölçüsünü tövsiyə edirik'**
+  String catalogRecommendedSize(String size);
+
+  /// No description provided for @catalogColorSoldOut.
+  ///
+  /// In az, this message translates to:
+  /// **'Bu rəng hazırda bitib.'**
+  String get catalogColorSoldOut;
+
+  /// No description provided for @catalogSizeSoldOutHint.
+  ///
+  /// In az, this message translates to:
+  /// **'Bəzi ölçülər bitib. Stoka düşəndə xəbər verək.'**
+  String get catalogSizeSoldOutHint;
+
+  /// No description provided for @catalogNotifyMe.
+  ///
+  /// In az, this message translates to:
+  /// **'Mənə xəbər ver'**
+  String get catalogNotifyMe;
+
+  /// No description provided for @catalogPriceDropAlert.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət düşəndə xəbər ver'**
+  String get catalogPriceDropAlert;
+
+  /// No description provided for @catalogPriceDropAlertSet.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət düşəndə sizə xəbər verəcəyik.'**
+  String get catalogPriceDropAlertSet;
+
+  /// No description provided for @catalogBackInStockAlertSet.
+  ///
+  /// In az, this message translates to:
+  /// **'Stoka düşəndə sizə xəbər verəcəyik.'**
+  String get catalogBackInStockAlertSet;
+
+  /// No description provided for @catalogAlertSignIn.
+  ///
+  /// In az, this message translates to:
+  /// **'Xəbərdarlıq üçün hesabınıza daxil olun.'**
+  String get catalogAlertSignIn;
+
+  /// No description provided for @catalogDeliveryPromise.
+  ///
+  /// In az, this message translates to:
+  /// **'{hours} saat {minutes} dəq ərzində sifariş edin — {date} çatdırılsın'**
+  String catalogDeliveryPromise(int hours, int minutes, String date);
+
+  /// No description provided for @catalogCustomize.
+  ///
+  /// In az, this message translates to:
+  /// **'Bunu özünüz dizayn edin'**
+  String get catalogCustomize;
+
+  /// No description provided for @catalogDescription.
+  ///
+  /// In az, this message translates to:
+  /// **'Təsvir'**
+  String get catalogDescription;
+
+  /// No description provided for @catalogSizeAndFit.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü və kəsim'**
+  String get catalogSizeAndFit;
+
+  /// No description provided for @catalogFabricAndCare.
+  ///
+  /// In az, this message translates to:
+  /// **'Parça və qulluq'**
+  String get catalogFabricAndCare;
+
+  /// No description provided for @catalogReviews.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəylər'**
+  String get catalogReviews;
+
+  /// No description provided for @catalogReviewsCount.
+  ///
+  /// In az, this message translates to:
+  /// **'{count, plural, =1{1 rəy} other{{count} rəy}}'**
+  String catalogReviewsCount(int count);
+
+  /// No description provided for @catalogCompleteTheLook.
+  ///
+  /// In az, this message translates to:
+  /// **'Görünüşü tamamla'**
+  String get catalogCompleteTheLook;
+
+  /// No description provided for @catalogYouMayAlsoLike.
+  ///
+  /// In az, this message translates to:
+  /// **'Sizə maraqlı ola bilər'**
+  String get catalogYouMayAlsoLike;
+
+  /// No description provided for @catalogAddToBag.
+  ///
+  /// In az, this message translates to:
+  /// **'Səbətə at'**
+  String get catalogAddToBag;
+
+  /// No description provided for @catalogSelectSize.
+  ///
+  /// In az, this message translates to:
+  /// **'Ölçü seçin'**
+  String get catalogSelectSize;
+
+  /// No description provided for @catalogSoldOut.
+  ///
+  /// In az, this message translates to:
+  /// **'Bitib'**
+  String get catalogSoldOut;
+
+  /// No description provided for @catalogPreorder.
+  ///
+  /// In az, this message translates to:
+  /// **'Əvvəlcədən sifariş et'**
+  String get catalogPreorder;
+
+  /// No description provided for @catalogWriteReview.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəy yaz'**
+  String get catalogWriteReview;
+
+  /// No description provided for @catalogReviewSignIn.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəy yazmaq üçün daxil olun.'**
+  String get catalogReviewSignIn;
+
+  /// No description provided for @catalogNoReviewsTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Hələ rəy yoxdur'**
+  String get catalogNoReviewsTitle;
+
+  /// No description provided for @catalogNoReviewsMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Sifarişiniz çatdırıldıqdan sonra ilk rəyi siz yaza bilərsiniz.'**
+  String get catalogNoReviewsMessage;
+
+  /// No description provided for @catalogYourRating.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymətiniz'**
+  String get catalogYourRating;
+
+  /// No description provided for @catalogRatingRequired.
+  ///
+  /// In az, this message translates to:
+  /// **'Qiymət seçin'**
+  String get catalogRatingRequired;
+
+  /// No description provided for @catalogReviewTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Başlıq'**
+  String get catalogReviewTitle;
+
+  /// No description provided for @catalogReviewBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəyiniz'**
+  String get catalogReviewBody;
+
+  /// No description provided for @catalogReviewBodyShort.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən azı {min} simvol yazın'**
+  String catalogReviewBodyShort(int min);
+
+  /// No description provided for @catalogReviewModeration.
+  ///
+  /// In az, this message translates to:
+  /// **'Rəylər yoxlanıldıqdan sonra dərc olunur.'**
+  String get catalogReviewModeration;
+
+  /// No description provided for @catalogReviewSubmit.
+  ///
+  /// In az, this message translates to:
+  /// **'Göndər'**
+  String get catalogReviewSubmit;
+
+  /// No description provided for @catalogReviewThanks.
+  ///
+  /// In az, this message translates to:
+  /// **'Təşəkkürlər! Rəyiniz yoxlanışa göndərildi.'**
+  String get catalogReviewThanks;
+
+  /// No description provided for @homeHeroTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni kolleksiya yoldadır'**
+  String get homeHeroTitle;
+
+  /// No description provided for @homeHeroCta.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeniliklərə bax'**
+  String get homeHeroCta;
+
+  /// No description provided for @homeDesignTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Özünüz dizayn edin'**
+  String get homeDesignTitle;
+
+  /// No description provided for @homeDesignBody.
+  ///
+  /// In az, this message translates to:
+  /// **'Modeli seçin, mətn və şəkil əlavə edin, 3D-də görün.'**
+  String get homeDesignBody;
+
+  /// No description provided for @homeNewArrivals.
+  ///
+  /// In az, this message translates to:
+  /// **'Yeni gələnlər'**
+  String get homeNewArrivals;
+
+  /// No description provided for @homeCategories.
+  ///
+  /// In az, this message translates to:
+  /// **'Kateqoriyalar'**
+  String get homeCategories;
+
+  /// No description provided for @homeCollections.
+  ///
+  /// In az, this message translates to:
+  /// **'Kolleksiyalar'**
+  String get homeCollections;
+
+  /// No description provided for @homeShopTheLook.
+  ///
+  /// In az, this message translates to:
+  /// **'Görünüşü al'**
+  String get homeShopTheLook;
+
+  /// No description provided for @homeBestsellers.
+  ///
+  /// In az, this message translates to:
+  /// **'Ən çox satılanlar'**
+  String get homeBestsellers;
+
+  /// No description provided for @homeRecentlyViewed.
+  ///
+  /// In az, this message translates to:
+  /// **'Son baxdıqlarınız'**
+  String get homeRecentlyViewed;
+
+  /// No description provided for @homeEmptyTitle.
+  ///
+  /// In az, this message translates to:
+  /// **'Tezliklə yeni məhsullar'**
+  String get homeEmptyTitle;
+
+  /// No description provided for @homeEmptyMessage.
+  ///
+  /// In az, this message translates to:
+  /// **'Bir az sonra yenidən yoxlayın.'**
+  String get homeEmptyMessage;
+
   /// No description provided for @launchComingSoonEyebrow.
   ///
   /// In az, this message translates to:

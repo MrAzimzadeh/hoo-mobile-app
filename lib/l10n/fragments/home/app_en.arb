@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "homeHeroTitle": "The new drop is here",
+  "homeHeroCta": "Shop new arrivals",
+  "homeDesignTitle": "Design your own",
+  "homeDesignBody": "Pick a garment, add text and art, see it in 3D.",
+  "homeNewArrivals": "New arrivals",
+  "homeCategories": "Categories",
+  "homeCollections": "Collections",
+  "homeShopTheLook": "Shop the look",
+  "homeBestsellers": "Bestsellers",
+  "homeRecentlyViewed": "Recently viewed",
+  "homeEmptyTitle": "New pieces are coming soon",
+  "homeEmptyMessage": "Check back in a little while."
+}

@@ -1,0 +1,15 @@
+{
+  "@@locale": "tr",
+  "homeHeroTitle": "Yeni koleksiyon geldi",
+  "homeHeroCta": "Yeni gelenleri gör",
+  "homeDesignTitle": "Kendi tasarımını yap",
+  "homeDesignBody": "Modeli seç, yazı ve görsel ekle, 3D'de gör.",
+  "homeNewArrivals": "Yeni gelenler",
+  "homeCategories": "Kategoriler",
+  "homeCollections": "Koleksiyonlar",
+  "homeShopTheLook": "Görünümü al",
+  "homeBestsellers": "Çok satanlar",
+  "homeRecentlyViewed": "Son baktıkların",
+  "homeEmptyTitle": "Yeni ürünler çok yakında",
+  "homeEmptyMessage": "Biraz sonra tekrar bak."
+}

@@ -916,6 +916,232 @@ class AppLocalizationsAz extends AppLocalizations {
   String get catalogFilterInStockOnly => 'Yalnız stokda olanlar';
 
   @override
+  String get catalogTabAll => 'Hamısı';
+
+  @override
+  String get catalogTabNew => 'Yeni';
+
+  @override
+  String get catalogTabSale => 'Endirim';
+
+  @override
+  String get catalogEmptyTitle => 'Məhsul tapılmadı';
+
+  @override
+  String get catalogEmptyMessage => 'Filtrləri dəyişin və ya təmizləyin.';
+
+  @override
+  String catalogResultCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count məhsul',
+      one: '1 məhsul',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogGallery3d => '3D';
+
+  @override
+  String get catalogGalleryPhotos => 'Şəkillər';
+
+  @override
+  String get catalogColor => 'Rəng';
+
+  @override
+  String get catalogSize => 'Ölçü';
+
+  @override
+  String get catalogSizeGuide => 'Ölçü cədvəli';
+
+  @override
+  String get catalogSizeLabel => 'Ölçü';
+
+  @override
+  String get catalogChest => 'Sinə';
+
+  @override
+  String get catalogLength => 'Uzunluq';
+
+  @override
+  String get catalogSleeve => 'Qol';
+
+  @override
+  String get catalogUnitCm => 'sm';
+
+  @override
+  String get catalogUnitIn => 'düym';
+
+  @override
+  String get catalogSizeUnavailable => 'Bu ölçü hazırda mövcud deyil';
+
+  @override
+  String catalogOnlyLeft(int count, String size) {
+    return '$size ölçüsündən cəmi $count ədəd qalıb';
+  }
+
+  @override
+  String get catalogPreorderNote =>
+      'Sifarişlə hazırlanır, çatdırılma bir qədər gec ola bilər.';
+
+  @override
+  String catalogRecommendedSize(String size) {
+    return 'Sizə $size ölçüsünü tövsiyə edirik';
+  }
+
+  @override
+  String get catalogColorSoldOut => 'Bu rəng hazırda bitib.';
+
+  @override
+  String get catalogSizeSoldOutHint =>
+      'Bəzi ölçülər bitib. Stoka düşəndə xəbər verək.';
+
+  @override
+  String get catalogNotifyMe => 'Mənə xəbər ver';
+
+  @override
+  String get catalogPriceDropAlert => 'Qiymət düşəndə xəbər ver';
+
+  @override
+  String get catalogPriceDropAlertSet => 'Qiymət düşəndə sizə xəbər verəcəyik.';
+
+  @override
+  String get catalogBackInStockAlertSet =>
+      'Stoka düşəndə sizə xəbər verəcəyik.';
+
+  @override
+  String get catalogAlertSignIn => 'Xəbərdarlıq üçün hesabınıza daxil olun.';
+
+  @override
+  String catalogDeliveryPromise(int hours, int minutes, String date) {
+    return '$hours saat $minutes dəq ərzində sifariş edin — $date çatdırılsın';
+  }
+
+  @override
+  String get catalogCustomize => 'Bunu özünüz dizayn edin';
+
+  @override
+  String get catalogDescription => 'Təsvir';
+
+  @override
+  String get catalogSizeAndFit => 'Ölçü və kəsim';
+
+  @override
+  String get catalogFabricAndCare => 'Parça və qulluq';
+
+  @override
+  String get catalogReviews => 'Rəylər';
+
+  @override
+  String catalogReviewsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count rəy',
+      one: '1 rəy',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogCompleteTheLook => 'Görünüşü tamamla';
+
+  @override
+  String get catalogYouMayAlsoLike => 'Sizə maraqlı ola bilər';
+
+  @override
+  String get catalogAddToBag => 'Səbətə at';
+
+  @override
+  String get catalogSelectSize => 'Ölçü seçin';
+
+  @override
+  String get catalogSoldOut => 'Bitib';
+
+  @override
+  String get catalogPreorder => 'Əvvəlcədən sifariş et';
+
+  @override
+  String get catalogWriteReview => 'Rəy yaz';
+
+  @override
+  String get catalogReviewSignIn => 'Rəy yazmaq üçün daxil olun.';
+
+  @override
+  String get catalogNoReviewsTitle => 'Hələ rəy yoxdur';
+
+  @override
+  String get catalogNoReviewsMessage =>
+      'Sifarişiniz çatdırıldıqdan sonra ilk rəyi siz yaza bilərsiniz.';
+
+  @override
+  String get catalogYourRating => 'Qiymətiniz';
+
+  @override
+  String get catalogRatingRequired => 'Qiymət seçin';
+
+  @override
+  String get catalogReviewTitle => 'Başlıq';
+
+  @override
+  String get catalogReviewBody => 'Rəyiniz';
+
+  @override
+  String catalogReviewBodyShort(int min) {
+    return 'Ən azı $min simvol yazın';
+  }
+
+  @override
+  String get catalogReviewModeration =>
+      'Rəylər yoxlanıldıqdan sonra dərc olunur.';
+
+  @override
+  String get catalogReviewSubmit => 'Göndər';
+
+  @override
+  String get catalogReviewThanks =>
+      'Təşəkkürlər! Rəyiniz yoxlanışa göndərildi.';
+
+  @override
+  String get homeHeroTitle => 'Yeni kolleksiya yoldadır';
+
+  @override
+  String get homeHeroCta => 'Yeniliklərə bax';
+
+  @override
+  String get homeDesignTitle => 'Özünüz dizayn edin';
+
+  @override
+  String get homeDesignBody =>
+      'Modeli seçin, mətn və şəkil əlavə edin, 3D-də görün.';
+
+  @override
+  String get homeNewArrivals => 'Yeni gələnlər';
+
+  @override
+  String get homeCategories => 'Kateqoriyalar';
+
+  @override
+  String get homeCollections => 'Kolleksiyalar';
+
+  @override
+  String get homeShopTheLook => 'Görünüşü al';
+
+  @override
+  String get homeBestsellers => 'Ən çox satılanlar';
+
+  @override
+  String get homeRecentlyViewed => 'Son baxdıqlarınız';
+
+  @override
+  String get homeEmptyTitle => 'Tezliklə yeni məhsullar';
+
+  @override
+  String get homeEmptyMessage => 'Bir az sonra yenidən yoxlayın.';
+
+  @override
   String get launchComingSoonEyebrow => 'Tezliklə';
 
   @override

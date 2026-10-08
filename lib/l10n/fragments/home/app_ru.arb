@@ -1,0 +1,15 @@
+{
+  "@@locale": "ru",
+  "homeHeroTitle": "Новый дроп уже здесь",
+  "homeHeroCta": "Смотреть новинки",
+  "homeDesignTitle": "Создайте свой дизайн",
+  "homeDesignBody": "Выберите модель, добавьте текст и рисунок, посмотрите в 3D.",
+  "homeNewArrivals": "Новинки",
+  "homeCategories": "Категории",
+  "homeCollections": "Коллекции",
+  "homeShopTheLook": "Купить образ",
+  "homeBestsellers": "Бестселлеры",
+  "homeRecentlyViewed": "Вы недавно смотрели",
+  "homeEmptyTitle": "Скоро появятся новые товары",
+  "homeEmptyMessage": "Загляните чуть позже."
+}

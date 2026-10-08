@@ -1,0 +1,121 @@
+{
+  "@@locale": "ru",
+  "catalogSortNewest": "Новинки",
+  "catalogSortPriceAsc": "Цена: по возрастанию",
+  "catalogSortPriceDesc": "Цена: по убыванию",
+  "catalogSortPopular": "Популярные",
+  "catalogFilterTitle": "Фильтры и сортировка",
+  "catalogFilterSort": "Сортировка",
+  "catalogFilterCategory": "Категория",
+  "catalogFilterCollection": "Коллекция",
+  "catalogFilterSize": "Размер",
+  "catalogFilterColor": "Цвет",
+  "catalogFilterFit": "Крой",
+  "catalogFilterPrice": "Цена",
+  "catalogFilterAvailability": "Наличие",
+  "catalogFilterInStockOnly": "Только в наличии",
+  "catalogTabAll": "Все",
+  "catalogTabNew": "Новинки",
+  "catalogTabSale": "Скидки",
+  "catalogEmptyTitle": "Товары не найдены",
+  "catalogEmptyMessage": "Измените или сбросьте фильтры.",
+  "catalogResultCount": "{count, plural, =1{1 товар} few{{count} товара} many{{count} товаров} other{{count} товара}}",
+  "@catalogResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogGallery3d": "3D",
+  "catalogGalleryPhotos": "Фото",
+  "catalogColor": "Цвет",
+  "catalogSize": "Размер",
+  "catalogSizeGuide": "Таблица размеров",
+  "catalogSizeLabel": "Размер",
+  "catalogChest": "Грудь",
+  "catalogLength": "Длина",
+  "catalogSleeve": "Рукав",
+  "catalogUnitCm": "см",
+  "catalogUnitIn": "дюйм",
+  "catalogSizeUnavailable": "Этого размера сейчас нет",
+  "catalogOnlyLeft": "Осталось всего {count} в размере {size}",
+  "@catalogOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogPreorderNote": "Предзаказ: доставка может занять больше времени.",
+  "catalogRecommendedSize": "Мы рекомендуем размер {size}",
+  "@catalogRecommendedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogColorSoldOut": "Этот цвет закончился.",
+  "catalogSizeSoldOutHint": "Некоторых размеров нет. Сообщим, когда появятся.",
+  "catalogNotifyMe": "Сообщить мне",
+  "catalogPriceDropAlert": "Сообщить о снижении цены",
+  "catalogPriceDropAlertSet": "Мы сообщим, когда цена снизится.",
+  "catalogBackInStockAlertSet": "Мы сообщим, когда товар появится.",
+  "catalogAlertSignIn": "Войдите, чтобы настроить уведомления.",
+  "catalogDeliveryPromise": "Закажите в течение {hours} ч {minutes} мин — доставим {date}",
+  "@catalogDeliveryPromise": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogCustomize": "Создать свой дизайн",
+  "catalogDescription": "Описание",
+  "catalogSizeAndFit": "Размер и крой",
+  "catalogFabricAndCare": "Ткань и уход",
+  "catalogReviews": "Отзывы",
+  "catalogReviewsCount": "{count, plural, =1{1 отзыв} few{{count} отзыва} many{{count} отзывов} other{{count} отзыва}}",
+  "@catalogReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogCompleteTheLook": "Дополните образ",
+  "catalogYouMayAlsoLike": "Вам может понравиться",
+  "catalogAddToBag": "В корзину",
+  "catalogSelectSize": "Выберите размер",
+  "catalogSoldOut": "Нет в наличии",
+  "catalogPreorder": "Предзаказ",
+  "catalogWriteReview": "Написать отзыв",
+  "catalogReviewSignIn": "Войдите, чтобы написать отзыв.",
+  "catalogNoReviewsTitle": "Пока нет отзывов",
+  "catalogNoReviewsMessage": "После доставки заказа вы сможете написать первый отзыв.",
+  "catalogYourRating": "Ваша оценка",
+  "catalogRatingRequired": "Выберите оценку",
+  "catalogReviewTitle": "Заголовок",
+  "catalogReviewBody": "Ваш отзыв",
+  "catalogReviewBodyShort": "Напишите не менее {min} символов",
+  "@catalogReviewBodyShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogReviewModeration": "Отзывы публикуются после модерации.",
+  "catalogReviewSubmit": "Отправить отзыв",
+  "catalogReviewThanks": "Спасибо! Ваш отзыв отправлен на модерацию."
+}

@@ -921,6 +921,232 @@ class AppLocalizationsEn extends AppLocalizations {
   String get catalogFilterInStockOnly => 'In stock only';
 
   @override
+  String get catalogTabAll => 'All';
+
+  @override
+  String get catalogTabNew => 'New';
+
+  @override
+  String get catalogTabSale => 'Sale';
+
+  @override
+  String get catalogEmptyTitle => 'No products found';
+
+  @override
+  String get catalogEmptyMessage => 'Try changing or clearing the filters.';
+
+  @override
+  String catalogResultCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count products',
+      one: '1 product',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogGallery3d => '3D';
+
+  @override
+  String get catalogGalleryPhotos => 'Photos';
+
+  @override
+  String get catalogColor => 'Color';
+
+  @override
+  String get catalogSize => 'Size';
+
+  @override
+  String get catalogSizeGuide => 'Size guide';
+
+  @override
+  String get catalogSizeLabel => 'Size';
+
+  @override
+  String get catalogChest => 'Chest';
+
+  @override
+  String get catalogLength => 'Length';
+
+  @override
+  String get catalogSleeve => 'Sleeve';
+
+  @override
+  String get catalogUnitCm => 'cm';
+
+  @override
+  String get catalogUnitIn => 'in';
+
+  @override
+  String get catalogSizeUnavailable => 'This size is currently unavailable';
+
+  @override
+  String catalogOnlyLeft(int count, String size) {
+    return 'Only $count left in $size';
+  }
+
+  @override
+  String get catalogPreorderNote =>
+      'Pre-order: delivery may take a little longer.';
+
+  @override
+  String catalogRecommendedSize(String size) {
+    return 'We recommend $size';
+  }
+
+  @override
+  String get catalogColorSoldOut => 'This color is sold out right now.';
+
+  @override
+  String get catalogSizeSoldOutHint =>
+      'Some sizes are sold out. We can tell you when they are back.';
+
+  @override
+  String get catalogNotifyMe => 'Notify me';
+
+  @override
+  String get catalogPriceDropAlert => 'Alert me on price drop';
+
+  @override
+  String get catalogPriceDropAlertSet =>
+      'We will tell you when the price drops.';
+
+  @override
+  String get catalogBackInStockAlertSet => 'We will tell you when it is back.';
+
+  @override
+  String get catalogAlertSignIn => 'Sign in to set up alerts.';
+
+  @override
+  String catalogDeliveryPromise(int hours, int minutes, String date) {
+    return 'Order within $hours h $minutes min — delivered $date';
+  }
+
+  @override
+  String get catalogCustomize => 'Customize this';
+
+  @override
+  String get catalogDescription => 'Description';
+
+  @override
+  String get catalogSizeAndFit => 'Size & fit';
+
+  @override
+  String get catalogFabricAndCare => 'Fabric & care';
+
+  @override
+  String get catalogReviews => 'Reviews';
+
+  @override
+  String catalogReviewsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count reviews',
+      one: '1 review',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get catalogCompleteTheLook => 'Complete the look';
+
+  @override
+  String get catalogYouMayAlsoLike => 'You may also like';
+
+  @override
+  String get catalogAddToBag => 'Add to bag';
+
+  @override
+  String get catalogSelectSize => 'Select a size';
+
+  @override
+  String get catalogSoldOut => 'Sold out';
+
+  @override
+  String get catalogPreorder => 'Pre-order';
+
+  @override
+  String get catalogWriteReview => 'Write a review';
+
+  @override
+  String get catalogReviewSignIn => 'Sign in to write a review.';
+
+  @override
+  String get catalogNoReviewsTitle => 'No reviews yet';
+
+  @override
+  String get catalogNoReviewsMessage =>
+      'Once your order is delivered you can write the first one.';
+
+  @override
+  String get catalogYourRating => 'Your rating';
+
+  @override
+  String get catalogRatingRequired => 'Choose a rating';
+
+  @override
+  String get catalogReviewTitle => 'Title';
+
+  @override
+  String get catalogReviewBody => 'Your review';
+
+  @override
+  String catalogReviewBodyShort(int min) {
+    return 'Write at least $min characters';
+  }
+
+  @override
+  String get catalogReviewModeration =>
+      'Reviews are published after moderation.';
+
+  @override
+  String get catalogReviewSubmit => 'Submit review';
+
+  @override
+  String get catalogReviewThanks =>
+      'Thank you! Your review is waiting for moderation.';
+
+  @override
+  String get homeHeroTitle => 'The new drop is here';
+
+  @override
+  String get homeHeroCta => 'Shop new arrivals';
+
+  @override
+  String get homeDesignTitle => 'Design your own';
+
+  @override
+  String get homeDesignBody =>
+      'Pick a garment, add text and art, see it in 3D.';
+
+  @override
+  String get homeNewArrivals => 'New arrivals';
+
+  @override
+  String get homeCategories => 'Categories';
+
+  @override
+  String get homeCollections => 'Collections';
+
+  @override
+  String get homeShopTheLook => 'Shop the look';
+
+  @override
+  String get homeBestsellers => 'Bestsellers';
+
+  @override
+  String get homeRecentlyViewed => 'Recently viewed';
+
+  @override
+  String get homeEmptyTitle => 'New pieces are coming soon';
+
+  @override
+  String get homeEmptyMessage => 'Check back in a little while.';
+
+  @override
   String get launchComingSoonEyebrow => 'Coming soon';
 
   @override
