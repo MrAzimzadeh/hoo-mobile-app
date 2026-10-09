@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/foundation.dart';
 
 import '../network/api_client.dart';
 import '../storage/preferences.dart';
@@ -24,8 +24,11 @@ class ContentStrings extends ChangeNotifier {
 
   /// Loads the cached copy instantly, then refreshes in the background. Never throws.
   Future<void> load(String language) async {
-    _strings = _prefs.contentStrings(language) ?? const {};
-    notifyListeners();
+    final cached = _prefs.contentStrings(language) ?? const {};
+    if (!mapEquals(cached, _strings)) {
+      _strings = cached;
+      notifyListeners();
+    }
     try {
       final etag = _prefs.contentEtag(language);
       final res = await _api.dio.get<Object?>(
@@ -38,6 +41,7 @@ class ContentStrings extends ChangeNotifier {
       if (res.statusCode == 304 || res.data is! Map) return;
       final data = (res.data as Map).cast<String, dynamic>();
       final strings = (data['strings'] as Map? ?? const {}).map((k, v) => MapEntry(k.toString(), v.toString()));
+      if (mapEquals(strings, _strings)) return;
       _strings = strings;
       await _prefs.setContentStrings(language, strings, data['eTag'] as String? ?? res.headers.value('etag'));
       notifyListeners();

@@ -1,0 +1,127 @@
+{
+  "@@locale": "az",
+  "catalogFilterTitle": "Filtr və sıralama",
+  "catalogSortNewest": "Ən yenilər",
+  "catalogSortPriceAsc": "Qiymət: artan",
+  "catalogSortPriceDesc": "Qiymət: azalan",
+  "catalogSortPopular": "Ən çox satılan",
+  "catalogFilterCategory": "Kateqoriya",
+  "catalogFilterSize": "Ölçü",
+  "catalogFilterColor": "Rəng",
+  "catalogFilterFit": "Kəsim",
+  "catalogFilterFabric": "Parça",
+  "catalogFilterPrice": "Qiymət",
+  "catalogFilterInStock": "Yalnız anbarda olanlar",
+  "catalogShowResults": "Nəticələri göstər",
+  "catalogChipAll": "Hamısı",
+  "catalogChipNew": "Yeni",
+  "catalogChipSale": "Endirim",
+  "catalogChipOversized": "Oversized",
+  "catalogShowing": "{shown} / {total} məhsul",
+  "@catalogShowing": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogFilterAndSort": "Filtr",
+  "catalogFilterCount": "Filtr ({count})",
+  "@catalogFilterCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogEmptyTitle": "Heç nə tapılmadı",
+  "catalogEmptyBody": "Filtrləri dəyişin və ya təmizləyin.",
+  "catalogAlertSignIn": "Xəbərdarlıqlar hesabınıza bağlıdır — daxil olun.",
+  "catalogNotifyDone": "Stoka qayıdanda xəbər verəcəyik",
+  "catalogPriceAlertDone": "Qiymət düşəndə xəbər verəcəyik",
+  "catalogPhotos": "Şəkillər",
+  "catalog3dView": "3D",
+  "catalogYouMayAlsoLike": "Bunlar da xoşunuza gələ bilər",
+  "catalogToday": "bu gün",
+  "catalogTomorrow": "sabah",
+  "catalogDeliveredOn": "Çatdırılma: {when}",
+  "@catalogDeliveredOn": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogDeliveryPromise": "{hours} saat {minutes} dəq ərzində sifariş edin — {when} çatdırılsın",
+  "@catalogDeliveryPromise": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogReadReviews": "Rəylərə bax",
+  "catalogColor": "Rəng",
+  "catalogSize": "Ölçü",
+  "catalogSizeGuide": "Ölçü cədvəli",
+  "catalogPreorderShort": "ön sifariş",
+  "catalogChooseSize": "Ölçü seçin",
+  "catalogRecommendedSize": "Sizə {size} ölçüsünü tövsiyə edirik",
+  "@catalogRecommendedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogOnlyLeftIn": "{size} ölçüsündən cəmi {count} ədəd qalıb",
+  "@catalogOnlyLeftIn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogCustomizeThis": "Bunu fərdiləşdir",
+  "catalogDescription": "Təsvir",
+  "catalogSizeAndFit": "Ölçü və kəsim",
+  "catalogFabricAndCare": "Parça və qulluq",
+  "catalogReviewsCount": "Rəylər ({count})",
+  "@catalogReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogWriteReview": "Rəy yaz",
+  "catalogPriceDropAlert": "Qiymət düşəndə xəbər ver",
+  "catalogSelectSize": "Ölçü seçin",
+  "catalogAddToBag": "Səbətə əlavə et",
+  "catalogSizeCol": "Ölçü",
+  "catalogChestCol": "Sinə",
+  "catalogLengthCol": "Uzunluq",
+  "catalogSleeveCol": "Qol",
+  "catalogSizeGuideHint": "Ölçülər məhsulun özünə aiddir, düz səthdə ölçülüb.",
+  "catalogReviews": "Rəylər",
+  "catalogNoReviews": "Hələ rəy yoxdur",
+  "catalogNoReviewsBody": "Bu məhsulu almısınızsa, ilk rəyi siz yazın.",
+  "catalogReviewThanks": "Təşəkkür edirik!",
+  "catalogReviewModeration": "Rəyiniz yoxlandıqdan sonra dərc olunacaq.",
+  "catalogYourRating": "Qiymətiniz",
+  "catalogReviewTitle": "Başlıq",
+  "catalogReviewBody": "Rəyiniz",
+  "catalogSubmitReview": "Göndər"
+}

@@ -1,0 +1,17 @@
+{
+  "@@locale": "ru",
+  "wishlistSignInReason": "Войдите, чтобы сохранять избранное и видеть его на любом устройстве.",
+  "wishlistTitle": "Избранное",
+  "wishlistShareSubject": "Моё избранное в HOO",
+  "wishlistEmptyTitle": "Пока ничего не сохранено",
+  "wishlistEmptyBody": "Нажмите ♡ на товаре, чтобы сохранить его здесь.",
+  "wishlistChooseSize": "Выбрать размер",
+  "wishlistNotifyMe": "Сообщить о поступлении",
+  "wishlistSharedTitle": "Избранное {name}",
+  "wishlistAlertsTitle": "Уведомления",
+  "wishlistAlertsEmptyTitle": "Нет активных уведомлений",
+  "wishlistAlertsEmptyBody": "Используйте «Сообщить о поступлении» или «Сообщить о снижении цены» на странице товара.",
+  "wishlistAlertBackInStock": "При поступлении",
+  "wishlistAlertPriceDrop": "При снижении цены",
+  "wishlistAlertNotified": "Уведомлено {date}"
+}

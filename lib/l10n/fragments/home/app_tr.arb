@@ -1,0 +1,17 @@
+{
+  "@@locale": "tr",
+  "homeNewArrivals": "Yeni gelenler",
+  "homeCategories": "Kategoriler",
+  "homeCollections": "Koleksiyonlar",
+  "homeShopTheLook": "Kombini al",
+  "homeShopLookCount": "{count} parça",
+  "homeBestsellers": "Çok satanlar",
+  "homeRecentlyViewed": "Son baktıklarınız",
+  "homeHeroEyebrow": "Yeni drop",
+  "homeHeroTitle": "Sessiz güç.",
+  "homeHeroSubtitle": "Ağır pamuk, oversize kesim, orman yeşili. Yeni koleksiyon satışta.",
+  "homeHeroCta": "Koleksiyonu keşfet",
+  "homeStudioTitle": "Kendi tasarımını yap",
+  "homeStudioBody": "Kumaşı ve rengi seç, metin ve görsel ekle — 3D’de gör.",
+  "homeStudioCta": "Stüdyo’yu aç"
+}

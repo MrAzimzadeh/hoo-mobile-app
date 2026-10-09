@@ -1,0 +1,31 @@
+{
+  "@@locale": "az",
+  "wishlistSignInReason": "Bəyəndiklərinizi saxlamaq və istənilən cihazda görmək üçün daxil olun.",
+  "wishlistTitle": "Bəyənilənlər",
+  "wishlistShareSubject": "HOO-da bəyəndiklərim",
+  "wishlistEmptyTitle": "Hələ heç nə bəyənməmisiniz",
+  "wishlistEmptyBody": "Məhsulda ♡ işarəsinə toxunun — burada saxlanılacaq.",
+  "wishlistChooseSize": "Ölçü seç",
+  "wishlistNotifyMe": "Gələndə xəbər ver",
+  "wishlistSharedTitle": "{name} bəyənənlər",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistAlertsTitle": "Xəbərdarlıqlar",
+  "wishlistAlertsEmptyTitle": "Aktiv xəbərdarlıq yoxdur",
+  "wishlistAlertsEmptyBody": "Məhsul səhifəsində \"Gələndə xəbər ver\" və ya \"Qiymət düşəndə xəbər ver\" seçin.",
+  "wishlistAlertBackInStock": "Stoka qayıdanda",
+  "wishlistAlertPriceDrop": "Qiymət düşəndə",
+  "wishlistAlertNotified": "{date} xəbər verildi",
+  "@wishlistAlertNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@@locale": "az",
+  "cartAddedTitle": "Səbətə əlavə olundu",
+  "cartItemsCount": "{count} məhsul",
+  "@cartItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartCheckout": "Sifarişi rəsmiləşdir",
+  "cartViewBag": "Səbətə bax",
+  "cartOnlyLeft": "Cəmi {count} ədəd qalıb",
+  "@cartOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartMadeToOrderDays": "Sifarişlə hazırlanır · {days} gün",
+  "@cartMadeToOrderDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cartCustomBadge": "Studio",
+  "cartFreeDeliveryReached": "Afərin! Çatdırılma pulsuzdur",
+  "cartFreeDeliveryRemaining": "Pulsuz çatdırılmaya {amount} qalıb",
+  "@cartFreeDeliveryRemaining": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cartRemoved": "{name} səbətdən silindi",
+  "@cartRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cartUndo": "Geri qaytar",
+  "cartEmptyTitle": "Səbətiniz boşdur",
+  "cartEmptyBody": "Yeni drop-a baxın və ya Studio-da öz dizaynınızı yaradın.",
+  "cartEmptyAction": "Mağazaya keç",
+  "cartBestsellers": "Ən çox satılanlar",
+  "cartLineErrors": "Bəzi məhsullarda dəyişiklik var — sifarişdən əvvəl yoxlayın.",
+  "cartIsGift": "Bu hədiyyədir",
+  "cartIsGiftHint": "Qablaşdırma, təbrik kartı və qiymətsiz qəbz",
+  "cartDeliveryAtCheckout": "Çatdırılma checkout-da hesablanır.",
+  "cartCompleteTheLook": "Obrazı tamamla",
+  "cartPromoHint": "Promo kod"
+}

@@ -1,0 +1,17 @@
+{
+  "@@locale": "ru",
+  "homeNewArrivals": "Новые поступления",
+  "homeCategories": "Категории",
+  "homeCollections": "Коллекции",
+  "homeShopTheLook": "Купить образ",
+  "homeShopLookCount": "{count} вещей",
+  "homeBestsellers": "Хиты продаж",
+  "homeRecentlyViewed": "Вы недавно смотрели",
+  "homeHeroEyebrow": "Новый дроп",
+  "homeHeroTitle": "Тихая сила.",
+  "homeHeroSubtitle": "Плотный хлопок, оверсайз, лесной зелёный. Новая коллекция уже в продаже.",
+  "homeHeroCta": "Смотреть коллекцию",
+  "homeStudioTitle": "Создай свой дизайн",
+  "homeStudioBody": "Выберите ткань и цвет, добавьте текст и изображения — в 3D.",
+  "homeStudioCta": "Открыть студию"
+}

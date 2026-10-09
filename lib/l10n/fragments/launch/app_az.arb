@@ -1,0 +1,59 @@
+{
+  "@@locale": "az",
+  "launchComingSoonTitle": "Tezliklə.",
+  "launchComingSoonSubtitle": "HOO açılır. Siyahıya yazılın — ilk drop-a erkən giriş sizin olsun.",
+  "launchDays": "gün",
+  "launchHours": "saat",
+  "launchMinutes": "dəq",
+  "launchSeconds": "san",
+  "launchCountdownA11y": "Açılışa {days} gün, {hours} saat, {minutes} dəqiqə qalıb",
+  "@launchCountdownA11y": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "launchWaitlistTitle": "Gözləmə siyahısı",
+  "launchWaitlistCount": "{count} nəfər artıq siyahıdadır",
+  "@launchWaitlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "launchJoinWaitlist": "Siyahıya yazıl",
+  "launchWaitlistPosition": "Siz {position}-cisiniz ({total} nəfərdən)",
+  "@launchWaitlistPosition": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "launchWaitlistThanks": "Açılış günü ilk xəbər tutan siz olacaqsınız.",
+  "launchWaitlistAlready": "Siz artıq siyahıdasınız — gözləyin, tezliklə!",
+  "launchNewsletterTitle": "Bülletenə abunə olun",
+  "launchSubscribe": "Abunə ol",
+  "launchNewsletterDone": "Abunə oldunuz. Təşəkkürlər!",
+  "launchStaffSignIn": "Əməkdaş girişi",
+  "launchSkip": "Keç",
+  "launchGetStarted": "Başla",
+  "launchChooseLanguage": "Dili seçin",
+  "launchSlideBrandTitle": "Bakıdan. Sakit və əmin.",
+  "launchSlideBrandBody": "Ağır pambıq, dəqiq kəsim, az rəng. Hər gün geyinmək üçün premium streetwear.",
+  "launchSlideStudioTitle": "Öz dizaynını yarat.",
+  "launchSlideStudioBody": "3D Studio-da parçanı, rəngi seç, mətn və şəkil əlavə et — qiyməti dərhal gör.",
+  "launchSlideDeliveryTitle": "Bakıda sürətli çatdırılma.",
+  "launchSlideDeliveryBody": "Sizə uyğun gün və saatı seçin, sifarişi addım-addım izləyin."
+}

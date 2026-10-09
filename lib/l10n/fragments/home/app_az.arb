@@ -1,0 +1,24 @@
+{
+  "@@locale": "az",
+  "homeNewArrivals": "Yeni gələnlər",
+  "homeCategories": "Kateqoriyalar",
+  "homeCollections": "Kolleksiyalar",
+  "homeShopTheLook": "Obrazı al",
+  "homeShopLookCount": "{count} məhsul",
+  "@homeShopLookCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeBestsellers": "Ən çox satılanlar",
+  "homeRecentlyViewed": "Son baxdıqlarınız",
+  "homeHeroEyebrow": "Yeni drop",
+  "homeHeroTitle": "Sakit güc.",
+  "homeHeroSubtitle": "Ağır pambıq, oversized kəsim, meşə yaşılı. Yeni kolleksiya artıq satışdadır.",
+  "homeHeroCta": "Kolleksiyaya bax",
+  "homeStudioTitle": "Öz dizaynını yarat",
+  "homeStudioBody": "Parçanı, rəngi seç, mətn və şəkil əlavə et — 3D-də gör.",
+  "homeStudioCta": "Studio-nu aç"
+}

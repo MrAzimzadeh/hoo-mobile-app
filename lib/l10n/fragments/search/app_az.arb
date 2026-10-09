@@ -1,0 +1,28 @@
+{
+  "@@locale": "az",
+  "searchHint": "Hudi, futbolka, rəng…",
+  "searchRecent": "Son axtarışlar",
+  "searchSuggestions": "Təkliflər",
+  "searchResults": "“{query}” üçün {count} nəticə",
+  "@searchResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsTitle": "“{query}” tapılmadı",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsBody": "Başqa söz yoxlayın və ya bestsellerlərə baxın.",
+  "searchDesignYourOwnTitle": "Tapmadınız? Özünüz dizayn edin",
+  "searchDesignYourOwnBody": "3D Studio-da istədiyiniz rəng və çapla."
+}

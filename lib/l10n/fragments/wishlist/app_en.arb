@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "wishlistSignInReason": "Sign in to save favourites and see them on any device.",
+  "wishlistTitle": "Wishlist",
+  "wishlistShareSubject": "My HOO wishlist",
+  "wishlistEmptyTitle": "Nothing saved yet",
+  "wishlistEmptyBody": "Tap ♡ on any product to keep it here.",
+  "wishlistChooseSize": "Choose size",
+  "wishlistNotifyMe": "Notify me",
+  "wishlistSharedTitle": "{name}’s wishlist",
+  "wishlistAlertsTitle": "Alerts",
+  "wishlistAlertsEmptyTitle": "No active alerts",
+  "wishlistAlertsEmptyBody": "Use “Notify me” or “Price drop alert” on a product page.",
+  "wishlistAlertBackInStock": "Back in stock",
+  "wishlistAlertPriceDrop": "Price drop",
+  "wishlistAlertNotified": "Notified {date}"
+}

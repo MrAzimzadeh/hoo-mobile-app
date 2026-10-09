@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "searchHint": "Hoodies, tees, colors…",
+  "searchRecent": "Recent searches",
+  "searchSuggestions": "Suggestions",
+  "searchResults": "{count} results for “{query}”",
+  "searchNoResultsTitle": "No results for “{query}”",
+  "searchNoResultsBody": "Try another word or browse the bestsellers.",
+  "searchDesignYourOwnTitle": "Didn’t find it? Design it yourself",
+  "searchDesignYourOwnBody": "In the 3D Studio, with the color and print you want."
+}

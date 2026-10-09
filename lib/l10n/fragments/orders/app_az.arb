@@ -1,0 +1,108 @@
+{
+  "@@locale": "az",
+  "ordersEventPlaced": "Sifariş verildi",
+  "ordersEventPaymentCaptured": "Ödəniş alındı",
+  "ordersEventPaymentFailed": "Ödəniş alınmadı",
+  "ordersEventCourierAssigned": "Kuryer təyin olundu",
+  "ordersEventCourierAssignedNamed": "Kuryer: {name}",
+  "@ordersEventCourierAssignedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersEventEtaUpdated": "Çatdırılma vaxtı yeniləndi",
+  "ordersEventSlotChanged": "Çatdırılma vaxtı dəyişdirildi",
+  "ordersEventRefund": "Pul qaytarıldı",
+  "ordersEventGiftMessage": "Hədiyyə mesajı yeniləndi",
+  "ordersEventReturnRequested": "Qaytarma istənildi",
+  "ordersEventReturnUpdated": "Qaytarma yeniləndi",
+  "ordersEventDesignApproved": "Dizayn təsdiqləndi",
+  "ordersEventDesignChanges": "Dizaynda dəyişiklik istənildi",
+  "ordersTitle": "Sifarişlərim",
+  "ordersEmptyTitle": "Hələ sifariş yoxdur",
+  "ordersEmptyBody": "İlk sifarişiniz burada görünəcək.",
+  "ordersReturnsTitle": "Qaytarmalar",
+  "ordersReturnsEmpty": "Qaytarma sorğusu yoxdur",
+  "ordersReturnsEmptyBody": "Sifariş səhifəsindən qaytarma və ya dəyişmə istəyə bilərsiniz.",
+  "ordersTrackTitle": "Sifarişi izlə",
+  "ordersTrackBody": "Sifariş nömrəsini və sifarişdəki telefonu daxil edin.",
+  "ordersTrackPhone": "Sifarişdəki telefon",
+  "ordersChangeSlot": "Çatdırılma vaxtını dəyiş",
+  "ordersSlotChangeContact": "Vaxtı dəyişmək üçün bizimlə əlaqə saxlayın — kuryer sizə uyğun vaxtı təyin edəcək.",
+  "ordersSlotChanged": "Çatdırılma vaxtı dəyişdirildi",
+  "ordersSignInToView": "Bu sifarişə baxmaq üçün daxil olun",
+  "ordersPlacedOn": "{date} tarixində",
+  "@ordersPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersPayAgain": "Yenidən ödə",
+  "ordersReturnExchange": "Qaytarma / dəyişmə",
+  "ordersWhatsApp": "WhatsApp ilə yazın",
+  "ordersTimeline": "Status",
+  "ordersItems": "Məhsullar",
+  "ordersCourier": "Kuryer: {name}",
+  "@ordersCourier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersStopsAway": "{count} dayanacaq qalıb",
+  "@ordersStopsAway": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersEta": "~{minutes} dəq",
+  "@ordersEta": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersNotReturnable": "Fərdi məhsul — qaytarılmır",
+  "ordersReturnReason": "Səbəb",
+  "ordersSendRequest": "Sorğu göndər",
+  "ordersReturnSent": "Sorğunuz göndərildi",
+  "ordersReturnSentBody": "Komandamız 1–2 iş günü ərzində sizinlə əlaqə saxlayacaq.",
+  "ordersGiftReceiptBody": "Hədiyyə qəbzindəki kodu və telefonunuzu daxil edin — ölçünü dəyişə bilərsiniz.",
+  "ordersGiftCode": "Hədiyyə kodu",
+  "ordersRecipientPhone": "Telefonunuz",
+  "ordersGiftFor": "{name} üçün hədiyyə",
+  "@ordersGiftFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersGiftFrom": "{name}-dan",
+  "@ordersGiftFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersExchangeTo": "Dəyişmək istədiyiniz ölçü",
+  "ordersExchangeUntil": "Dəyişmə {date} tarixinədək mümkündür",
+  "@ordersExchangeUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersRequestExchange": "Dəyişmə istə",
+  "ordersExchangeSent": "Dəyişmə sorğusu göndərildi"
+}

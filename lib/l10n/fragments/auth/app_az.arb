@@ -1,0 +1,59 @@
+{
+  "@@locale": "az",
+  "authSignInWithSms": "SMS kodu ilə daxil ol",
+  "authSocialUnavailable": "Bu giriş üsulu hazırda əlçatan deyil",
+  "authOr": "və ya",
+  "authContinueWithGoogle": "Google ilə davam et",
+  "authContinueWithApple": "Apple ilə davam et",
+  "authSocialTerms": "Davam etməklə İstifadə şərtlərini qəbul edirsiniz.",
+  "authWelcomeTitle": "Sakit. Əmin. HOO.",
+  "authWelcomeSubtitle": "Bakıdan premium streetwear — və öz dizaynın üçün 3D Studio.",
+  "authSignInTitle": "Xoş gəldiniz",
+  "authSignInSubtitle": "Sifarişləriniz, dizaynlarınız və bəyəndikləriniz sizi gözləyir.",
+  "authIdentifierLabel": "E-poçt və ya telefon",
+  "authIdentifierHint": "you@example.com və ya 050 123 45 67",
+  "authPasswordLabel": "Şifrə",
+  "authForgotPassword": "Şifrəni unutmusunuz?",
+  "authNoAccount": "HOO-da yenisiniz?",
+  "authHaveAccount": "Artıq hesabınız var?",
+  "authSignUpTitle": "Hesab yaradın",
+  "authSignUpSubtitle": "Yeni drop-lara erkən giriş, sürətli checkout və saxlanılmış dizaynlar.",
+  "authFullNameLabel": "Ad və soyad",
+  "authEmailLabel": "E-poçt",
+  "authPhoneLabel": "Telefon",
+  "authMarketingConsent": "Yeni drop-lar və təkliflər haqqında ilk mən bilmək istəyirəm",
+  "authAcceptTerms": "İstifadə şərtlərini və Məxfilik siyasətini qəbul edirəm",
+  "authTermsRequired": "Davam etmək üçün şərtləri qəbul edin",
+  "authOtpPhoneTitle": "Telefonla daxil olun",
+  "authOtpPhoneSubtitle": "6 rəqəmli kodu SMS ilə göndərəcəyik. Yeni nömrə üçün hesab avtomatik yaradılır.",
+  "authOtpNameHint": "yeni müştərilər üçün",
+  "authSendCode": "Kodu göndər",
+  "authOtpCodeTitle": "Kodu daxil edin",
+  "authOtpCodeSubtitle": "{phone} nömrəsinə göndərdik",
+  "@authOtpCodeSubtitle": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "authResendIn": "Yenidən göndərmək: {time}",
+  "@authResendIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authResendSms": "Kodu yenidən göndər",
+  "authResendWhatsApp": "SMS gəlmədi? WhatsApp ilə göndər",
+  "authForgotTitle": "Şifrəni bərpa et",
+  "authForgotSubtitle": "E-poçt ünvanınızı və ya telefonunuzu yazın.",
+  "authForgotEmailSentTitle": "Poçtunuzu yoxlayın",
+  "authForgotEmailSent": "Hesab varsa, şifrəni yeniləmək üçün link göndərdik.",
+  "authResetTitle": "Yeni şifrə",
+  "authResetSubtitle": "SMS ilə gələn kodu və yeni şifrəni daxil edin.",
+  "authResetCodeLabel": "Kod",
+  "authNewPasswordLabel": "Yeni şifrə",
+  "authResetDone": "Şifrəniz yeniləndi. İndi daxil ola bilərsiniz."
+}

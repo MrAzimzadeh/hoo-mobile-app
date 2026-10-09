@@ -1,0 +1,11 @@
+{
+  "@@locale": "ru",
+  "searchHint": "Худи, футболки, цвета…",
+  "searchRecent": "Недавние запросы",
+  "searchSuggestions": "Подсказки",
+  "searchResults": "{count} результатов по «{query}»",
+  "searchNoResultsTitle": "По запросу «{query}» ничего нет",
+  "searchNoResultsBody": "Попробуйте другое слово или посмотрите хиты.",
+  "searchDesignYourOwnTitle": "Не нашли? Создайте сами",
+  "searchDesignYourOwnBody": "В 3D-студии — с нужным цветом и принтом."
+}

@@ -255,5 +255,853 @@
   "stockStateMadeToOrder": "Sifarişlə hazırlanır",
   "stockStateUnavailable": "Mövcud deyil",
   "dsTitle": "Dizayn sistemi",
-  "dsLightDark": "İşıqlı / Qaranlıq"
+  "dsLightDark": "İşıqlı / Qaranlıq",
+  "authSignInWithSms": "SMS kodu ilə daxil ol",
+  "authSocialUnavailable": "Bu giriş üsulu hazırda əlçatan deyil",
+  "authOr": "və ya",
+  "authContinueWithGoogle": "Google ilə davam et",
+  "authContinueWithApple": "Apple ilə davam et",
+  "authSocialTerms": "Davam etməklə İstifadə şərtlərini qəbul edirsiniz.",
+  "authWelcomeTitle": "Sakit. Əmin. HOO.",
+  "authWelcomeSubtitle": "Bakıdan premium streetwear — və öz dizaynın üçün 3D Studio.",
+  "authSignInTitle": "Xoş gəldiniz",
+  "authSignInSubtitle": "Sifarişləriniz, dizaynlarınız və bəyəndikləriniz sizi gözləyir.",
+  "authIdentifierLabel": "E-poçt və ya telefon",
+  "authIdentifierHint": "you@example.com və ya 050 123 45 67",
+  "authPasswordLabel": "Şifrə",
+  "authForgotPassword": "Şifrəni unutmusunuz?",
+  "authNoAccount": "HOO-da yenisiniz?",
+  "authHaveAccount": "Artıq hesabınız var?",
+  "authSignUpTitle": "Hesab yaradın",
+  "authSignUpSubtitle": "Yeni drop-lara erkən giriş, sürətli checkout və saxlanılmış dizaynlar.",
+  "authFullNameLabel": "Ad və soyad",
+  "authEmailLabel": "E-poçt",
+  "authPhoneLabel": "Telefon",
+  "authMarketingConsent": "Yeni drop-lar və təkliflər haqqında ilk mən bilmək istəyirəm",
+  "authAcceptTerms": "İstifadə şərtlərini və Məxfilik siyasətini qəbul edirəm",
+  "authTermsRequired": "Davam etmək üçün şərtləri qəbul edin",
+  "authOtpPhoneTitle": "Telefonla daxil olun",
+  "authOtpPhoneSubtitle": "6 rəqəmli kodu SMS ilə göndərəcəyik. Yeni nömrə üçün hesab avtomatik yaradılır.",
+  "authOtpNameHint": "yeni müştərilər üçün",
+  "authSendCode": "Kodu göndər",
+  "authOtpCodeTitle": "Kodu daxil edin",
+  "authOtpCodeSubtitle": "{phone} nömrəsinə göndərdik",
+  "@authOtpCodeSubtitle": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "authResendIn": "Yenidən göndərmək: {time}",
+  "@authResendIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authResendSms": "Kodu yenidən göndər",
+  "authResendWhatsApp": "SMS gəlmədi? WhatsApp ilə göndər",
+  "authForgotTitle": "Şifrəni bərpa et",
+  "authForgotSubtitle": "E-poçt ünvanınızı və ya telefonunuzu yazın.",
+  "authForgotEmailSentTitle": "Poçtunuzu yoxlayın",
+  "authForgotEmailSent": "Hesab varsa, şifrəni yeniləmək üçün link göndərdik.",
+  "authResetTitle": "Yeni şifrə",
+  "authResetSubtitle": "SMS ilə gələn kodu və yeni şifrəni daxil edin.",
+  "authResetCodeLabel": "Kod",
+  "authNewPasswordLabel": "Yeni şifrə",
+  "authResetDone": "Şifrəniz yeniləndi. İndi daxil ola bilərsiniz.",
+  "cartAddedTitle": "Səbətə əlavə olundu",
+  "cartItemsCount": "{count} məhsul",
+  "@cartItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartCheckout": "Sifarişi rəsmiləşdir",
+  "cartViewBag": "Səbətə bax",
+  "cartOnlyLeft": "Cəmi {count} ədəd qalıb",
+  "@cartOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartMadeToOrderDays": "Sifarişlə hazırlanır · {days} gün",
+  "@cartMadeToOrderDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cartCustomBadge": "Studio",
+  "cartFreeDeliveryReached": "Afərin! Çatdırılma pulsuzdur",
+  "cartFreeDeliveryRemaining": "Pulsuz çatdırılmaya {amount} qalıb",
+  "@cartFreeDeliveryRemaining": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cartRemoved": "{name} səbətdən silindi",
+  "@cartRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cartUndo": "Geri qaytar",
+  "cartEmptyTitle": "Səbətiniz boşdur",
+  "cartEmptyBody": "Yeni drop-a baxın və ya Studio-da öz dizaynınızı yaradın.",
+  "cartEmptyAction": "Mağazaya keç",
+  "cartBestsellers": "Ən çox satılanlar",
+  "cartLineErrors": "Bəzi məhsullarda dəyişiklik var — sifarişdən əvvəl yoxlayın.",
+  "cartIsGift": "Bu hədiyyədir",
+  "cartIsGiftHint": "Qablaşdırma, təbrik kartı və qiymətsiz qəbz",
+  "cartDeliveryAtCheckout": "Çatdırılma checkout-da hesablanır.",
+  "cartCompleteTheLook": "Obrazı tamamla",
+  "cartPromoHint": "Promo kod",
+  "catalogFilterTitle": "Filtr və sıralama",
+  "catalogSortNewest": "Ən yenilər",
+  "catalogSortPriceAsc": "Qiymət: artan",
+  "catalogSortPriceDesc": "Qiymət: azalan",
+  "catalogSortPopular": "Ən çox satılan",
+  "catalogFilterCategory": "Kateqoriya",
+  "catalogFilterSize": "Ölçü",
+  "catalogFilterColor": "Rəng",
+  "catalogFilterFit": "Kəsim",
+  "catalogFilterFabric": "Parça",
+  "catalogFilterPrice": "Qiymət",
+  "catalogFilterInStock": "Yalnız anbarda olanlar",
+  "catalogShowResults": "Nəticələri göstər",
+  "catalogChipAll": "Hamısı",
+  "catalogChipNew": "Yeni",
+  "catalogChipSale": "Endirim",
+  "catalogChipOversized": "Oversized",
+  "catalogShowing": "{shown} / {total} məhsul",
+  "@catalogShowing": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogFilterAndSort": "Filtr",
+  "catalogFilterCount": "Filtr ({count})",
+  "@catalogFilterCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogEmptyTitle": "Heç nə tapılmadı",
+  "catalogEmptyBody": "Filtrləri dəyişin və ya təmizləyin.",
+  "catalogAlertSignIn": "Xəbərdarlıqlar hesabınıza bağlıdır — daxil olun.",
+  "catalogNotifyDone": "Stoka qayıdanda xəbər verəcəyik",
+  "catalogPriceAlertDone": "Qiymət düşəndə xəbər verəcəyik",
+  "catalogPhotos": "Şəkillər",
+  "catalog3dView": "3D",
+  "catalogYouMayAlsoLike": "Bunlar da xoşunuza gələ bilər",
+  "catalogToday": "bu gün",
+  "catalogTomorrow": "sabah",
+  "catalogDeliveredOn": "Çatdırılma: {when}",
+  "@catalogDeliveredOn": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogDeliveryPromise": "{hours} saat {minutes} dəq ərzində sifariş edin — {when} çatdırılsın",
+  "@catalogDeliveryPromise": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogReadReviews": "Rəylərə bax",
+  "catalogColor": "Rəng",
+  "catalogSize": "Ölçü",
+  "catalogSizeGuide": "Ölçü cədvəli",
+  "catalogPreorderShort": "ön sifariş",
+  "catalogChooseSize": "Ölçü seçin",
+  "catalogRecommendedSize": "Sizə {size} ölçüsünü tövsiyə edirik",
+  "@catalogRecommendedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogOnlyLeftIn": "{size} ölçüsündən cəmi {count} ədəd qalıb",
+  "@catalogOnlyLeftIn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogCustomizeThis": "Bunu fərdiləşdir",
+  "catalogDescription": "Təsvir",
+  "catalogSizeAndFit": "Ölçü və kəsim",
+  "catalogFabricAndCare": "Parça və qulluq",
+  "catalogReviewsCount": "Rəylər ({count})",
+  "@catalogReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogWriteReview": "Rəy yaz",
+  "catalogPriceDropAlert": "Qiymət düşəndə xəbər ver",
+  "catalogSelectSize": "Ölçü seçin",
+  "catalogAddToBag": "Səbətə əlavə et",
+  "catalogSizeCol": "Ölçü",
+  "catalogChestCol": "Sinə",
+  "catalogLengthCol": "Uzunluq",
+  "catalogSleeveCol": "Qol",
+  "catalogSizeGuideHint": "Ölçülər məhsulun özünə aiddir, düz səthdə ölçülüb.",
+  "catalogReviews": "Rəylər",
+  "catalogNoReviews": "Hələ rəy yoxdur",
+  "catalogNoReviewsBody": "Bu məhsulu almısınızsa, ilk rəyi siz yazın.",
+  "catalogReviewThanks": "Təşəkkür edirik!",
+  "catalogReviewModeration": "Rəyiniz yoxlandıqdan sonra dərc olunacaq.",
+  "catalogYourRating": "Qiymətiniz",
+  "catalogReviewTitle": "Başlıq",
+  "catalogReviewBody": "Rəyiniz",
+  "catalogSubmitReview": "Göndər",
+  "checkoutTitle": "Sifarişin rəsmiləşdirilməsi",
+  "checkoutStepContact": "Əlaqə",
+  "checkoutStepGift": "Hədiyyə",
+  "checkoutStepDelivery": "Çatdırılma",
+  "checkoutStepSlot": "Çatdırılma vaxtı",
+  "checkoutStepPayment": "Ödəniş",
+  "checkoutStepReview": "Yoxla və təsdiqlə",
+  "checkoutPhoneHint": "Kuryer bu nömrəyə zəng edəcək.",
+  "checkoutGiftNotForCustom": "Fərdi (Studio) sifarişlər hədiyyə kimi göndərilə bilməz.",
+  "checkoutRecipientName": "Alıcının adı",
+  "checkoutRecipientPhone": "Alıcının telefonu",
+  "checkoutOccasion": "Səbəb",
+  "checkoutSurprise": "Sürpriz",
+  "checkoutSurpriseHint": "Kuryer əvvəlcədən sizinlə əlaqə saxlayacaq, alıcı ilə yox.",
+  "checkoutPackaging": "Qablaşdırma",
+  "checkoutPackagingFreeFrom": "{amount}-dan pulsuz",
+  "@checkoutPackagingFreeFrom": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCard": "Təbrik kartı",
+  "checkoutMessage": "Mesaj",
+  "checkoutFromName": "Kimdən",
+  "checkoutHidePrices": "Qəbzdə qiymətləri gizlət",
+  "checkoutReadyInHours": "{hours} saata hazır",
+  "@checkoutReadyInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "checkoutFreeFrom": "{amount}-dan pulsuz",
+  "@checkoutFreeFrom": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutAddress": "Ünvan",
+  "checkoutNewAddress": "Yeni ünvan",
+  "checkoutCity": "Şəhər",
+  "checkoutDistrict": "Rayon",
+  "checkoutStreet": "Küçə, ev",
+  "checkoutApartment": "Mənzil",
+  "checkoutCourierNote": "Kuryer üçün qeyd",
+  "checkoutNoSlots": "Uyğun vaxt yoxdur",
+  "checkoutSlotTaken": "Bu vaxt artıq doludur — başqa birini seçin.",
+  "checkoutPackagingSaving": "Qablaşdırmaya qənaət",
+  "checkoutEstimatedDelivery": "Təxmini çatdırılma: {range}",
+  "@checkoutEstimatedDelivery": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCustomApprovalNote": "Studio dizaynları əvvəlcə komandamız tərəfindən yoxlanılır. Təsdiqdən sonra istehsala göndərilir — sifariş statusu “Dizayn təsdiqi gözlənilir” olacaq.",
+  "checkoutSaveCard": "Kartı növbəti alışlar üçün yadda saxla",
+  "checkoutAcceptTerms": "Satış şərtlərini və qaytarma siyasətini qəbul edirəm",
+  "checkoutImageRights": "Şəkillərin hüquqları mənə məxsusdur; fərdi məhsulların qaytarılmadığını bilirəm",
+  "checkoutMissingSteps": "Sifarişi təsdiqləmək üçün yuxarıdakı addımları tamamlayın.",
+  "checkoutPlaceOrder": "Sifarişi təsdiqlə · {total}",
+  "@checkoutPlaceOrder": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutPaymentFailedTitle": "Ödəniş alınmadı",
+  "checkoutPaymentFailedBody": "Sifarişiniz saxlanılıb. Yenidən ödəyin və ya başqa üsul seçin.",
+  "checkoutRetryPayment": "Yenidən ödə",
+  "checkoutSwitchToCod": "Qapıda nağd ödəyəcəm",
+  "checkoutAwaitingPayment": "Ödənişi tamamlayın",
+  "checkoutAwaitingPaymentBody": "Sifariş {number} yaradıldı. Ödəniş təsdiqlənən kimi davam edəcəyik.",
+  "@checkoutAwaitingPaymentBody": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCheckPayment": "Ödənişi yoxla",
+  "checkoutOpenPaymentAgain": "Ödəniş səhifəsini yenidən aç",
+  "checkoutConfirmedTitle": "Sifarişiniz qəbul olundu",
+  "checkoutConfirmedBody": "Təşəkkür edirik. Təsdiq məktubu və SMS göndərdik.",
+  "checkoutOrderNumber": "Sifariş nömrəsi",
+  "checkoutGiftReceipt": "Hədiyyə qəbzi",
+  "checkoutGiftReceiptHint": "Alıcı bu kodla ölçünü dəyişə bilər — qiymətləri görmədən.",
+  "checkoutTrackOrder": "Sifarişi izlə",
+  "checkoutContinueShopping": "Alış-verişə davam et",
+  "homeNewArrivals": "Yeni gələnlər",
+  "homeCategories": "Kateqoriyalar",
+  "homeCollections": "Kolleksiyalar",
+  "homeShopTheLook": "Obrazı al",
+  "homeShopLookCount": "{count} məhsul",
+  "@homeShopLookCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeBestsellers": "Ən çox satılanlar",
+  "homeRecentlyViewed": "Son baxdıqlarınız",
+  "homeHeroEyebrow": "Yeni drop",
+  "homeHeroTitle": "Sakit güc.",
+  "homeHeroSubtitle": "Ağır pambıq, oversized kəsim, meşə yaşılı. Yeni kolleksiya artıq satışdadır.",
+  "homeHeroCta": "Kolleksiyaya bax",
+  "homeStudioTitle": "Öz dizaynını yarat",
+  "homeStudioBody": "Parçanı, rəngi seç, mətn və şəkil əlavə et — 3D-də gör.",
+  "homeStudioCta": "Studio-nu aç",
+  "launchComingSoonTitle": "Tezliklə.",
+  "launchComingSoonSubtitle": "HOO açılır. Siyahıya yazılın — ilk drop-a erkən giriş sizin olsun.",
+  "launchDays": "gün",
+  "launchHours": "saat",
+  "launchMinutes": "dəq",
+  "launchSeconds": "san",
+  "launchCountdownA11y": "Açılışa {days} gün, {hours} saat, {minutes} dəqiqə qalıb",
+  "@launchCountdownA11y": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "launchWaitlistTitle": "Gözləmə siyahısı",
+  "launchWaitlistCount": "{count} nəfər artıq siyahıdadır",
+  "@launchWaitlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "launchJoinWaitlist": "Siyahıya yazıl",
+  "launchWaitlistPosition": "Siz {position}-cisiniz ({total} nəfərdən)",
+  "@launchWaitlistPosition": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "launchWaitlistThanks": "Açılış günü ilk xəbər tutan siz olacaqsınız.",
+  "launchWaitlistAlready": "Siz artıq siyahıdasınız — gözləyin, tezliklə!",
+  "launchNewsletterTitle": "Bülletenə abunə olun",
+  "launchSubscribe": "Abunə ol",
+  "launchNewsletterDone": "Abunə oldunuz. Təşəkkürlər!",
+  "launchStaffSignIn": "Əməkdaş girişi",
+  "launchSkip": "Keç",
+  "launchGetStarted": "Başla",
+  "launchChooseLanguage": "Dili seçin",
+  "launchSlideBrandTitle": "Bakıdan. Sakit və əmin.",
+  "launchSlideBrandBody": "Ağır pambıq, dəqiq kəsim, az rəng. Hər gün geyinmək üçün premium streetwear.",
+  "launchSlideStudioTitle": "Öz dizaynını yarat.",
+  "launchSlideStudioBody": "3D Studio-da parçanı, rəngi seç, mətn və şəkil əlavə et — qiyməti dərhal gör.",
+  "launchSlideDeliveryTitle": "Bakıda sürətli çatdırılma.",
+  "launchSlideDeliveryBody": "Sizə uyğun gün və saatı seçin, sifarişi addım-addım izləyin.",
+  "ordersEventPlaced": "Sifariş verildi",
+  "ordersEventPaymentCaptured": "Ödəniş alındı",
+  "ordersEventPaymentFailed": "Ödəniş alınmadı",
+  "ordersEventCourierAssigned": "Kuryer təyin olundu",
+  "ordersEventCourierAssignedNamed": "Kuryer: {name}",
+  "@ordersEventCourierAssignedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersEventEtaUpdated": "Çatdırılma vaxtı yeniləndi",
+  "ordersEventSlotChanged": "Çatdırılma vaxtı dəyişdirildi",
+  "ordersEventRefund": "Pul qaytarıldı",
+  "ordersEventGiftMessage": "Hədiyyə mesajı yeniləndi",
+  "ordersEventReturnRequested": "Qaytarma istənildi",
+  "ordersEventReturnUpdated": "Qaytarma yeniləndi",
+  "ordersEventDesignApproved": "Dizayn təsdiqləndi",
+  "ordersEventDesignChanges": "Dizaynda dəyişiklik istənildi",
+  "ordersTitle": "Sifarişlərim",
+  "ordersEmptyTitle": "Hələ sifariş yoxdur",
+  "ordersEmptyBody": "İlk sifarişiniz burada görünəcək.",
+  "ordersReturnsTitle": "Qaytarmalar",
+  "ordersReturnsEmpty": "Qaytarma sorğusu yoxdur",
+  "ordersReturnsEmptyBody": "Sifariş səhifəsindən qaytarma və ya dəyişmə istəyə bilərsiniz.",
+  "ordersTrackTitle": "Sifarişi izlə",
+  "ordersTrackBody": "Sifariş nömrəsini və sifarişdəki telefonu daxil edin.",
+  "ordersTrackPhone": "Sifarişdəki telefon",
+  "ordersChangeSlot": "Çatdırılma vaxtını dəyiş",
+  "ordersSlotChangeContact": "Vaxtı dəyişmək üçün bizimlə əlaqə saxlayın — kuryer sizə uyğun vaxtı təyin edəcək.",
+  "ordersSlotChanged": "Çatdırılma vaxtı dəyişdirildi",
+  "ordersSignInToView": "Bu sifarişə baxmaq üçün daxil olun",
+  "ordersPlacedOn": "{date} tarixində",
+  "@ordersPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersPayAgain": "Yenidən ödə",
+  "ordersReturnExchange": "Qaytarma / dəyişmə",
+  "ordersWhatsApp": "WhatsApp ilə yazın",
+  "ordersTimeline": "Status",
+  "ordersItems": "Məhsullar",
+  "ordersCourier": "Kuryer: {name}",
+  "@ordersCourier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersStopsAway": "{count} dayanacaq qalıb",
+  "@ordersStopsAway": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersEta": "~{minutes} dəq",
+  "@ordersEta": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersNotReturnable": "Fərdi məhsul — qaytarılmır",
+  "ordersReturnReason": "Səbəb",
+  "ordersSendRequest": "Sorğu göndər",
+  "ordersReturnSent": "Sorğunuz göndərildi",
+  "ordersReturnSentBody": "Komandamız 1–2 iş günü ərzində sizinlə əlaqə saxlayacaq.",
+  "ordersGiftReceiptBody": "Hədiyyə qəbzindəki kodu və telefonunuzu daxil edin — ölçünü dəyişə bilərsiniz.",
+  "ordersGiftCode": "Hədiyyə kodu",
+  "ordersRecipientPhone": "Telefonunuz",
+  "ordersGiftFor": "{name} üçün hədiyyə",
+  "@ordersGiftFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersGiftFrom": "{name}-dan",
+  "@ordersGiftFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersExchangeTo": "Dəyişmək istədiyiniz ölçü",
+  "ordersExchangeUntil": "Dəyişmə {date} tarixinədək mümkündür",
+  "@ordersExchangeUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersRequestExchange": "Dəyişmə istə",
+  "ordersExchangeSent": "Dəyişmə sorğusu göndərildi",
+  "profileSignOutConfirm": "Hesabdan çıxmaq istəyirsiniz?",
+  "profileShopping": "Alış-veriş",
+  "profileMyDesigns": "Dizaynlarım",
+  "profileAccount": "Hesab",
+  "profileStyleProfile": "Stil profili",
+  "profileAddresses": "Ünvanlar",
+  "profileSavedCards": "Saxlanılmış kartlar",
+  "profilePersonalInfo": "Şəxsi məlumat",
+  "profileChangePassword": "Şifrəni dəyiş",
+  "profileSetPassword": "Şifrə təyin et",
+  "profileDevices": "Aktiv cihazlar",
+  "profileNotifications": "Bildirişlər",
+  "profileServices": "Xidmətlər",
+  "profileHelp": "Kömək",
+  "profileSettings": "Tənzimləmələr",
+  "profileHello": "Salam, {name}",
+  "@profileHello": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileActiveOrders": "Aktiv",
+  "profileGuestTitle": "HOO hesabınız",
+  "profileGuestBody": "Sifarişləri izləyin, dizaynları saxlayın və bəyəndiklərinizi istənilən cihazda görün.",
+  "profilePasswordChanged": "Şifrə dəyişdirildi",
+  "profileCurrentPassword": "Cari şifrə",
+  "profilePasswordOtherDevices": "Digər cihazlarda hesabdan çıxış ediləcək.",
+  "profileAddAddress": "Ünvan əlavə et",
+  "profileEditAddress": "Ünvanı redaktə et",
+  "profileNoAddresses": "Saxlanılmış ünvan yoxdur",
+  "profileDefault": "Əsas",
+  "profileDeleteAddress": "Ünvan silinsin?",
+  "profileAddressLabel": "Ad",
+  "profileAddressLabelHint": "Ev, İş…",
+  "profileMakeDefault": "Əsas ünvan et",
+  "profileNoCards": "Saxlanılmış kart yoxdur",
+  "profileNoCardsBody": "Ödəniş zamanı \"Kartı yadda saxla\" seçin.",
+  "profileDeleteCard": "Kart silinsin?",
+  "profileDeviceApp": "HOO tətbiqi · {platform}",
+  "@profileDeviceApp": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "profileDeviceUnknown": "Naməlum cihaz",
+  "profileThisDevice": "Bu cihaz",
+  "profileLastSeen": "Son aktivlik: {time}",
+  "@profileLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "profileRequiredNotification": "Sifariş üçün vacibdir",
+  "profileLanguage": "Dil",
+  "profileAppearance": "Görünüş",
+  "profileThemeSystem": "Sistem",
+  "profileThemeLight": "İşıqlı",
+  "profileThemeDark": "Qaranlıq",
+  "profileContactUs": "Bizimlə əlaqə",
+  "profileFaq": "Tez-tez verilən suallar",
+  "profileFaqDeliveryQ": "Çatdırılma nə qədər çəkir?",
+  "profileFaqDeliveryA": "Bakıda kuryerlə adətən 1–2 gün; seçdiyiniz gün və saat aralığında çatdırırıq. Regionlara poçtla 3–5 gün.",
+  "profileFaqReturnsQ": "Məhsulu necə qaytara bilərəm?",
+  "profileFaqReturnsA": "Sifariş səhifəsində \"Qaytarma / dəyişmə\" seçin. Studio-da fərdi hazırlanan məhsullar qaytarılmır.",
+  "profileFaqStudioQ": "Studio sifarişi nə vaxt hazır olur?",
+  "profileFaqStudioA": "Dizaynı komandamız yoxlayır, sonra istehsala göndəririk. Müddət sifariş zamanı göstərilir; təcili istehsal da mümkündür.",
+  "profileFaqPaymentQ": "Hansı ödəniş üsulları var?",
+  "profileFaqPaymentA": "Apple Pay, Google Pay, bank kartı və qapıda nağd ödəniş (limitə qədər).",
+  "profileSizeGuideBody": "Hər məhsulun səhifəsində ölçü cədvəli var. Stil profilinizi doldursanız, sizə uyğun ölçünü tövsiyə edəcəyik.",
+  "profileAbout": "HOO haqqında",
+  "profileAboutBody": "HOO — Bakıdan premium streetwear brendi. Ağır pambıq, dəqiq kəsim, az rəng və öz dizaynını yaratmaq üçün 3D Studio.",
+  "profileStyleIntro": "Ölçülərinizi paylaşın — uyğun ölçünü tövsiyə edək və məhsulları zövqünüzə görə sıralayaq.",
+  "profileMeasurements": "Ölçülər",
+  "profileHeight": "Boy",
+  "profileWeight": "Çəki",
+  "profileWaist": "Bel",
+  "profileUsualSize": "Adətən geyindiyim ölçü",
+  "profilePreferredFit": "Sevdiyim kəsim",
+  "profileFavoriteColors": "Sevimli rənglər",
+  "profileUpToThree": "3-ə qədər",
+  "profileStyles": "Üslub",
+  "searchHint": "Hudi, futbolka, rəng…",
+  "searchRecent": "Son axtarışlar",
+  "searchSuggestions": "Təkliflər",
+  "searchResults": "“{query}” üçün {count} nəticə",
+  "@searchResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsTitle": "“{query}” tapılmadı",
+  "@searchNoResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsBody": "Başqa söz yoxlayın və ya bestsellerlərə baxın.",
+  "searchDesignYourOwnTitle": "Tapmadınız? Özünüz dizayn edin",
+  "searchDesignYourOwnBody": "3D Studio-da istədiyiniz rəng və çapla.",
+  "studioModelFallback": "3D model yüklənmədi — sadə forma göstərilir.",
+  "studioTooManyLayers": "Ən çox {max} qat əlavə etmək olar",
+  "@studioTooManyLayers": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioUploadTooLarge": "Fayl çox böyükdür (maks. {mb} MB)",
+  "@studioUploadTooLarge": {
+    "placeholders": {
+      "mb": {
+        "type": "int"
+      }
+    }
+  },
+  "studioUndo": "Geri al",
+  "studioRedo": "Təkrarla",
+  "studioSavedOffline": "Oflayn saxlanıldı",
+  "studioSaveFailed": "Saxlanılmadı",
+  "studioFront": "Ön",
+  "studioBack": "Arxa",
+  "studioLeftSleeve": "Sol qol",
+  "studioRightSleeve": "Sağ qol",
+  "studioHood": "Kapüşon",
+  "studioFreeSpot": "Sərbəst yer",
+  "studioStepProduct": "Məhsul",
+  "studioStepFabric": "Parça və detallar",
+  "studioStepFit": "Ölçü və kəsim",
+  "studioStepColor": "Rəng",
+  "studioStepEditor": "Dizayn",
+  "studioStepReview": "Yoxla",
+  "studioCustomSize": "Fərdi",
+  "studioLeadTime": "{min}–{max} gün istehsal",
+  "@studioLeadTime": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioReview": "Yoxla",
+  "studioSetupFee": "Hazırlıq",
+  "studioRushFee": "Təcili istehsal",
+  "studioVolumeDiscount": "Say endirimi −{percent}%",
+  "@studioVolumeDiscount": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "studioIncluded": "Daxildir",
+  "studioChooseProduct": "Nə dizayn edirik?",
+  "studioFromPrice": "{price}-dan",
+  "@studioFromPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "studioFabric": "Parça",
+  "studioGsm": "{gsm} q/m²",
+  "@studioGsm": {
+    "placeholders": {
+      "gsm": {
+        "type": "int"
+      }
+    }
+  },
+  "studioFeatures": "Detallar",
+  "studioFit": "Kəsim",
+  "studioCustomMeasurements": "Fərdi ölçülər",
+  "studioColor": "Rəng",
+  "studioSpotPicked": "Növbəti qat seçdiyiniz yerə əlavə olunacaq",
+  "studioAddText": "Mətn",
+  "studioAddImage": "Şəkil",
+  "studioLayers": "Qatlar · {count}/{max}",
+  "@studioLayers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioNoLayers": "Mətn və ya şəkil əlavə edin, ya da modelə toxunaraq yer seçin.",
+  "studioUploadHint": "PNG və ya JPG, {mb} MB-a qədər. Ən yaxşı keyfiyyət üçün {dpi} DPI.",
+  "@studioUploadHint": {
+    "placeholders": {
+      "mb": {
+        "type": "int"
+      },
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioFromGallery": "Qalereyadan",
+  "studioFromCamera": "Kamera ilə",
+  "studioImageLayer": "Şəkil",
+  "studioShowLayer": "Göstər",
+  "studioHideLayer": "Gizlət",
+  "studioTextLayer": "Mətn",
+  "studioCenter": "Mərkəzə gətir",
+  "studioDuplicate": "Dublikat",
+  "studioSize": "Ölçü",
+  "studioRotation": "Bucaq",
+  "studioQualityPoor": "Keyfiyyət aşağıdır ({dpi} DPI) — şəkli kiçildin və ya daha böyük fayl yükləyin",
+  "@studioQualityPoor": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioQualityWarning": "Orta keyfiyyət ({dpi} DPI)",
+  "@studioQualityWarning": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioQualityOk": "Çap keyfiyyəti yaxşıdır ({dpi} DPI)",
+  "@studioQualityOk": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioEditText": "Mətni redaktə et",
+  "studioFont": "Şrift",
+  "studioTextSize": "Ölçü · {pt} pt",
+  "@studioTextSize": {
+    "placeholders": {
+      "pt": {
+        "type": "int"
+      }
+    }
+  },
+  "studioLayersShort": "Qatlar",
+  "studioQuantity": "Say",
+  "studioVolumeTier": "{min}+: −{percent}%",
+  "@studioVolumeTier": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "studioRush": "Təcili istehsal",
+  "studioRushHint": "+{fee} · {days} gün daha tez",
+  "@studioRushHint": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "studioImageRights": "Bu şəkillərin hüquqları mənə məxsusdur",
+  "studioAddSomething": "Sifariş üçün ən azı bir mətn və ya şəkil əlavə edin.",
+  "studioSaveDesign": "Dizaynı yadda saxla",
+  "studioDesignSaved": "Dizayn saxlanıldı",
+  "studioBackToEditor": "Dizayna qayıt",
+  "studioIntro": "Parça, kəsim və rəng seçin, mətn və şəkil əlavə edin — hər dəyişikliyin qiymətini dərhal görün.",
+  "studioStart": "Dizayna başla",
+  "studioContinueDraft": "Son dizayna davam et",
+  "studioHowItWorks": "Necə işləyir",
+  "studioHowPick": "Məhsulu, parçanı və rəngi seçin",
+  "studioHowDesign": "3D-də mətn və şəkil yerləşdirin",
+  "studioHowOrder": "Sifariş verin — biz yoxlayıb hazırlayırıq",
+  "studioUntitled": "Adsız dizayn",
+  "studioNoDesigns": "Hələ dizayn yoxdur",
+  "studioNoDesignsBody": "Studio-da yaratdıqlarınız burada saxlanılır.",
+  "studioResubmit": "Yenidən göndər",
+  "studioResubmitted": "Dizayn yenidən yoxlamaya göndərildi",
+  "studioDeleteConfirm": "Dizayn silinsin?",
+  "studioSharedTitle": "Paylaşılan dizayn",
+  "studioDesignYourOwn": "Öz dizaynını yarat",
+  "wishlistSignInReason": "Bəyəndiklərinizi saxlamaq və istənilən cihazda görmək üçün daxil olun.",
+  "wishlistTitle": "Bəyənilənlər",
+  "wishlistShareSubject": "HOO-da bəyəndiklərim",
+  "wishlistEmptyTitle": "Hələ heç nə bəyənməmisiniz",
+  "wishlistEmptyBody": "Məhsulda ♡ işarəsinə toxunun — burada saxlanılacaq.",
+  "wishlistChooseSize": "Ölçü seç",
+  "wishlistNotifyMe": "Gələndə xəbər ver",
+  "wishlistSharedTitle": "{name} bəyənənlər",
+  "@wishlistSharedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistAlertsTitle": "Xəbərdarlıqlar",
+  "wishlistAlertsEmptyTitle": "Aktiv xəbərdarlıq yoxdur",
+  "wishlistAlertsEmptyBody": "Məhsul səhifəsində \"Gələndə xəbər ver\" və ya \"Qiymət düşəndə xəbər ver\" seçin.",
+  "wishlistAlertBackInStock": "Stoka qayıdanda",
+  "wishlistAlertPriceDrop": "Qiymət düşəndə",
+  "wishlistAlertNotified": "{date} xəbər verildi",
+  "@wishlistAlertNotified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
 }

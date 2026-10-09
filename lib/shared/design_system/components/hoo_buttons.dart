@@ -142,9 +142,10 @@ class _ButtonFrame extends StatelessWidget {
           constraints: const BoxConstraints(minHeight: HooSize.buttonHeight),
           width: expand ? double.infinity : null,
           padding: const EdgeInsets.symmetric(horizontal: HooSpacing.lg, vertical: HooSpacing.xs),
-          alignment: Alignment.center,
           decoration: decoration,
-          child: content,
+          // heightFactor 1: the button hugs its content (52px min) instead of filling a tall parent
+          // such as a Scaffold.bottomNavigationBar
+          child: Align(heightFactor: 1, widthFactor: expand ? null : 1, child: content),
         ),
       ),
     );

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -27,6 +28,10 @@ class HooApp extends StatefulWidget {
 
 class _HooAppState extends State<HooApp> {
   final _router = sl<AppRouter>();
+
+  /// Always boot through the Splash (store mode, guest id, session restore); incoming links are queued by
+  /// [DeepLinkService] and replayed once the app is ready.
+  late final _routerConfig = _router.config(deepLinkBuilder: (_) => DeepLink.single(const SplashRoute()));
   final _subs = <StreamSubscription<Object?>>[];
 
   @override
@@ -102,7 +107,7 @@ class _HooAppState extends State<HooApp> {
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate,
             ],
-            routerConfig: _router.config(),
+            routerConfig: _routerConfig,
             builder: (context, child) {
               // Dynamic type up to 1.3× (layouts are designed for it); beyond that the editorial grid breaks.
               final mq = MediaQuery.of(context);

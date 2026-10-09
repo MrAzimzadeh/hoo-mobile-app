@@ -1,0 +1,90 @@
+{
+  "@@locale": "az",
+  "profileSignOutConfirm": "Hesabdan çıxmaq istəyirsiniz?",
+  "profileShopping": "Alış-veriş",
+  "profileMyDesigns": "Dizaynlarım",
+  "profileAccount": "Hesab",
+  "profileStyleProfile": "Stil profili",
+  "profileAddresses": "Ünvanlar",
+  "profileSavedCards": "Saxlanılmış kartlar",
+  "profilePersonalInfo": "Şəxsi məlumat",
+  "profileChangePassword": "Şifrəni dəyiş",
+  "profileSetPassword": "Şifrə təyin et",
+  "profileDevices": "Aktiv cihazlar",
+  "profileNotifications": "Bildirişlər",
+  "profileServices": "Xidmətlər",
+  "profileHelp": "Kömək",
+  "profileSettings": "Tənzimləmələr",
+  "profileHello": "Salam, {name}",
+  "@profileHello": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileActiveOrders": "Aktiv",
+  "profileGuestTitle": "HOO hesabınız",
+  "profileGuestBody": "Sifarişləri izləyin, dizaynları saxlayın və bəyəndiklərinizi istənilən cihazda görün.",
+  "profilePasswordChanged": "Şifrə dəyişdirildi",
+  "profileCurrentPassword": "Cari şifrə",
+  "profilePasswordOtherDevices": "Digər cihazlarda hesabdan çıxış ediləcək.",
+  "profileAddAddress": "Ünvan əlavə et",
+  "profileEditAddress": "Ünvanı redaktə et",
+  "profileNoAddresses": "Saxlanılmış ünvan yoxdur",
+  "profileDefault": "Əsas",
+  "profileDeleteAddress": "Ünvan silinsin?",
+  "profileAddressLabel": "Ad",
+  "profileAddressLabelHint": "Ev, İş…",
+  "profileMakeDefault": "Əsas ünvan et",
+  "profileNoCards": "Saxlanılmış kart yoxdur",
+  "profileNoCardsBody": "Ödəniş zamanı \"Kartı yadda saxla\" seçin.",
+  "profileDeleteCard": "Kart silinsin?",
+  "profileDeviceApp": "HOO tətbiqi · {platform}",
+  "@profileDeviceApp": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "profileDeviceUnknown": "Naməlum cihaz",
+  "profileThisDevice": "Bu cihaz",
+  "profileLastSeen": "Son aktivlik: {time}",
+  "@profileLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "profileRequiredNotification": "Sifariş üçün vacibdir",
+  "profileLanguage": "Dil",
+  "profileAppearance": "Görünüş",
+  "profileThemeSystem": "Sistem",
+  "profileThemeLight": "İşıqlı",
+  "profileThemeDark": "Qaranlıq",
+  "profileContactUs": "Bizimlə əlaqə",
+  "profileFaq": "Tez-tez verilən suallar",
+  "profileFaqDeliveryQ": "Çatdırılma nə qədər çəkir?",
+  "profileFaqDeliveryA": "Bakıda kuryerlə adətən 1–2 gün; seçdiyiniz gün və saat aralığında çatdırırıq. Regionlara poçtla 3–5 gün.",
+  "profileFaqReturnsQ": "Məhsulu necə qaytara bilərəm?",
+  "profileFaqReturnsA": "Sifariş səhifəsində \"Qaytarma / dəyişmə\" seçin. Studio-da fərdi hazırlanan məhsullar qaytarılmır.",
+  "profileFaqStudioQ": "Studio sifarişi nə vaxt hazır olur?",
+  "profileFaqStudioA": "Dizaynı komandamız yoxlayır, sonra istehsala göndəririk. Müddət sifariş zamanı göstərilir; təcili istehsal da mümkündür.",
+  "profileFaqPaymentQ": "Hansı ödəniş üsulları var?",
+  "profileFaqPaymentA": "Apple Pay, Google Pay, bank kartı və qapıda nağd ödəniş (limitə qədər).",
+  "profileSizeGuideBody": "Hər məhsulun səhifəsində ölçü cədvəli var. Stil profilinizi doldursanız, sizə uyğun ölçünü tövsiyə edəcəyik.",
+  "profileAbout": "HOO haqqında",
+  "profileAboutBody": "HOO — Bakıdan premium streetwear brendi. Ağır pambıq, dəqiq kəsim, az rəng və öz dizaynını yaratmaq üçün 3D Studio.",
+  "profileStyleIntro": "Ölçülərinizi paylaşın — uyğun ölçünü tövsiyə edək və məhsulları zövqünüzə görə sıralayaq.",
+  "profileMeasurements": "Ölçülər",
+  "profileHeight": "Boy",
+  "profileWeight": "Çəki",
+  "profileWaist": "Bel",
+  "profileUsualSize": "Adətən geyindiyim ölçü",
+  "profilePreferredFit": "Sevdiyim kəsim",
+  "profileFavoriteColors": "Sevimli rənglər",
+  "profileUpToThree": "3-ə qədər",
+  "profileStyles": "Üslub"
+}

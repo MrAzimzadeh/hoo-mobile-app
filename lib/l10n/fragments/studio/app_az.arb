@@ -1,0 +1,197 @@
+{
+  "@@locale": "az",
+  "studioModelFallback": "3D model yüklənmədi — sadə forma göstərilir.",
+  "studioTooManyLayers": "Ən çox {max} qat əlavə etmək olar",
+  "@studioTooManyLayers": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioUploadTooLarge": "Fayl çox böyükdür (maks. {mb} MB)",
+  "@studioUploadTooLarge": {
+    "placeholders": {
+      "mb": {
+        "type": "int"
+      }
+    }
+  },
+  "studioUndo": "Geri al",
+  "studioRedo": "Təkrarla",
+  "studioSavedOffline": "Oflayn saxlanıldı",
+  "studioSaveFailed": "Saxlanılmadı",
+  "studioFront": "Ön",
+  "studioBack": "Arxa",
+  "studioLeftSleeve": "Sol qol",
+  "studioRightSleeve": "Sağ qol",
+  "studioHood": "Kapüşon",
+  "studioFreeSpot": "Sərbəst yer",
+  "studioStepProduct": "Məhsul",
+  "studioStepFabric": "Parça və detallar",
+  "studioStepFit": "Ölçü və kəsim",
+  "studioStepColor": "Rəng",
+  "studioStepEditor": "Dizayn",
+  "studioStepReview": "Yoxla",
+  "studioCustomSize": "Fərdi",
+  "studioLeadTime": "{min}–{max} gün istehsal",
+  "@studioLeadTime": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioReview": "Yoxla",
+  "studioSetupFee": "Hazırlıq",
+  "studioRushFee": "Təcili istehsal",
+  "studioVolumeDiscount": "Say endirimi −{percent}%",
+  "@studioVolumeDiscount": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "studioIncluded": "Daxildir",
+  "studioChooseProduct": "Nə dizayn edirik?",
+  "studioFromPrice": "{price}-dan",
+  "@studioFromPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "studioFabric": "Parça",
+  "studioGsm": "{gsm} q/m²",
+  "@studioGsm": {
+    "placeholders": {
+      "gsm": {
+        "type": "int"
+      }
+    }
+  },
+  "studioFeatures": "Detallar",
+  "studioFit": "Kəsim",
+  "studioCustomMeasurements": "Fərdi ölçülər",
+  "studioColor": "Rəng",
+  "studioSpotPicked": "Növbəti qat seçdiyiniz yerə əlavə olunacaq",
+  "studioAddText": "Mətn",
+  "studioAddImage": "Şəkil",
+  "studioLayers": "Qatlar · {count}/{max}",
+  "@studioLayers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "studioNoLayers": "Mətn və ya şəkil əlavə edin, ya da modelə toxunaraq yer seçin.",
+  "studioUploadHint": "PNG və ya JPG, {mb} MB-a qədər. Ən yaxşı keyfiyyət üçün {dpi} DPI.",
+  "@studioUploadHint": {
+    "placeholders": {
+      "mb": {
+        "type": "int"
+      },
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioFromGallery": "Qalereyadan",
+  "studioFromCamera": "Kamera ilə",
+  "studioImageLayer": "Şəkil",
+  "studioShowLayer": "Göstər",
+  "studioHideLayer": "Gizlət",
+  "studioTextLayer": "Mətn",
+  "studioCenter": "Mərkəzə gətir",
+  "studioDuplicate": "Dublikat",
+  "studioSize": "Ölçü",
+  "studioRotation": "Bucaq",
+  "studioQualityPoor": "Keyfiyyət aşağıdır ({dpi} DPI) — şəkli kiçildin və ya daha böyük fayl yükləyin",
+  "@studioQualityPoor": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioQualityWarning": "Orta keyfiyyət ({dpi} DPI)",
+  "@studioQualityWarning": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioQualityOk": "Çap keyfiyyəti yaxşıdır ({dpi} DPI)",
+  "@studioQualityOk": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "studioEditText": "Mətni redaktə et",
+  "studioFont": "Şrift",
+  "studioTextSize": "Ölçü · {pt} pt",
+  "@studioTextSize": {
+    "placeholders": {
+      "pt": {
+        "type": "int"
+      }
+    }
+  },
+  "studioLayersShort": "Qatlar",
+  "studioQuantity": "Say",
+  "studioVolumeTier": "{min}+: −{percent}%",
+  "@studioVolumeTier": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "studioRush": "Təcili istehsal",
+  "studioRushHint": "+{fee} · {days} gün daha tez",
+  "@studioRushHint": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "studioImageRights": "Bu şəkillərin hüquqları mənə məxsusdur",
+  "studioAddSomething": "Sifariş üçün ən azı bir mətn və ya şəkil əlavə edin.",
+  "studioSaveDesign": "Dizaynı yadda saxla",
+  "studioDesignSaved": "Dizayn saxlanıldı",
+  "studioBackToEditor": "Dizayna qayıt",
+  "studioIntro": "Parça, kəsim və rəng seçin, mətn və şəkil əlavə edin — hər dəyişikliyin qiymətini dərhal görün.",
+  "studioStart": "Dizayna başla",
+  "studioContinueDraft": "Son dizayna davam et",
+  "studioHowItWorks": "Necə işləyir",
+  "studioHowPick": "Məhsulu, parçanı və rəngi seçin",
+  "studioHowDesign": "3D-də mətn və şəkil yerləşdirin",
+  "studioHowOrder": "Sifariş verin — biz yoxlayıb hazırlayırıq",
+  "studioUntitled": "Adsız dizayn",
+  "studioNoDesigns": "Hələ dizayn yoxdur",
+  "studioNoDesignsBody": "Studio-da yaratdıqlarınız burada saxlanılır.",
+  "studioResubmit": "Yenidən göndər",
+  "studioResubmitted": "Dizayn yenidən yoxlamaya göndərildi",
+  "studioDeleteConfirm": "Dizayn silinsin?",
+  "studioSharedTitle": "Paylaşılan dizayn",
+  "studioDesignYourOwn": "Öz dizaynını yarat"
+}

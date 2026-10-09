@@ -1,0 +1,99 @@
+{
+  "@@locale": "az",
+  "checkoutTitle": "Sifarişin rəsmiləşdirilməsi",
+  "checkoutStepContact": "Əlaqə",
+  "checkoutStepGift": "Hədiyyə",
+  "checkoutStepDelivery": "Çatdırılma",
+  "checkoutStepSlot": "Çatdırılma vaxtı",
+  "checkoutStepPayment": "Ödəniş",
+  "checkoutStepReview": "Yoxla və təsdiqlə",
+  "checkoutPhoneHint": "Kuryer bu nömrəyə zəng edəcək.",
+  "checkoutGiftNotForCustom": "Fərdi (Studio) sifarişlər hədiyyə kimi göndərilə bilməz.",
+  "checkoutRecipientName": "Alıcının adı",
+  "checkoutRecipientPhone": "Alıcının telefonu",
+  "checkoutOccasion": "Səbəb",
+  "checkoutSurprise": "Sürpriz",
+  "checkoutSurpriseHint": "Kuryer əvvəlcədən sizinlə əlaqə saxlayacaq, alıcı ilə yox.",
+  "checkoutPackaging": "Qablaşdırma",
+  "checkoutPackagingFreeFrom": "{amount}-dan pulsuz",
+  "@checkoutPackagingFreeFrom": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCard": "Təbrik kartı",
+  "checkoutMessage": "Mesaj",
+  "checkoutFromName": "Kimdən",
+  "checkoutHidePrices": "Qəbzdə qiymətləri gizlət",
+  "checkoutReadyInHours": "{hours} saata hazır",
+  "@checkoutReadyInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "checkoutFreeFrom": "{amount}-dan pulsuz",
+  "@checkoutFreeFrom": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutAddress": "Ünvan",
+  "checkoutNewAddress": "Yeni ünvan",
+  "checkoutCity": "Şəhər",
+  "checkoutDistrict": "Rayon",
+  "checkoutStreet": "Küçə, ev",
+  "checkoutApartment": "Mənzil",
+  "checkoutCourierNote": "Kuryer üçün qeyd",
+  "checkoutNoSlots": "Uyğun vaxt yoxdur",
+  "checkoutSlotTaken": "Bu vaxt artıq doludur — başqa birini seçin.",
+  "checkoutPackagingSaving": "Qablaşdırmaya qənaət",
+  "checkoutEstimatedDelivery": "Təxmini çatdırılma: {range}",
+  "@checkoutEstimatedDelivery": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCustomApprovalNote": "Studio dizaynları əvvəlcə komandamız tərəfindən yoxlanılır. Təsdiqdən sonra istehsala göndərilir — sifariş statusu “Dizayn təsdiqi gözlənilir” olacaq.",
+  "checkoutSaveCard": "Kartı növbəti alışlar üçün yadda saxla",
+  "checkoutAcceptTerms": "Satış şərtlərini və qaytarma siyasətini qəbul edirəm",
+  "checkoutImageRights": "Şəkillərin hüquqları mənə məxsusdur; fərdi məhsulların qaytarılmadığını bilirəm",
+  "checkoutMissingSteps": "Sifarişi təsdiqləmək üçün yuxarıdakı addımları tamamlayın.",
+  "checkoutPlaceOrder": "Sifarişi təsdiqlə · {total}",
+  "@checkoutPlaceOrder": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutPaymentFailedTitle": "Ödəniş alınmadı",
+  "checkoutPaymentFailedBody": "Sifarişiniz saxlanılıb. Yenidən ödəyin və ya başqa üsul seçin.",
+  "checkoutRetryPayment": "Yenidən ödə",
+  "checkoutSwitchToCod": "Qapıda nağd ödəyəcəm",
+  "checkoutAwaitingPayment": "Ödənişi tamamlayın",
+  "checkoutAwaitingPaymentBody": "Sifariş {number} yaradıldı. Ödəniş təsdiqlənən kimi davam edəcəyik.",
+  "@checkoutAwaitingPaymentBody": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutCheckPayment": "Ödənişi yoxla",
+  "checkoutOpenPaymentAgain": "Ödəniş səhifəsini yenidən aç",
+  "checkoutConfirmedTitle": "Sifarişiniz qəbul olundu",
+  "checkoutConfirmedBody": "Təşəkkür edirik. Təsdiq məktubu və SMS göndərdik.",
+  "checkoutOrderNumber": "Sifariş nömrəsi",
+  "checkoutGiftReceipt": "Hədiyyə qəbzi",
+  "checkoutGiftReceiptHint": "Alıcı bu kodla ölçünü dəyişə bilər — qiymətləri görmədən.",
+  "checkoutTrackOrder": "Sifarişi izlə",
+  "checkoutContinueShopping": "Alış-verişə davam et"
+}

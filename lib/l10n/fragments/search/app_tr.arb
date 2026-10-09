@@ -1,0 +1,11 @@
+{
+  "@@locale": "tr",
+  "searchHint": "Kapüşonlu, tişört, renk…",
+  "searchRecent": "Son aramalar",
+  "searchSuggestions": "Öneriler",
+  "searchResults": "“{query}” için {count} sonuç",
+  "searchNoResultsTitle": "“{query}” bulunamadı",
+  "searchNoResultsBody": "Başka bir kelime deneyin veya çok satanlara göz atın.",
+  "searchDesignYourOwnTitle": "Bulamadınız mı? Kendiniz tasarlayın",
+  "searchDesignYourOwnBody": "3D Stüdyo’da istediğiniz renk ve baskıyla."
+}

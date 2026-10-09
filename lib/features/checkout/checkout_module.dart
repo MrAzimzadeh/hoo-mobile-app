@@ -1,5 +1,14 @@
 import 'package:get_it/get_it.dart';
 
-/// Composition of the `checkout` feature: data sources, repositories, blocs/cubits and the cross-feature contracts it
-/// implements. Called once from `app/di/injector.dart`.
-void registerCheckoutModule(GetIt sl) {}
+import '../../core/analytics/analytics.dart';
+import '../../core/deeplinks/deep_link_service.dart';
+import '../../core/network/api_client.dart';
+import 'data/checkout_repository.dart';
+import 'presentation/bloc/checkout_bloc.dart';
+
+/// Composition of the `checkout` feature.
+void registerCheckoutModule(GetIt sl) {
+  sl
+    ..registerLazySingleton<CheckoutRepository>(() => CheckoutRepository(sl<ApiClient>()))
+    ..registerFactory<CheckoutBloc>(() => CheckoutBloc(sl<CheckoutRepository>(), sl<Analytics>(), sl<DeepLinkService>()));
+}

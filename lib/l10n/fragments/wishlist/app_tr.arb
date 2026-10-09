@@ -1,0 +1,17 @@
+{
+  "@@locale": "tr",
+  "wishlistSignInReason": "Favorilerinizi kaydetmek ve her cihazda görmek için giriş yapın.",
+  "wishlistTitle": "Favoriler",
+  "wishlistShareSubject": "HOO favorilerim",
+  "wishlistEmptyTitle": "Henüz bir şey kaydetmediniz",
+  "wishlistEmptyBody": "Herhangi bir üründe ♡ simgesine dokunun, burada saklansın.",
+  "wishlistChooseSize": "Beden seç",
+  "wishlistNotifyMe": "Gelince haber ver",
+  "wishlistSharedTitle": "{name} adlı kişinin favorileri",
+  "wishlistAlertsTitle": "Uyarılar",
+  "wishlistAlertsEmptyTitle": "Aktif uyarı yok",
+  "wishlistAlertsEmptyBody": "Ürün sayfasında “Gelince haber ver” ya da “Fiyat düşünce haber ver” seçin.",
+  "wishlistAlertBackInStock": "Stoka girince",
+  "wishlistAlertPriceDrop": "Fiyat düşünce",
+  "wishlistAlertNotified": "{date} bildirildi"
+}
