@@ -44,3 +44,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 tool/studio_engine/node_modules/
+
+# Environment — real values live in .env.<flavor>; only the template is committed
+.env*
+!.env.example

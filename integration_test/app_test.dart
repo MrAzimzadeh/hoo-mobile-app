@@ -5,7 +5,7 @@ import 'package:hoo/core/config/env.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// End-to-end journeys on the in-app fake backend (run with `--dart-define=HOO_MOCK=true`):
+/// End-to-end journeys on the in-app fake backend (run with `--dart-define-from-file=.env.dev --dart-define=HOO_MOCK=true`):
 /// onboarding → home → product → add to bag → checkout → confirmation, and the Studio flow.
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();

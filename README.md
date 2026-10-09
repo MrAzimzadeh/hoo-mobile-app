@@ -14,8 +14,16 @@ Flutter 3.38 (Dart 3.10), Xcode 16+ / Android SDK 35, CocoaPods. Node 18+ only t
 ## Setup
 
 ```bash
-make setup        # pub get + codegen (freezed, json, auto_route, drift) + localizations
+make setup        # creates .env.dev from .env.example, pub get + codegen (freezed, json, auto_route, drift) + localizations
 ```
+
+### Environment
+
+Config (API/web URLs, fake-backend switch, OAuth client ids, cert pins) lives in one env file per flavor —
+`.env.dev`, `.env.staging`, `.env.prod` — read at build time with `--dart-define-from-file=.env.<flavor>`.
+These files are gitignored; [.env.example](.env.example) is the committed template and documents every key.
+The app refuses to start if `HOO_API_URL` / `HOO_WEB_URL` are missing. A single key can still be overridden with
+`--dart-define=KEY=value`. Everything in these files ends up in the app binary — never put secrets there.
 
 Codegen must run in JIT mode (`--force-jit`) because sqlite3's build hooks can't be AOT-compiled:
 `dart run build_runner build --delete-conflicting-outputs --force-jit`.
@@ -24,18 +32,17 @@ Codegen must run in JIT mode (`--force-jit`) because sqlite3's build hooks can't
 
 | Mode | Command |
 |---|---|
-| Fake backend (no server) | `make run-mock` → `flutter run -t lib/main_dev.dart --dart-define=HOO_MOCK=true` |
-| Local Hoo.Api | `make run-local` (iOS simulator: `localhost:5131`; Android emulator: `HOO_API=http://10.0.2.2:5131 make run-local`) |
-| Staging / prod | `flutter run -t lib/main_staging.dart` / `-t lib/main_prod.dart` |
+| Fake backend (no server) | `make run-mock` → `flutter run -t lib/main_dev.dart --dart-define-from-file=.env.dev --dart-define=HOO_MOCK=true` |
+| Local Hoo.Api | `make run-local` (iOS simulator: `localhost:5131`; Android emulator: `HOO_API_URL=http://10.0.2.2:5131 make run-local`) |
+| Staging / prod | `make run-staging` / `make run-prod` (`-t lib/main_<flavor>.dart --dart-define-from-file=.env.<flavor>`) |
+
+VS Code: the same configurations are in `.vscode/launch.json`.
 
 Fake backend demo data: sign in with any e-mail + password `Hoo12345!`, phone OTP code `123456`, promo code
 `HOO10`; card payments are "captured" after two status polls.
 
 Integration test (simulator/device, fake backend, screenshots in `build/screenshots/`):
-`flutter drive --driver=test_driver/integration_test.dart --target=integration_test/app_test.dart --dart-define=HOO_MOCK=true`
-
-`--dart-define`s: `HOO_API` (API origin), `HOO_MOCK` (fake backend), `HOO_GOOGLE_SERVER_CLIENT_ID`,
-`HOO_GOOGLE_IOS_CLIENT_ID`, `HOO_CERT_PINS` (prod SPKI pins, comma-separated).
+`flutter drive --driver=test_driver/integration_test.dart --target=integration_test/app_test.dart --dart-define-from-file=.env.dev --dart-define=HOO_MOCK=true`
 
 ## Day-to-day
 
@@ -52,7 +59,7 @@ make icons        # regenerate app icons from the wordmark
 
 ```
 lib/app/        bootstrap, DI (get_it), router (auto_route + access guard), tab shell
-lib/core/       env, network (Dio, problem+json → ApiException), storage, session, l10n, analytics, links, push
+lib/core/       env (reads .env.<flavor>), network (Dio, problem+json → ApiException), storage, session, l10n, analytics, links, push
 lib/shared/     design system (tokens, motion, components), shared models/enums, cross-feature contracts
 lib/features/   launch, auth, home, catalog, search, wishlist, cart, checkout, orders, profile, studio
 lib/l10n/       core ARB + per-feature fragments (az default, en, ru, tr)

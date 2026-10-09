@@ -1,7 +1,9 @@
 # Common tasks. `make setup` once after cloning.
-.PHONY: setup gen l10n engine analyze test run-mock run-local icons format
+# Build-time config comes from .env.<flavor> (keys documented in .env.example); a --dart-define overrides one key.
+.PHONY: setup gen l10n engine analyze test run-mock run-local run-staging run-prod icons format
 
 setup:
+	@test -f .env.dev || cp .env.example .env.dev
 	flutter pub get
 	$(MAKE) gen l10n
 
@@ -26,11 +28,17 @@ test:
 
 # UI on the in-app fake backend (no server needed).
 run-mock:
-	flutter run -t lib/main_dev.dart --dart-define=HOO_MOCK=true
+	flutter run -t lib/main_dev.dart --dart-define-from-file=.env.dev --dart-define=HOO_MOCK=true
 
-# Against a local Hoo.Api (dotnet run in hoo-back). Android emulator: HOO_API=http://10.0.2.2:5131
+# Against a local Hoo.Api (dotnet run in hoo-back), URL from .env.dev. Android emulator: HOO_API_URL=http://10.0.2.2:5131 make run-local
 run-local:
-	flutter run -t lib/main_dev.dart --dart-define=HOO_API=$${HOO_API:-http://localhost:5131}
+	flutter run -t lib/main_dev.dart --dart-define-from-file=.env.dev $(if $(HOO_API_URL),--dart-define=HOO_API_URL=$(HOO_API_URL))
+
+run-staging:
+	flutter run -t lib/main_staging.dart --dart-define-from-file=.env.staging
+
+run-prod:
+	flutter run -t lib/main_prod.dart --dart-define-from-file=.env.prod
 
 icons:
 	flutter test tool/icon/render_icon_test.dart && tool/icon/make_icons.sh

@@ -4,7 +4,7 @@ Status as of 2026-10-09. `flutter analyze`: 0 issues. `flutter test`: all unit/b
 
 ## Done
 
-**Foundation** — flavors (`main_dev|staging|prod.dart` + `--dart-define`), design system (tokens, motion, 17+
+**Foundation** — flavors (`main_dev|staging|prod.dart` + `.env.<flavor>` via `--dart-define-from-file`), design system (tokens, motion, 17+
 components, hidden design-system screen), core (Dio + interceptors, problem+json → `ApiException`, secure storage,
 Drift cache + Studio autosave queue, session, l10n pipeline with server overrides, analytics, deep links, push
 scaffold, pinning), typed router with access policies, tab shell (tablet rail), DI, native setup (icons, launch
